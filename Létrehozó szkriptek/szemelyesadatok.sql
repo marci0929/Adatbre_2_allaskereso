@@ -1,6 +1,6 @@
 CREATE TABLE mytable(
    ID              INTEGER  NOT NULL PRIMARY KEY 
-  ,Név             VARCHAR(18) NOT NULL
+  ,Név             VARCHAR(50) NOT NULL
   ,Születési_dátum DATE  NOT NULL
 );
 INSERT INTO mytable(ID,Név,Születési_dátum) VALUES (1,'Váradi Alexander','4/26/1970');

@@ -1,6 +1,6 @@
 CREATE TABLE mytable(
    ID  INTEGER  NOT NULL PRIMARY KEY 
-  ,Név VARCHAR(23) NOT NULL
+  ,Név VARCHAR(50) NOT NULL
 );
 INSERT INTO mytable(ID,Név) VALUES (1,'Diák-Meló Szövetkezet');
 INSERT INTO mytable(ID,Név) VALUES (2,'Diák-Mind Szövetkezet');
