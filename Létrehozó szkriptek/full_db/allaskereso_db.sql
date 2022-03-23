@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2022. Már 23. 22:59
+-- Létrehozás ideje: 2022. Már 23. 23:18
 -- Kiszolgáló verziója: 10.4.21-MariaDB
 -- PHP verzió: 8.0.12
 
@@ -166,36 +166,36 @@ CREATE TABLE `diakszovetkezetnel_van` (
 --
 
 INSERT INTO `diakszovetkezetnel_van` (`diakszovetkezet_id`, `diak_felhasznalo_id`) VALUES
+(1, 15),
+(1, 17),
+(1, 21),
+(1, 29),
+(1, 30),
+(2, 5),
+(2, 9),
+(2, 11),
+(2, 14),
+(2, 23),
+(2, 25),
+(2, 28),
 (3, 1),
 (3, 2),
-(5, 3),
-(4, 4),
-(2, 5),
-(4, 6),
-(5, 7),
-(4, 8),
-(2, 9),
 (3, 10),
-(2, 11),
-(5, 12),
-(4, 13),
-(2, 14),
-(1, 15),
 (3, 16),
-(1, 17),
-(5, 18),
-(5, 19),
 (3, 20),
-(1, 21),
 (3, 22),
-(2, 23),
-(4, 24),
-(2, 25),
 (3, 26),
 (3, 27),
-(2, 28),
-(1, 29),
-(1, 30);
+(4, 4),
+(4, 6),
+(4, 8),
+(4, 13),
+(4, 24),
+(5, 3),
+(5, 7),
+(5, 12),
+(5, 18),
+(5, 19);
 
 -- --------------------------------------------------------
 
@@ -712,75 +712,75 @@ CREATE TABLE `jelentkezok` (
 --
 
 INSERT INTO `jelentkezok` (`allas_id`, `normal_felhasznalo_id`) VALUES
-(14, 4),
-(93, 49),
-(13, 11),
-(37, 29),
-(64, 38),
-(71, 60),
-(65, 11),
-(15, 62),
-(7, 45),
-(9, 25),
-(56, 56),
-(63, 28),
-(39, 68),
-(73, 34),
-(18, 18),
-(36, 21),
-(73, 19),
-(97, 51),
-(5, 31),
-(57, 24),
-(75, 67),
-(72, 49),
-(15, 45),
-(48, 71),
-(22, 42),
-(29, 67),
-(31, 27),
-(19, 68),
-(11, 35),
-(72, 71),
-(35, 54),
-(53, 28),
-(65, 56),
-(34, 55),
-(12, 4),
-(9, 64),
-(3, 18),
-(63, 19),
-(82, 37),
-(69, 55),
-(97, 68),
-(96, 42),
-(57, 44),
 (1, 43),
-(52, 17),
-(28, 38),
-(8, 2),
-(78, 6),
-(86, 46),
-(21, 22),
-(61, 30),
-(18, 71),
-(37, 71),
-(5, 25),
-(52, 42),
-(50, 18),
-(39, 7),
-(88, 52),
-(30, 14),
-(60, 68),
-(59, 35),
-(13, 2),
-(83, 29),
-(47, 52),
-(44, 39),
-(93, 67),
-(43, 70),
+(3, 18),
 (5, 20),
-(88, 56);
+(5, 25),
+(5, 31),
+(7, 45),
+(8, 2),
+(9, 25),
+(9, 64),
+(11, 35),
+(12, 4),
+(13, 2),
+(13, 11),
+(14, 4),
+(15, 45),
+(15, 62),
+(18, 18),
+(18, 71),
+(19, 68),
+(21, 22),
+(22, 42),
+(28, 38),
+(29, 67),
+(30, 14),
+(31, 27),
+(34, 55),
+(35, 54),
+(36, 21),
+(37, 29),
+(37, 71),
+(39, 7),
+(39, 68),
+(43, 70),
+(44, 39),
+(47, 52),
+(48, 71),
+(50, 18),
+(52, 17),
+(52, 42),
+(53, 28),
+(56, 56),
+(57, 24),
+(57, 44),
+(59, 35),
+(60, 68),
+(61, 30),
+(63, 19),
+(63, 28),
+(64, 38),
+(65, 11),
+(65, 56),
+(69, 55),
+(71, 60),
+(72, 49),
+(72, 71),
+(73, 19),
+(73, 34),
+(75, 67),
+(78, 6),
+(82, 37),
+(83, 29),
+(86, 46),
+(88, 52),
+(88, 56),
+(93, 49),
+(93, 67),
+(96, 42),
+(97, 51),
+(97, 68);
 
 -- --------------------------------------------------------
 
@@ -1345,13 +1345,27 @@ INSERT INTO `vegzettseg` (`id`, `nev`, `intezmeny`) VALUES
 -- A tábla indexei `allas`
 --
 ALTER TABLE `allas`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `hirdeto` (`hirdeto_id`),
+  ADD KEY `helyszin` (`helyszin_id`),
+  ADD KEY `kapcsolat` (`kapcsolat_id`),
+  ADD KEY `munkakor` (`munkakor_id`);
+
+--
+-- A tábla indexei `diakszovetkezetnel_van`
+--
+ALTER TABLE `diakszovetkezetnel_van`
+  ADD PRIMARY KEY (`diakszovetkezet_id`,`diak_felhasznalo_id`),
+  ADD KEY `diak` (`diak_felhasznalo_id`);
 
 --
 -- A tábla indexei `diak_felhasznalo`
 --
 ALTER TABLE `diak_felhasznalo`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `fiokadat_id` (`fiokadat_id`),
+  ADD KEY `iskola_id` (`iskola_id`),
+  ADD KEY `vallalat_id` (`vallalat_id`);
 
 --
 -- A tábla indexei `egyeb_feltetelek`
@@ -1363,7 +1377,8 @@ ALTER TABLE `egyeb_feltetelek`
 -- A tábla indexei `fiokadatok`
 --
 ALTER TABLE `fiokadatok`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `szemelyes_adatok_id` (`szemelyes_adatok_id`);
 
 --
 -- A tábla indexei `helyszin`
@@ -1375,13 +1390,22 @@ ALTER TABLE `helyszin`
 -- A tábla indexei `hirdeto`
 --
 ALTER TABLE `hirdeto`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `fiokadatok_id` (`fiokadatok_id`),
+  ADD KEY `vallalat_id` (`vallalat_id`);
 
 --
 -- A tábla indexei `iskola`
 --
 ALTER TABLE `iskola`
   ADD PRIMARY KEY (`id`);
+
+--
+-- A tábla indexei `jelentkezok`
+--
+ALTER TABLE `jelentkezok`
+  ADD PRIMARY KEY (`allas_id`,`normal_felhasznalo_id`),
+  ADD KEY `normal_felhasznalo_id` (`normal_felhasznalo_id`);
 
 --
 -- A tábla indexei `kapcsolat`
@@ -1393,19 +1417,24 @@ ALTER TABLE `kapcsolat`
 -- A tábla indexei `munkakor`
 --
 ALTER TABLE `munkakor`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `egyeb_feltetelek_id` (`egyeb_feltetelek_id`);
 
 --
 -- A tábla indexei `normal_felhasznalo`
 --
 ALTER TABLE `normal_felhasznalo`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `fiokadatok_id` (`fiokadatok_id`),
+  ADD KEY `vallalat_id` (`vallalat_id`),
+  ADD KEY `vegzettseg_id` (`vegzettseg_id`);
 
 --
 -- A tábla indexei `regisztralt_allasok`
 --
 ALTER TABLE `regisztralt_allasok`
-  ADD PRIMARY KEY (`allas_id`);
+  ADD PRIMARY KEY (`allas_id`,`diakszovetkezet_id`),
+  ADD KEY `diakszovetkezet_id` (`diakszovetkezet_id`);
 
 --
 -- A tábla indexei `szemelyes_adatok`
@@ -1430,6 +1459,75 @@ ALTER TABLE `vallalat`
 --
 ALTER TABLE `vegzettseg`
   ADD PRIMARY KEY (`id`);
+
+--
+-- Megkötések a kiírt táblákhoz
+--
+
+--
+-- Megkötések a táblához `allas`
+--
+ALTER TABLE `allas`
+  ADD CONSTRAINT `helyszin` FOREIGN KEY (`helyszin_id`) REFERENCES `helyszin` (`id`),
+  ADD CONSTRAINT `hirdeto` FOREIGN KEY (`hirdeto_id`) REFERENCES `hirdeto` (`id`),
+  ADD CONSTRAINT `kapcsolat` FOREIGN KEY (`kapcsolat_id`) REFERENCES `kapcsolat` (`ID`),
+  ADD CONSTRAINT `munkakor` FOREIGN KEY (`munkakor_id`) REFERENCES `munkakor` (`id`);
+
+--
+-- Megkötések a táblához `diakszovetkezetnel_van`
+--
+ALTER TABLE `diakszovetkezetnel_van`
+  ADD CONSTRAINT `diak` FOREIGN KEY (`diak_felhasznalo_id`) REFERENCES `diak_felhasznalo` (`id`),
+  ADD CONSTRAINT `szovetkezet` FOREIGN KEY (`diakszovetkezet_id`) REFERENCES `szovetkezet` (`ID`);
+
+--
+-- Megkötések a táblához `diak_felhasznalo`
+--
+ALTER TABLE `diak_felhasznalo`
+  ADD CONSTRAINT `diak_felhasznalo_ibfk_1` FOREIGN KEY (`fiokadat_id`) REFERENCES `fiokadatok` (`id`),
+  ADD CONSTRAINT `diak_felhasznalo_ibfk_2` FOREIGN KEY (`iskola_id`) REFERENCES `iskola` (`id`),
+  ADD CONSTRAINT `diak_felhasznalo_ibfk_3` FOREIGN KEY (`vallalat_id`) REFERENCES `vallalat` (`id`);
+
+--
+-- Megkötések a táblához `fiokadatok`
+--
+ALTER TABLE `fiokadatok`
+  ADD CONSTRAINT `fiokadatok_ibfk_1` FOREIGN KEY (`szemelyes_adatok_id`) REFERENCES `szemelyes_adatok` (`ID`);
+
+--
+-- Megkötések a táblához `hirdeto`
+--
+ALTER TABLE `hirdeto`
+  ADD CONSTRAINT `hirdeto_ibfk_1` FOREIGN KEY (`fiokadatok_id`) REFERENCES `fiokadatok` (`id`),
+  ADD CONSTRAINT `hirdeto_ibfk_2` FOREIGN KEY (`vallalat_id`) REFERENCES `vallalat` (`id`);
+
+--
+-- Megkötések a táblához `jelentkezok`
+--
+ALTER TABLE `jelentkezok`
+  ADD CONSTRAINT `jelentkezok_ibfk_1` FOREIGN KEY (`allas_id`) REFERENCES `allas` (`id`),
+  ADD CONSTRAINT `jelentkezok_ibfk_2` FOREIGN KEY (`normal_felhasznalo_id`) REFERENCES `normal_felhasznalo` (`id`);
+
+--
+-- Megkötések a táblához `munkakor`
+--
+ALTER TABLE `munkakor`
+  ADD CONSTRAINT `munkakor_ibfk_1` FOREIGN KEY (`egyeb_feltetelek_id`) REFERENCES `egyeb_feltetelek` (`id`);
+
+--
+-- Megkötések a táblához `normal_felhasznalo`
+--
+ALTER TABLE `normal_felhasznalo`
+  ADD CONSTRAINT `normal_felhasznalo_ibfk_1` FOREIGN KEY (`fiokadatok_id`) REFERENCES `fiokadatok` (`id`),
+  ADD CONSTRAINT `normal_felhasznalo_ibfk_2` FOREIGN KEY (`vallalat_id`) REFERENCES `vallalat` (`id`),
+  ADD CONSTRAINT `normal_felhasznalo_ibfk_3` FOREIGN KEY (`vegzettseg_id`) REFERENCES `vegzettseg` (`id`);
+
+--
+-- Megkötések a táblához `regisztralt_allasok`
+--
+ALTER TABLE `regisztralt_allasok`
+  ADD CONSTRAINT `regisztralt_allasok_ibfk_1` FOREIGN KEY (`allas_id`) REFERENCES `allas` (`id`),
+  ADD CONSTRAINT `regisztralt_allasok_ibfk_2` FOREIGN KEY (`diakszovetkezet_id`) REFERENCES `szovetkezet` (`ID`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
