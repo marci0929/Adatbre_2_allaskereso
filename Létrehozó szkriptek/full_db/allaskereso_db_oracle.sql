@@ -1,12 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 5.1.1
--- https://www.phpmyadmin.net/
---
--- Gép: 127.0.0.1
--- Létrehozás ideje: 2022. Már 23. 23:18
--- Kiszolgáló verziója: 10.4.21-MariaDB
--- PHP verzió: 8.0.12
-
+SET FOREIGN_KEY_CHECKS=0;
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
@@ -31,17 +23,17 @@ USE `allaskereso_db`;
 
 DROP TABLE IF EXISTS `allas`;
 CREATE TABLE `allas` (
-  `id` int(11) NOT NULL,
-  `allas_neve` varchar(200) NOT NULL,
-  `allas_leirasa` varchar(9999) NOT NULL,
-  `munkakor_id` int(11) NOT NULL,
-  `hirdeto_id` int(11) NOT NULL,
-  `kapcsolat_id` int(11) NOT NULL,
-  `diak_vallalhatja` tinyint(1) NOT NULL,
-  `helyszin_id` int(11) NOT NULL,
+  `id` NUMBER(10) NOT NULL,
+  `allas_neve` VARCHAR2(200) NOT NULL,
+  `allas_leirasa` VARCHAR2(9999) NOT NULL,
+  `munkakor_id` NUMBER(10) DEFAULT NULL,
+  `hirdeto_id` NUMBER(10) NOT NULL,
+  `kapcsolat_id` NUMBER(10) NOT NULL,
+  `diak_vallalhatja` NUMBER(1) NOT NULL,
+  `helyszin_id` NUMBER(10) DEFAULT NULL,
   `kezdes_idopontja` datetime NOT NULL,
-  `berezes` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `berezes` NUMBER(10) NOT NULL
+) DEFAULT CHARSET=utf8mb4;
 
 --
 -- A tábla adatainak kiíratása `allas`
@@ -66,7 +58,8 @@ INSERT INTO `allas` (`id`, `allas_neve`, `allas_leirasa`, `munkakor_id`, `hirdet
 (16, 'Windows System Administrator', 'Windows Systems Administrator The Windows Systems Administrator will play a technical leadership role in a 24x7 highly-available production environment. The ideal candidate will be self-motivated and articulate, recognized as an expert with Microsoft operating systems, Win NT, 2K and 2K3, related software technologies, and have a proven history of using administrative tools and automating routine administration tasks.Day-to-day responsibilities include:Must be able to work independently to troubleshoot, perform root cause analysis, identify and isolate technical issues. Must be willing to take ownership of the issue analysis and resolution efforts and commit to \"doing what it takes\" to resolve technical issues regardless of the effort or timeframe required. Triaging as necessary for production, QA & development environments.5+ years overall experience with at least the last 2 years focused on providing technical support across a broad range of Microsoft technologiesMentor SA1 & SA2: thought leadership and setting positive examplesCapable of performing design, test and implementation of complex technical solutions and architectureAbility to lead and manage system initiatives and new projectsTroubleshooting issues related to production systems, triaging as necessary for production, QA & development environments.Work with external vendors/consultants to diagnose complex problems and drive resolutionResolve errors and alarms quickly and provide timely escalationComplete tasks required to maintain service levels and availability of all site features and functionsHelp define and support process improvementsFull-time position with on-call dutiesJob Requirements 6+ years work experience as Windows Server AdministratorMust have experience implementing and managing 75+ server environments (with server-class hardware & peripherals), located in multiple datacentersExpert understanding of and experience with Microsoft operating systems, Active Directory & Domain architecture, NTFS permissions, WINS, DNS, OS security, and systems patchingExpert understanding of and experience with IIS, Microsoft Exchange, and/or Microsoft SQL. Strong understanding of networking - routing, subnets, UDP, TCP, IP, & VLANsStrong scripting skills - PERL, batch, shell and/or VBStrong experience with NAS and/or SAN.Strong experience with implementing and using systems monitoring software (e.g. Microsoft Operations Manager)Must have experience with defining or testing disaster recovery strategiesMust have strong communication skills and ability to work individually, within a team, with other groups and with customers.Strong ability to manage vendor relationships, including contracts, negotiations, and service levels. Must have ability to communicate complex technical problems concisely and professionally to technical and non-technical audiences.Proven problem solving skills with an emphasis on quick problem resolutionAbility to work on many tasks simultaneously in a high-pressure environmentUnderstanding and experience architecting Exchange 2003 or newerExperience working in a multi-server environment is required with knowledge of clustering technologies and strategies. Previous experience with providing support for remotely connected customers and the associated technologies (e.g., Citrix, Cisco PIX) is required.Understanding of or experience supporting web serversUnderstanding of or experience with backup software and recovery strategiesUnderstanding of or experience supporting .NET applicationUnderstanding of or experience supporting Oracle or other database platforms. Education Bachelors in an engineering discipline, or Technical certification in Win NT or Win 2K/2K3, or equivalent work experience. Microsoft certifications are highly desirable.', 16, 40, 8, 0, 15, '2022-12-21 00:00:00', 611464),
 (17, 'Test Lead / Test Manager', 'Location Atlanta, GAJob Title Test Lead / ManagerDuration 6 Months + High possibility of ExtensionRequired Skills: * 4+ years of experience in Software Testing and Quality Assurance.* Good communication skills* Good understanding of Telecom Network* Good knowledge and experience on preparing Test Plan and Test Strategy documents.* Great understanding of Defect detecting, tracking and reporting techniques.* Excellent Logical and Reasoning skills with keen eye to detail.--------------------------------------------------------------------------------------------------------------------------------------------Submit your resume on this position by clicking Apply button on this page or call Utpal @ 973-841-2390 and email: utpal.raj@collabera.com to contact recruiter to discuss details about this position--------------------------------------------------------------------------------------------------------------------------------------------', 6, 23, 23, 0, 1, '2022-07-28 00:00:00', 273991),
 (18, 'Principal Application Analyst-Supply Chain Lawson', 'VanderHouwen has more jobs you may like!  Find them here: http://bit.ly/1RIQfgE PLEASE JOIN OUR TALENT NETWORK: http://bit.ly/vhatalentnetwork  Joining the Talent Network with VanderHouwen & Associates (VHA) will enhance your job search and application experience. Job listings are mobile-friendly and easy to review, share, or apply. Whether you choose to just leave us your information or apply, we look forward to connecting with you. SummaryOur client seeking an individual who can apply extensive and advanced principles, theories, and concepts to the development of solutions to complex problems with innovation and ingenuity. Expert knowledge of Lawson Supply Chain modules and business practices.Responsibilities Demonstrate service excellence and positive interpersonal relationships in dealing with others, including patients/families/members, employees, managers, medical staff, volunteers, and community members, so that productivity and positive relations are maximized.Act as a system specialist or business consultant on complex projects or system, which can include planning and coordinating large scale projects or tasks across a multi-state enterprise, using cross disciplined team efforts.Provide technical and operational guidance to ensure that installed systems are working effectively and that proposed systems will meet the organizations future needs.Work with users, user groups, and vendors to gather requirements and provide fit gap analysis and effective technical solutions for the business needs.Provide documentation for testing, functional and technical designs and development processes as required by project management methodology.Develop and recommend technical support and software management standards, policies, procedures and strategies.Develop test plans to test application functionality of highly complex applications across multiple modules in support of patches, upgrades, and infrastructure and/or desktop configuration changes.Respond to and resolve reported incidents according to customer support service level agreements.Participate in problem management and troubleshooting teams on major enterprise system issues.Design, implement, evaluate and facilitate systems tests for new applications or enhancements to current applications.Proactively evaluate and make recommendations around adoption of emerging standards. Mentors others regarding integration protocols and processes.Address topics and issues that are both strategic (long term) and operational (immediate) in nature.QualificationsBachelor\'s degree or equivalent blend of education and experience.Minimum of 10 years functional experience.Proficient in Microsoft Office Products.Proficient in the development and support of integration with other applications.Minimum of 10 years* experience with the Lawson Supply Chain product suite.Qualifications PreferredMaster\'s Degree.HealthCare Information Services experience.', 31, 57, 13, 0, 7, '2022-10-23 00:00:00', 306753),
-(19, 'Messaging Administrator', 'Genesis10 is actively seeking a Messaging Administrator for a direct hire position within the insurance industry for our client located in Kansas City, MO. Description:   * Our client has an exciting opportunity for a Messaging Administrator who would enjoy working for an organization that strives every day to support the public good and make a difference. You will be working in the division responsible for hardware and software infrastructure as well as providing technology resources for regulatory systems and databases. If you hold a Microsoft Certified Engineer or Certified Information Systems Security Professional certification, we want to chat with you. * This position is located in, state-of-the-art offices in the heart of downtown Kansas City which includes great restaurants, and top-notch entertainment venues. This is a full-time position in a positive and flexible environment. Responsibilities:   * Providing administration and technical support for Technical Services enterprise backup systems including: + Administering, supporting, and maintaining the Veritas NetBackup Infrastructure. + Administering, supporting, and maintaining the IBM Tivoli Backup Infrastructure. * Providing administration and technical support for the internal e-mail network including: + Microsoft Windows Server 2008, Windows Server 2012, Microsoft Exchange 2013 support. + Administering the SMTP Mail Gateway servers, Mail flow, gateway filter blocks, virus scanning and virus blocks. * Administering and supporting mobile devices and server architecture: + Installing, configuring, and maintaining Mobile Device Management servers and environment. + Setup and configuration of mobile devices. * Providing administration and support of Lyris ListManager server product including: + Microsoft Server administration and troubleshooting of Lyris ListManager server. + Back-end listserver setup and support. * Carrying a pager and responds to it during and outside of normal business hours. The pager will be carried for a week at a time on a rotating basis. * Participating in a support role for national meeting. This includes travel and supporting systems away from the office for over a week at a time at least once a year. Requirements:   * Bachelor\'s degree (B.A. or B.S.) from a four-year college or university and three years\' of related experience; or equivalent combination of education and work experience. A minimum of three years\' of experience working with Microsoft Active Directory server administration is required. * Must have strong communication skills. * Must have an in-depth knowledge of Microsoft Active Directory administration and replication. * Proficient with server and workstation hardware. * Must have a sound knowledge of desktop and server operating systems (Windows 7, Windows 2008 or 2012 server) and distributed e-mail systems. * Must have very intuitive troubleshooting skills to look at the broad picture (i.e. consider network and server in resolving desktop problems). * Strong understanding of backup software and backup retention policies. * Only W2 candidates will be considered for this position. (no third parties) If you have the described qualifications and are interested in this exciting opportunity, apply today! About Genesis10:   Genesis10 is a leading U.S. business and technology consulting firm with hundreds of clients needing proven talent and solutions to power their strategic initiatives. If you are a high performing business or IT professional with solid, referenced experience, we want to meet you. Genesis10 recruiters and delivery professionals are highly accomplished career advocates, who get to know you beyond your resume to position you with the opportunities that fit your skills, experience and aspirations. We have benefit options to fit your needs and a support staff that works with you from placement throughout your engagement - project after project. To learn more about Genesis10 and to view all our available career opportunities, please visit us at www.genesis10.com \"Genesis10 is an Equal Opportunity Employer, M/F/D/V\"  Start Date: 06/08/2016', 14, 47, 9, 0, 10, '2022-08-22 00:00:00', 634954),
+(19, 'Messaging Administrator', 'Genesis10 is actively seeking a Messaging Administrator for a direct hire position within the insurance industry for our client located in Kansas City, MO. Description:   * Our client has an exciting opportunity for a Messaging Administrator who would enjoy working for an organization that strives every day to support the public good and make a difference. You will be working in the division responsible for hardware and software infrastructure as well as providing technology resources for regulatory systems and databases. If you hold a Microsoft Certified Engineer or Certified Information Systems Security Professional certification, we want to chat with you. * This position is located in, state-of-the-art offices in the heart of downtown Kansas City which includes great restaurants, and top-notch entertainment venues. This is a full-time position in a positive and flexible environment. Responsibilities:   * Providing administration and technical support for Technical Services enterprise backup systems including: + Administering, supporting, and maintaining the Veritas NetBackup Infrastructure. + Administering, supporting, and maintaining the IBM Tivoli Backup Infrastructure. * Providing administration and technical support for the internal e-mail network including: + Microsoft Windows Server 2008, Windows Server 2012, Microsoft Exchange 2013 support. + Administering the SMTP Mail Gateway servers, Mail flow, gateway filter blocks, virus scanning and virus blocks. * Administering and supporting mobile devices and server architecture: + Installing, configuring, and maintaining Mobile Device Management servers and environment. + Setup and configuration of mobile devices. * Providing administration and support of Lyris ListManager server product including: + Microsoft Server administration and troubleshooting of Lyris ListManager server. + Back-end listserver setup and support. * Carrying a pager and responds to it during and outside of normal business hours. The pager will be carried for a week at a time on a rotating basis. * Participating in a support role for national meeting. This includes travel and supporting systems away from the office for over a week at a time at least once a year. Requirements:   * Bachelor\'s degree (B.A. or B.S.) from a four-year college or university and three years\' of related experience; or equivalent combination of education and work experience. A minimum of three years\' of experience working with Microsoft Active Directory server administration is required. * Must have strong communication skills. * Must have an in-depth knowledge of Microsoft Active Directory administration and replication. * Proficient with server and workstation hardware. * Must have a sound knowledge of desktop and server operating systems (Windows 7, Windows 2008 or 2012 server) and distributed e-mail systems. * Must have very intuitive troubleshooting skills to look at the broad picture (i.e. consider network and server in resolving desktop problems). * Strong understanding of backup software and backup retention policies. * Only W2 candidates will be considered for this position. (no third parties) If you have the described qualifications and are interested in this exciting opportunity, apply today! About Genesis10:   Genesis10 is a leading U.S. business and technology consulting firm with hundreds of clients needing proven talent and solutions to power their strategic initiatives. If you are a high performing business or IT professional with solid, referenced experience, we want to meet you. Genesis10 recruiters and delivery professionals are highly accomplished career advocates, who get to know you beyond your resume to position you with the opportunities that fit your skills, experience and aspirations. We have benefit options to fit your needs and a support staff that works with you from placement throughout your engagement - project after project. To learn more about Genesis10 and to view all our available career opportunities, please visit us at www.genesis10.com \"Genesis10 is an Equal Opportunity Employer, M/F/D/V\"  Start Date: 06/08/2016', 14, 47, 9, 0, 10, '2022-08-22 00:00:00', 634954);
+INSERT INTO `allas` (`id`, `allas_neve`, `allas_leirasa`, `munkakor_id`, `hirdeto_id`, `kapcsolat_id`, `diak_vallalhatja`, `helyszin_id`, `kezdes_idopontja`, `berezes`) VALUES
 (20, 'Java Architect - Denver, CO - Fulltime', 'Our client in the healthcare software industry is seeking a Java Architect to join their growing team. Below is the job description, if interested please submit a word resume and the best time and number to reach you to discuss.Title: Java ArchitectLocation: Denver, CO Duration: Fulltime Salary: DOEResponsibilities: This person will be working with IT leadership, product owners, and project management to determine the architectural approach and patterns to apply to projects of the highest level of complexity Design solutions that appropriately balance technical elegance, business need, project risk, and cost Guide the development team throughout the lifecycle.10 years of experience in software development including object oriented analysis and design. Prefer Java technology stack, but similar backgrounds such as .Net will be considered3 years of experience in a team lead role3 years of experience in an application architect or solution architect roleExperience with Middle tier development using Java and related technologyWeb application developmentMobile application development on multiple platformData architecture and data movement, including OLTP systems and BI/Data Warehousing scenario', 22, 18, 17, 0, 21, '2022-12-13 00:00:00', 790343),
 (21, 'IT Business Analyst', 'Genesis10 is looking for a Business Analyst for a long-term contract position in Sandy Springs, GA with our Fortune25 financial services industry client. Only W2 candidates will be considered. Description:   As a Business Analyst, you will conduct business and technical analysis for process and tool enhancements and ensures operational readiness to satisfy business partner objectives. The Business Analyst will employ a set of tasks and techniques used to work as a liaison among stakeholders and core team members in order to understand the structure, policies and operations of an organization, and to recommend solutions that enable the organization to achieve its goals. Responsibilities:   * Business Analysis, Planning and Monitoring * Requirements Management and Communication * Enterprise Analysis * Requirements Analysis * Solution Assessment and Validation * Work with core team members to elicit, organize, document and validate business rules, functional and non-functional requirements * Partner with the product manager to build cohesive release content * Translate stakeholder requests into a set of system features. These in turn are detailed into specifications for functional and nonfunctional requirements * Ensure the functionality, usability, performance and supportability of the requirements * Assess capability gaps and identify new capabilities required by the enterprise to meet the business need * Understand the organizations business and how the technology supports the business * Assess or evaluate the impact of the change the stakeholder is requesting * Translates business needs into technical requirements and ensures all systems support business needs * Ensure the process of reviewing, selecting, and designing the solution is done in a way that maximizes value delivered to stakeholders * Assess defects and issues; determine the business impact and severity of the defect. Conduct analysis and root cause of defect * Facilitate meetings with the direct involvement of both stakeholders and developers to gather feedback on requirements and solution results and to produce the following key deliverables: + Actionable Requirements (Stories) + Process Maps + Gap Analysis + Scenarios and/or use cases + Data Flow Diagrams + Analysis and submission of Change Control Forms Requirements:   * 5-7 years\' experience in analysis with expertise in different technologies, business areas, application wide analysis, and proposal of solutions * Ability to interpret the domain in order to capture meaningful requirements * Strength in assembling, analyzing, and representing business requirements * In depth experience performing feasibility analysis, scope projects, prioritize deliverables, recommend alternative solutions and project strategies, and engage in negotiations * Responsible for high level implementation plans, data and process models, cost estimating, cost benefits analysis, and return on investments * Experience facilitating workshops such as JAD, RAD, and DRP sessions, etc. * Expert skills in MS Office (Word, Excel, PowerPoint) and strong Visio skills preferred If you have the described qualifications and are interested in this exciting opportunity, please apply! Only W2 candidates can be considered. About Genesis10:   Genesis10 is a leading U.S. business and technology consulting firm with hundreds of clients needing proven talent and solutions to power their strategic initiatives. If you are a high performing business or IT professional with solid, referenced experience, we want to meet you. Genesis10 recruiters and delivery professionals are highly accomplished career advocates, who get to know you beyond your resume to position you with the opportunities that fit your skills, experience and aspirations. We have benefit options to fit your needs and a support staff that works with you from placement throughout your engagement - project after project. To learn more about Genesis10 and to view all our available career opportunities, please visit us at www.genesis10.com. \"Genesis10 is an Equal Opportunity Employer, M/F/D/V\"  Start Date: 06/30/2016', 38, 38, 20, 0, 19, '2022-09-20 00:00:00', 272901),
 (22, 'IT Sales Manager', 'Great opportunity for driven, energetic IT Sales Professionals in chicago! Our client is a leading Global IT services Provider based in the tech mecca of the world- Silicon Valley & are looking for High energy, IT sales Professionals to join their team in Midwest . The position offers working remotely ! 7-10 yrs IT Services Sales experience.   Must have a mix of IT Services Project selling (50%) and Staff Augmentation *  Onsite Placements with direct end clients (50%).    Industry segments preferred in Retail / Manufacturing / Supply Chain / Product Engineering / Mobility. A SALES HUNTER MENTALITY IS A MUST! Must have a proven sales track record of success of carrying a quota of $3- 4.5 Million dollars Competitive Base Salary + Commission !', 1, 56, 19, 1, 12, '2022-08-25 00:00:00', 543704),
@@ -84,7 +77,8 @@ INSERT INTO `allas` (`id`, `allas_neve`, `allas_leirasa`, `munkakor_id`, `hirdet
 (34, '4709317 Project Planner/Scheduler', 'Description:Monitor and update integrated project plans and schedules so that projects can be executed in the most efficient manner possible.Prepare baseline schedules and schedule basis documents for approval by project teams.Assess impacts to the critical path and near-critical activities and report to the project team.Monitor schedule deviations and variances and assist in the developing alternate methods for corrective action.Prepare and provide schedule progress reports, trending charts and schedule analysis on a periodic basis.Maintain record of scope changes, trends and variances that potentially affect schedule performance.Assure credibility of the information contained in the schedule.Review schedules with project team members on a regular basis to ensure that accurate and timely data is incorporated in the schedule.Analyze schedules from A/E firms, Vendors and General Contractors.Verify schedule integrity and evaluate logic and float paths.Evaluate activity sequences for constructability.Make recommendations to manage float and (re)sequence activities (if required) to achieve project milestone dates and interim target completion dates.Analyze change orders for schedule impacts.Resource load schedules as required by the project team.Perform jobsite walks to verify physical progress of scheduled activities.Facilitate project scheduling meetings and/or interactive planning meetings as required by the project team.Participate in project meetings at the discretion of the project manager.Participate in departmental staff meetings.Comply with departmental scheduling practices and procedures.At the completion of the project, develop and record the project\'s historical schedule information and \"lessons learned\" for future use. Skills:Minimum 10 years of experience as a planner/scheduler on facilities capital projects, including design and construction phases.Demonstrated expertise in the use of modern planning and scheduling principles, methodologies, techniques and tools.Proficiency using Primavera Version 6 and Microsoft Project Standard 2003.Pharmaceutical/Biotech project experience, including commissioning and validation activities, is preferred.Experience with planning controls systems, Automation, GAMP, Emerson & Delta V would be a plus. Education:10 yrs or similar Certification by AACE or PMI in planning/scheduling is preferred.', 27, 35, 3, 0, 17, '2022-12-07 00:00:00', 471540),
 (35, 'Business Systems Analyst', 'VanderHouwen has more jobs you may like! Find them here: http://bit.ly/1RIQfgE PLEASE JOIN OUR TALENT NETWORK: http://bit.ly/vhatalentnetworkJoining the Talent Network with VanderHouwen & Associates (VHA) will enhance your job search and application experience. Job listings are mobile-friendly and easy to review, share, or apply. Whether you choose to just leave us your information or apply, we look forward to connecting with you.  SummaryOur client is looking for a Business Systems Analyst who is Comfortable working in an ambiguous, complex environment with various teams and groups.Qualifications Background in creation of Internal Software desired, as opposed to .com business.Working knowledge of 3D principles preferred.Design Tool experience (AI, Maya, Browzwear, etc.) preferred.', 40, 38, 25, 0, 16, '2022-08-22 00:00:00', 757985),
 (36, 'Lead Java Engineer', 'PLEASE JOIN OUR TALENT NETWORK: http://bit.ly/vhatalentnetwork Joining the Talent Network with VanderHouwen & Associates (VHA) will enhance your job search and application experience. Job listings are mobile-friendly and easy to review, share, or apply. Whether you choose to just leave us your information or apply, we look forward to connecting with you. SummaryAssists supervisor with leadership and coordination of a team designing, implementing, documenting, and maintaining Java web applications. Works with BSA team to obtain requirements, prioritize, and plan the delivery of solutions. Provides guidance and coordination of technical implementations that adhere to enterprise system architecture, design, and implementation standards. Coordinates with other units to identify and schedule delivery of cross-team dependencies. Determines resource requirements and allocations. Assigns tasks to the team members, monitors the alignment with the overall project goals and reports on progress to various levels of management.Responsibilities Works with business representatives, clients, business partners, project managers, and team members to define requirements for applications targeted for the corporate internet/ intranet.Works with project managers, supervisors, and team members to determine work tasks and allocate resources.Leads the development team through solution design, implementation, and deployment in coordination with other IT and business departments.Identifies and resolves design and implementation issues and conflicts.Leads and coordinates the maintenance and enhancement of Internet/Intranet applications. Provides technical support to application administrators and staff.Provides development and production support status updates to management.Develops business relationships with clients and business partners. Strong understanding of client business processes needed.Resolves issues that arise with vendor technical support.Performs other duties as assigned.Qualifications Bachelor degree or equivalent specializing in Computer Science, Math, Business, and/or Engineering.Extensive understanding of web technologies and programming languages. Ability to keep current with emerging internet technologies.5+ years computer programming experience in Java and Java EE. Experience with JSF, Spring, Struts, and Hibernate preferred.Solid background in client/server programming and relational database systems.Outstanding analytical, problem solving, organizational, and detail orientation skills.Strong ability to negotiate, prioritize, determine tasks and allocate resources.Ability to work well under pressure, work with frequent interruptions, and shifting priorities.Maintain confidentiality and project a professional business image.', 43, 60, 12, 0, 23, '2022-11-04 00:00:00', 368283),
-(37, 'Project Coordinator II', 'Genesis10 is seeking MxU Construction Coordinators in Chicago, IL! As an MxU Construction Coordinator, you are responsible for providing technical solutions and managing relationships with the client\'s MDU product team. Your role is key in moving our clients MDU (multi-dwelling unit) projects from sales throughout completion of construction. You will have a demonstrated passion for account management with an entrepreneurial spirit and passion for client management, eventually managing a small team of temps across Fiber cities in your region. Our clients projects, like their users, span the globe and require managers to keep the big picture in focus. As an MxU CC, you lead complex, multi-disciplinary projects. You plan requirements with internal customers and usher projects through the entire project lifecycle. This includes managing project schedules, identifying risks and clearly communicating goals to project stakeholders. Your projects often span offices, time zones and hemispheres, and it\'s your job to keep all the players coordinated on the project\'s progress and deadlines. Responsibilities Manage Salesforce construction project tickets end to end and ensure all SLA\'s are being met Attend staff meetings and assist Fiber sales with engineering & construction questions as requested by Fiber sales or engineering teams Work with partners closely on the end to end process from site selection to installation including contracts, escalations, scheduling, etc. Work closely with cross-functional teams:   construction, legal, product, PR, management team, etc. Partner with the local construction team to provide weekly metrics and updates for each city in your region Own and manage projects with multiple stakeholders, both ongoing and ad hoc basis. Track progress of multiple sites and keep team\'s progress updated Minimum Qualifications 3-5 years of industry or sales/account management experience working with clients and setting expectations appropriately with strong customer satisfaction scores. Ability to work cross- functionally with Sales & MDU operations, as well as our local sales teams, engineering, marketing, and field management to ensure our client SLA\'s are explained and executed on time BA/BS degree Project/program management experience; deadline and detail-oriented (PMP preferred) Experience in measuring and improving productivity, and scaling initiatives Preferred Qualifications Proficiency in using Salesforce strongly preferred Understanding of MDU process flow from contract to construction completion. Comfortable with database management & MDU design An understanding of MDU engineering & construction, such as various industry design standards, and construction methods in both condo & tenant MDU environments Flexible (ability to work across different time zones) and able to think quickly Experience training and mentoring junior colleagues If you have the described qualifications and are interested in this exciting opportunity, please apply! About Genesis10:   Genesis10 is a leading U.S. business and technology consulting firm with hundreds of clients needing proven talent and solutions to power their strategic initiatives. If you are a high performing telecommunications or IT professional with solid, referenced experience, we want to meet you. Genesis10 recruiters and delivery professionals are highly accomplished career advocates, who get to know you beyond your resume to position you with the opportunities that fit your skills, experience and aspirations. We have benefit options to fit your needs and a support staff that works with you from placement throughout your engagement - project after project. To learn more about Genesis10 and to view all our available career opportunities, please visit us at www.genesis10.com. \"Genesis10 is an Equal Opportunity Employer, M/F/D/V\"', 25, 16, 4, 1, 8, '2022-06-17 00:00:00', 706169),
+(37, 'Project Coordinator II', 'Genesis10 is seeking MxU Construction Coordinators in Chicago, IL! As an MxU Construction Coordinator, you are responsible for providing technical solutions and managing relationships with the client\'s MDU product team. Your role is key in moving our clients MDU (multi-dwelling unit) projects from sales throughout completion of construction. You will have a demonstrated passion for account management with an entrepreneurial spirit and passion for client management, eventually managing a small team of temps across Fiber cities in your region. Our clients projects, like their users, span the globe and require managers to keep the big picture in focus. As an MxU CC, you lead complex, multi-disciplinary projects. You plan requirements with internal customers and usher projects through the entire project lifecycle. This includes managing project schedules, identifying risks and clearly communicating goals to project stakeholders. Your projects often span offices, time zones and hemispheres, and it\'s your job to keep all the players coordinated on the project\'s progress and deadlines. Responsibilities Manage Salesforce construction project tickets end to end and ensure all SLA\'s are being met Attend staff meetings and assist Fiber sales with engineering & construction questions as requested by Fiber sales or engineering teams Work with partners closely on the end to end process from site selection to installation including contracts, escalations, scheduling, etc. Work closely with cross-functional teams:   construction, legal, product, PR, management team, etc. Partner with the local construction team to provide weekly metrics and updates for each city in your region Own and manage projects with multiple stakeholders, both ongoing and ad hoc basis. Track progress of multiple sites and keep team\'s progress updated Minimum Qualifications 3-5 years of industry or sales/account management experience working with clients and setting expectations appropriately with strong customer satisfaction scores. Ability to work cross- functionally with Sales & MDU operations, as well as our local sales teams, engineering, marketing, and field management to ensure our client SLA\'s are explained and executed on time BA/BS degree Project/program management experience; deadline and detail-oriented (PMP preferred) Experience in measuring and improving productivity, and scaling initiatives Preferred Qualifications Proficiency in using Salesforce strongly preferred Understanding of MDU process flow from contract to construction completion. Comfortable with database management & MDU design An understanding of MDU engineering & construction, such as various industry design standards, and construction methods in both condo & tenant MDU environments Flexible (ability to work across different time zones) and able to think quickly Experience training and mentoring junior colleagues If you have the described qualifications and are interested in this exciting opportunity, please apply! About Genesis10:   Genesis10 is a leading U.S. business and technology consulting firm with hundreds of clients needing proven talent and solutions to power their strategic initiatives. If you are a high performing telecommunications or IT professional with solid, referenced experience, we want to meet you. Genesis10 recruiters and delivery professionals are highly accomplished career advocates, who get to know you beyond your resume to position you with the opportunities that fit your skills, experience and aspirations. We have benefit options to fit your needs and a support staff that works with you from placement throughout your engagement - project after project. To learn more about Genesis10 and to view all our available career opportunities, please visit us at www.genesis10.com. \"Genesis10 is an Equal Opportunity Employer, M/F/D/V\"', 25, 16, 4, 1, 8, '2022-06-17 00:00:00', 706169);
+INSERT INTO `allas` (`id`, `allas_neve`, `allas_leirasa`, `munkakor_id`, `hirdeto_id`, `kapcsolat_id`, `diak_vallalhatja`, `helyszin_id`, `kezdes_idopontja`, `berezes`) VALUES
 (38, 'Core Java Developer with distributed computing', 'Hi,Established in 1998, eTouch Systems is a technology services company that specializes in Digital Web Engineering. We deliver technology services and accelerate growth for Global 1000 companies by solving complex business challenges with breakthrough technical innovations. We partner with leading global hi-tech enterprises to service their business and technology needs. currently working with our direct clients including VMware, Intuit, Cisco, Yahoo, Sony, Google, PG&E & Kaiser amongst others enabling the success of their Software as well as IT infrastructure development initiatives through the quality of our consultants.Role: Core Java Developer with distributed computing Location: Mountain view, CA Duration: 12+ Months We are a team with the vision to change the way our customers interact with our products to discover contextual relevant content. With millions of customers using our software you will be part of cutting edge team that is responsible for building highly scalable and distributed search system at scale that renders contextual relevant contents. You will be working with recognized experts, Data Scientist, Data Engineers, Solution Architects in the field to deliver On-Tap Unified Search as a Service & best in class search user experiences for web & mobile. Required Skills:Need a strong core Java Developer with some good Data experience. Must have experience with distributed computing.Good working knowledge on Vector Model Search and AWS. Please feel free to send your questions on my way at gnagaraju@etouch.net/ 510 585 1527 Š, if you would like to learn more of this need. Thank you. Best regards,Raju | eTouch Systems | Desk phone: +1.510.795.4800 X 159 Cell phone: +1.510.585.1527| Email: gnagaraju@etouch.net | Fax: +1.510.795.4803 | URL: www.etouch.net  Linked In:  http://www.linkedin.com/in/graju/ Custom Development Solutions| Integration & Support Services| Professional Services6627 Dumbarton Circle | Fremont, CA 94555', 42, 78, 14, 0, 13, '2022-08-28 00:00:00', 227059),
 (39, 'Software Developer', 'PLEASE JOIN OUR TALENT NETWORK: http://bit.ly/vhatalentnetwork  Joining the Talent Network with VanderHouwen & Associates (VHA) will enhance your job search and application experience. Job listings are mobile-friendly and easy to review, share, or apply. Whether you choose to just leave us your information or apply, we look forward to connecting with you.Summary The ideal candidate is a clever, motivated and versatile coder with a hacker mentality who is eager to tackle complex problems. The candidate must be comfortable working in an agile development environment with high expectations for rapid delivery of prototypes, changing requirements, and direct feedback from the internal business customer.  Candidates should be able to learn fast and learn on the fly in order to work with a variety of languages, and be capable of taking responsibility for delivering code that accomplishes defined objectives.  Qualifications Required .NET and C# (Minimum 2 years* experience)Full development lifecycle experience including analysis, design, implementation, testing, monitoringSQL Server: Data modelling, T-SQL, Stored procs, Performance TuningBS or higher degree in Computer Science or related technical field. Qualifications Preferred Microsoft Azure or other cloud technologies Cosmos or other big data technologiesWeb API/UI development', 41, 76, 22, 0, 5, '2022-06-30 00:00:00', 754407),
 (40, 'Mobile Automation Tester , Rate :Open Negotiable, 1 year', 'Centizen Inc, Global agile IT solutions and consulting firm focused in delivering scalable? solutions to address complex business problems. We provide above market salaries and benefits so that we have a lower turnover rate. Please visit our website to see all our open positions(20+) in PM, QA, BSA, SAP, Analytics, Java developers etc. http://careers.centizen.com/Mobile Automation Tester:453753SRate : Open Negotiable for the right candidateDuration: 1 yearLocation: Beaverton, ORResponsibilities:Manual and automated testing of mobile applications (iOS and Android).Manual and automated testing of Sports CE (Consumer Electronics) devices.Manual and automated testing of Mac and PC applications.Manual and automated testing of websites.Requirements:4 years of professional experience in quality engineering, IT or related area3 years hands-on experience testing desktop applications, consumer electronics devices, and websitesInterest in testing sports and fitness applications and devicesExperience authoring comprehensive test plans and test scriptsExcellent verbal and written communication and collaboration skills to effectively communicate with both business and technical teamsComfortable working in a fast-paced, results-oriented environmentTo Apply:We offer immediate H1B transfer. Immediate Green Card processing with PERM for the right candidates.Please send us your resume, Visa Status, Availability and bill rate to sdet@centizen.comPlease follow us on:Open Positions-http://www.careers.centizen.com/Facebook -https://www.facebook.com/CentizenLinkedIn -http://www.linkedin.com/company/centizenTwitter -http://twitter.com/centizenincWe are always looking to network, so if you are in the market or just interested in hearing about future opportunities, please send us a current resume along with your hourly compensation requirements. If you would like to add to our linked in professional network, here is our linked in profile http:// www.linkedin.com/in/leemaWhy Centizen is the right IT solutions and consulting services company to work with:-There are many advantages for IT professionals like yourself to work with Centizen.  These include:We enjoy approved IT vendor status with several leading companies in the Pacific Northwest and are focused on growing our list of  approved vendor status with several additional companies.    We are an ethical company with high integrity and a dedication to delivering high results with our clients.    We are fair and honest in all of our business dealings with our consultants and clients    We pay top scale hourly rates based on your credentials, experience and market demand    We can offer related benefits as needed and customized to your situation    We can work with you to help you achieve your career growth and goals', 34, 2, 15, 0, 11, '2022-07-04 00:00:00', 720741),
@@ -103,7 +97,8 @@ INSERT INTO `allas` (`id`, `allas_neve`, `allas_leirasa`, `munkakor_id`, `hirdet
 (53, 'Frontend/UI Developer', 'PLEASE JOIN OUR TALENT NETWORK: http://bit.ly/vhatalentnetwork  Joining the Talent Network with VanderHouwen & Associates (VHA) will enhance your job search and application experience. Job listings are mobile-friendly and easy to review, share, or apply. Whether you choose to just leave us your information or apply, we look forward to connecting with you. SummaryOur client is the leading provider of online video publishing and management solutions * millions of media files and process millions of hits per day. Media companies rely on their cloud-based video platform as their open, central hub for managing, monetizing, and syndicating billions of internet video views each year. Our client*s services provide unmatched versatility for designing and supporting streaming video businesses on PCs, mobile devices, and TV. Some of their customers include SyFy, Fox Sports Network, NBC Sports, National Geographic, Comcast, British Telecom, Travel Channel, and more. Their Consulting Services Team is seeking to add those with engineering knowledge / experience with the latest web and mobile technologies and come work as a Frontend/UI Developer. The Consulting Services team works with a variety of customers to deliver world class IP-based video delivery solutions. Current projects include multiple initiatives for major media companies, as well as cable operators and telecommunication companies worldwide.  The Frontend/UI Developer will be contributing to HTML5 video sites for high profile media companies, as well as to administrative consoles for media publishers and distributors using the latest JavaScript technologies. ResponsibilitiesDesign, estimate, and implement features for consumer-facing HTML5 video players based on client PDK technologies. Develop administrative user interfaces for Consulting Services customers for video management solutions.Collaborate with Project Managers and Solution Architects to plan and estimate customer solutions.Participate in a highly iterative agile development process as part of small cross-functional engineering team.Help the team diagnose and address complex client-side interactions.Qualifications BS Degree in Computer Science or a related field (BONUS).High level of communication skills. 4+ years* experience with front end JavaScript Development.CSS and HTML design implementation from wire frame to reality.Comfortable with a wide range of JavaScript technologies like Angular.JS, React, Node.js, JavaScript promises.Experience in a test-driven development environment.Team Lead experience (BONUS).', 37, 8, 24, 0, 20, '2022-09-08 00:00:00', 324899),
 (54, 'Domestic Outsourcing Business Development Executive', 'Genesis10 has an incredible opportunity for a Business Development Executive to join our highly-successful Domestic Outsourcing Service Line. The Business Development Executive will be responsible, on a national-level, for acquiring new client logos through consultative-selling of the full spectrum of Genesis10\'s Domestic Outsourcing services. Genesis10\'s core competencies in Domestic Outsourcing include, but is not limited to Infrastructure, Application Development, and Managed Services. Today, Genesis10 has 6 certified Delivery Centers from which we provide services from today to the Fortune 500. The Delivery Centers are located in: Atlanta, Cleveland, Dallas, Detroit, Kansas City, and Orlando. Becoming a Genesis10 Domestic Outsourcing Business Development Executive is an excellent career move. Here is what your sales colleagues like most about being in sales at Genesis10: * Genesis10 will not cap your earnings and will do everything we can to empower you to exceed your compensation goals. Many of our sales team members are some of the highest paid in the industry! * Genesis10 has a proven track record with referenceable clients providing Domestic Outsourcing Solutions and is considered an early-adopter * Genesis10\'s Delivery Center Network if 6 locations in Tier 2, 3 and 4 cities across the United States has been recognized by the market analysts as a key differentiator * You are not on your own! Get the support you need to drive your success: + Executive Level Support: You will have direct-access to the entire Genesis10 C-suite to assist you in opening up doors, creating sales strategy, and closing deals + Dedicated Marketing Team: You will have a marketing team focused on ensuring that you have the sales collateral required to support the business development lifecycle from sales presentations, to whitepapers to reusable RFP content * Genesis10 is not a job; it is a family and a career where you can enjoy sustained success. Most of our sales organization has been at Genesis10 for 7-15+ years * Experience work/life balance and trust from your organization. We realize that sales is a difficult role, requiring a lot of hard work and travel at times. Genesis10 is an organization that recognizes success is predicated on being in balance and enjoying the fruits of your labor How You Will Make a Difference:   As a Senior Business Development Executive, with experience selling outsourcing solutions, you will help drive domestic outsourcing business to Genesis10. * Utilizing existing relationships to drive Domestic Outsourcing business to Genesis10 * Using your \'hunter\' sales approach, with the support of a top-tier delivery team, to open up new relationships and establish an optimal sales pipeline * Manage the end-to-end sales process for all pursuits, including lead-generation, client communications, on-site presentations, proposal development, and negotiation * Build strong internal relationships with Genesis10s\' C-level executive team and the domestic outsourcing delivery team to gain optimal sales-support * Effectively collaborate with Genesis10\'s Delivery Center Operations Team to ensure that all awarded service proposals fully meet the client\'s needs Qualification Requirements:   * Multiple years of proven success selling global offshore or domestic/onshore solutions * Established network of Directors, Vice Presidents, and C-Level relationships to help drive business * Tenured history, having worked multiple years for a recent employer * Demonstrated ability to apply a sales \"hunter approach to driving new business * Experience overseeing the buildout of proposals and contributing to the RFP process * Expert understanding of client outsourcing decision-criteria * Proven ability to work with remote or geographically disperse teams * Ability to travel to client-sites and Genesis10 Delivery Centers for onsite presentations If you\'ve met these qualifications, I want to talk with you. If you are still reading, you must be interested! Reach out to me (Remster Bingham, Vice President of Recruiting rbingham@genesis10.com) today and gain a first-hand understanding of why Genesis10 is a career and not just a job! The Company:   Genesis10 is a professional technology services firm providing staffing, workforce optimization and domestic outsourcing solutions. If you are a high performing business or IT professional with solid, referenced experience, we want to meet you. Genesis10 recruiters and delivery professionals are highly accomplished career advocates, who get to know you beyond your resume to position you with the opportunities that fit your skills, experience and aspirations. We offer benefit options to fit your needs and a support staff that works with you from placement throughout your engagement providing career mentoring and support project after project. To learn more about Genesis10 and to view all our available career opportunities, please visit us at www.genesis10.com. Genesis10 is an Equal Opportunity Employer, M/F/D/V  Start Date: 07/05/2016', 23, 63, 10, 0, 6, '2022-10-17 00:00:00', 259622),
 (55, 'Web Developer', 'Help invent the next generation of ecommerce; integrated experiences that leverage the store, and the web to sell anything, to anyone, anywhere in the worldThe Opportunity: -    Work in a small, high performance agile team environment - sharing innovative ideas and working collaboratively across teams. -       Work with talented engineers and product visionaries to contribute to the vision and design of our web and mobile properties. -       Create front end of interactive websites incorporating HTML5, CSS3, JavaScript, AJAX as well as other Web 2.0 techniques. -       Be a product-oriented Web Developer creating and experimenting with new ideas that will engage and excite our customers.Experience/Skills required: -      Bachelor\'s degree in Computer Science or related technical field. MS/PhDwould be a strong plus. -      3+ years\' experience in HTML5, JavaScript, CSS3, AJAX and general Web 2.0 techniques in the context of interactive Web Applications. -       Strong understanding of responsive design techniques and principles-       A passion for all things JavaScript, UI and Front End-       Must be able to work effectively both on teams as well as be self-motivated, task oriented and organized.-       Strong customer focus and obsession with quality-       Ability to work in a fast-paced and agile development environment', 39, 55, 1, 0, 9, '2022-11-06 00:00:00', 266069),
-(56, 'Senior Full Stack Developer', 'Description:   Our client\'s Open Software Frameworks team is building a variety of products used by both independent software vendors and in-house developers. Their diverse portfolio of products includes Application Portal, Geo Spatial Mapping platform and IDE used to build their terminal applications. This team is contributing to a number of cutting-edge open source projects. Based on the breadth of the team\'s work, you will need to be a strong full stack developer. You strive to design, implement and support the ideal solution. Balance between elegant design and system performance and reliability is always at the front of your mind. You will have the opportunity to work closely with users, UX and Product teams. Requirements:   * 3+ years of experience programming in C/C++ * 3+ years of experience with HTML5, CSS and JavaScript * Strong OOD/OOP skills and experience applying modern design patterns * Knowledge of algorithms, standard data structures and multithreading We\'d love to see: * Experience with C#, .Net internals and WPF * Experience developing distributed systems in a Windows or Linux environment * Familiarity with and understanding of an Agile methodology If you have the described qualifications and are interested in this exciting opportunity, please apply! About SWATT:   The Genesis10 Software and Technology Team (SWATT) is a specialized recruiting service focused on helping accomplished software developers, programmers, platform engineers and elite technology professionals find once-in-a-lifetime career opportunities in New York City with the world\'s most advanced technology organizations. Whether local to New York or relocating from across North America, we take an authentic approach to helping people make life-changing technology career decisions. For more information go to http://swatt.genesis10.com/ \"Genesis10 is an Equal Opportunity Employer, M/F/D/V\"  Start Date: 06/27/2016', 11, 34, 5, 0, 25, '2022-07-25 00:00:00', 257685),
+(56, 'Senior Full Stack Developer', 'Description:   Our client\'s Open Software Frameworks team is building a variety of products used by both independent software vendors and in-house developers. Their diverse portfolio of products includes Application Portal, Geo Spatial Mapping platform and IDE used to build their terminal applications. This team is contributing to a number of cutting-edge open source projects. Based on the breadth of the team\'s work, you will need to be a strong full stack developer. You strive to design, implement and support the ideal solution. Balance between elegant design and system performance and reliability is always at the front of your mind. You will have the opportunity to work closely with users, UX and Product teams. Requirements:   * 3+ years of experience programming in C/C++ * 3+ years of experience with HTML5, CSS and JavaScript * Strong OOD/OOP skills and experience applying modern design patterns * Knowledge of algorithms, standard data structures and multithreading We\'d love to see: * Experience with C#, .Net internals and WPF * Experience developing distributed systems in a Windows or Linux environment * Familiarity with and understanding of an Agile methodology If you have the described qualifications and are interested in this exciting opportunity, please apply! About SWATT:   The Genesis10 Software and Technology Team (SWATT) is a specialized recruiting service focused on helping accomplished software developers, programmers, platform engineers and elite technology professionals find once-in-a-lifetime career opportunities in New York City with the world\'s most advanced technology organizations. Whether local to New York or relocating from across North America, we take an authentic approach to helping people make life-changing technology career decisions. For more information go to http://swatt.genesis10.com/ \"Genesis10 is an Equal Opportunity Employer, M/F/D/V\"  Start Date: 06/27/2016', 11, 34, 5, 0, 25, '2022-07-25 00:00:00', 257685);
+INSERT INTO `allas` (`id`, `allas_neve`, `allas_leirasa`, `munkakor_id`, `hirdeto_id`, `kapcsolat_id`, `diak_vallalhatja`, `helyszin_id`, `kezdes_idopontja`, `berezes`) VALUES
 (57, 'Jr Business Analysts', 'Genesis10\'s G10 Associates Program is seeking qualified Business Analysts to join our team! Program Summary:   As a wave of baby boomer retirement looms on the horizon, companies are recognizing a need to develop talent to fill the upcoming gap. This is why companies look to Genesis10 and the G10 Associates Program. Our innovative program mentors and develops the brightest recent graduates, turning them into G10 Associates who are business and technology professionals placed in client engagements with leading organizations in the area. The G10 Associates Program is continuing to grow and is looking for strong candidates with exceptional soft skills. New Business Analyst Consultants are enrolled in our Training Academy which provides our G10 Associates the background they need to succeed at our clients. Along with training and mentorship, we provide a competitive salary, benefits, and direct client exposure that jump starts careers. Position Description:   As a Business Analyst Consultant with Genesis10, you build skills required in all phases of a project - focusing on many industries, methodologies, processes, and technology platforms. From defining business requirements and designing technical solutions, to developing and testing enhancements, Business Analyst Consultants turn ideas into reality. You will collaborate with client and project teams to turn business requirements into detailed design specifications, and then build or enhance systems and business processes to meet their needs. Business Analysts are very comfortable with working in a team environment, and they possess solid communication and documentation skills. Experience/Skills:   * 3-6+ months of corporate work/internship experience * Healthcare experience or knowledge * Strong interpersonal and group communication * Experience working within a project team * Excellent problem solving skills very analytically minded * Understanding of business process improvement * MS Office applications * Bachelor Degree in Management Information Systems, Information Systems, Health Information Management, General Business, Communications, Marketing, Psychology, Economics, Finance or related field Desired Traits:   * Knowledge and understanding of the Software Development Lifecycle * Exposure to Business Applications * Ability to stay focused while performing heads-down work * Self-starting with a strong work ethic * Able to manage time effectively * Excellent team attitude * Professional demeanor * Desire to work in corporate environment and develop consulting skills * Personal accountability If you think you have what it takes to be the next great G10 Associate APPLY NOW! Qualified and interested candidates should apply now for immediate consideration. About Genesis10:   Genesis10 is a leading U.S. business and technology consulting firm with hundreds of clients needing proven talent and solutions to power their strategic initiatives. If you are a high performing business or IT professional with solid, referenced experience, we want to meet you. Genesis10 recruiters and delivery professionals are highly accomplished career advocates, who get to know you beyond your resume to position you with the opportunities that fit your skills, experience and aspirations. We have benefit options to fit your needs and a support staff that works with you from placement throughout your engagement project after project. To learn more about Genesis10 and to view all our available career opportunities, please visit us at www.genesis10.com. Genesis10 is an Equal Opportunity Employer, M/F/D/V  Start Date: 06/27/2016', 5, 22, 7, 1, 18, '2022-11-10 00:00:00', 664729),
 (58, 'Manager - GFS', 'Global Financial Systems (GFS) is looking for a driven, results-oriented leader to lead teams building the next generation of systems to automate and optimize critical financial processes. Our ideal candidate thrives in a fast-paced environment, relishes working with big data, enjoys the challenge of highly complex business contexts that are typically being defined in real-time. Above all else, the successful candidate will be a passionate builder of talent and teams.In this role you will be responsible for leading a team of functional analysts, engineers, and technical program managers to create world-class finance systems that support Amazon\'s global footprint. You must be willing to insist on the highest standards for quality, maintainability, and performance. The systems we own are responsible for trillions of financial events and payment flows that would rank among the largest countries in the world by GDP. You will ensure that engineering best practices are followed and that software is designed to be highly-available, dynamically scalable, and resilient to continuity threats. You will own the goals and roadmap of the your team, along with the strategic direction of your software and shape of your organization. You will demonstrate strong leadership as you control your own destiny in Amazon\'s ownership oriented culture.Our team operates ERP and custom software platforms that are among the largest in the world by volume and complexity, and a successful candidate will be able to dive deep into either realm to guide technical and functional decisions with their team. As a leader, you will drive architectural and design choices, invent new features, develop distributed services, and build a scalable, service-oriented platform for our people . We have a team culture that encourages innovation and we expect developers and management alike to take a high level of ownership for the product vision, technical architecture and project delivery. Successful candidates will be high-bandwidth leaders who can cut through the noise, simplify relentlessly, deliver results, and build great teams around themselves.  5+ years of technical management experience Track record of building and delivering mission critical, 24x7 production software systems   Deep understanding of engineering best practices Deep understanding of agile project management methodologies Experience writing custom production code Working knowledge of data structures, algorithms, and object oriented design Working knowledge of design patterns Experience with global technology implementation efforts and rollouts Experience working with ERP platforms and integration at scale Experience in the Finance, Accounting or Tax domains. Bachelors degree in Computer Science or equivalent Masters degree in Computer Science or equivalent', 4, 36, 11, 0, 14, '2022-09-26 00:00:00', 724763),
 (59, 'Java Full Stack Engineer (Angular JS is must)', 'Required Skills                                   1.      6-9 years of experience in software development.2.      Experience working with MVC based front-end library Angular JS3.      Strong expertise in Java/J2EE, Spring , Hibernate.4.      Experience with SQL/NoSQL databases.5.      Responsible for module design / high architecture.6.      Participate in customer interaction, code review and follow-up.7.      Work closely with the development team to optimize and improve the e-commerce platform to grow subscription business. This involved identifying opportunities , developing requirements and co-ordinating with QA.', 7, 17, 3, 0, 24, '2022-10-01 00:00:00', 205795),
@@ -125,7 +120,8 @@ INSERT INTO `allas` (`id`, `allas_neve`, `allas_leirasa`, `munkakor_id`, `hirdet
 (75, 'Infrastructure Production Developer', 'Description:   Our client\'s Infrastructure Production group in delivers a wide range of technologies. The team builds out common services that every department can use and consume to monitor, visualize and diagnose their applications and infrastructure. This team is also the forefront in implementing modern technology ideology within the organization and assist all of the teams with implementation, automation and design. The Production Engineering team is a new team, and is one of the most fast-paced and soon to be widely used across the entire company. You will have the ability to be a part of a large cultural shift within the organization. If you like large scale systems, billions of data points a day, automating all of the things, hacking on open source software and making a cultural impact, ask us where to sign up. Responsibilities:   * Design, architect, automate and deliver large scale production ready services for employees to consume. * Build internal tools to monitor, visualize and diagnose all aspects of applications & hardware in our client\'s stack. * Work closely with our client\'s product and platform teams with architecture, design and scaling challenges they may have. * Help teams replace legacy software and design patterns with modern technologies. * Develop and maintain documentation, training and SLAs for managed infrastructure. Requirements:   * Minimum 2 - 3 years of experience building similar systems * Experience with large scale data processing * Previous experience automating and implementing large scale fault tolerant distributed systems * Experience with physical hardware and provisioning process * Experience working with Opensource software Common Tools used:   * Ruby / Go / Python / Java * Linux * Kafka * Hadoop / Zookeeper / HBase * Mesos * Icinga / OpenTSDB * Chef * Spark If you have the described qualifications and are interested in this exciting opportunity, please apply! About SWATT:   The Genesis10 Software and Technology Team (SWATT) is a specialized recruiting service focused on helping accomplished software developers, programmers, platform engineers and elite technology professionals find once-in-a-lifetime career opportunities in New York City with the world\'s most advanced technology organizations. Whether local to New York or relocating from across North America, we take an authentic approach to helping people make life-changing technology career decisions. For more information go to http://swatt.genesis10.com/ \"Genesis10 is an Equal Opportunity Employer, M/F/D/V\"  Start Date: 06/27/2016', 38, 71, 21, 1, 21, '2022-12-24 00:00:00', 501222),
 (76, 'C#.NET Client/Server Developer', 'This position is an outstanding contract opportunity for a talented .NET Developer with one of our exciting clients. Work on client/server applications, web, and testing tools. Will work as part of a team updating existing applications as well as the development of new applications to enable automated testing. Position requires 3+ years recent experience developing with the .Net Framework using C# and Object Oriented Design patterns in Windows Form and/or Windows Presentation Foundation applications. 1+ year of experience with SQL (prefer Microsoft SQL Server and T-SQL) with the ability to develop database objects such as stored procedures. 1+ year of verifiable experience developing multithreaded/multiprocessing applications is needed (not necessarily in C#).1+ years of experience with WCF and Team Foundation Server (TFS) is also required. Knowledge of ASP.Net, XML, and Unit Testing (Test Driven Development) are a plus. Knowledge tests in multitasking and Windows client/server application development will be part of the selection process. Excellent written and verbal communication skills are a MUST. Desired skills: .NET Framework, C#, OOD, SQL, T-SQL, ASP.Net, XML, Team Foundation Server, Unit Testing, Multitasking.', 1, 60, 18, 0, 19, '2022-12-21 00:00:00', 789893),
 (77, 'Business Systems Analyst', 'PLEASE JOIN OUR TALENT NETWORK: http://bit.ly/vhatalentnetwork  Joining the Talent Network with VanderHouwen & Associates (VHA) will enhance your job search and application experience. Job listings are mobile-friendly and easy to review, share, or apply. Whether you choose to just leave us your information or apply, we look forward to connecting with you.ResponsibilitiesPartner with business teams to identify, define, and document requirements to support project and business objectivesConduct and/or participates in the analysis of client business processes and functional requirementsPerform data and process analysis to understand key source systems and using knowledge of application features and functions to assess scope and impact of business needsCollaborate with users, development, and QA teams throughout the project lifecycleAct as client proxy during development and testingIdentify and documents workflow, process diagrams, information resources, and system specificationsParticipate in the analysis and definition of efficient, cost effective solutions that support business processes and functional requirementsSuccessfully design and facilitate requirements elicitation sessions including use of interviews, document analysis, workshops, surveys, business process outcome modeling, personas, user centric design, task and workflow analysisQualifications Proven track record creating innovative product ideas and concepts that meet business and product strategies based on rigorous analysis of customer needs, the current technology landscape and the competitive environment.Strong understanding of enterprise-level eCommerce platforms and technologies including user profile management, messaging platforms, content personalization, product information, and social platforms.Experience working with in-house development teams using SCRUM methodology, authoring user stories and acceptance criteria, collaborating with developers and QA to ensure product features are delivered according to specifications.Proven track record leading cross-functional teams, including architects, developers, designers and business stakeholders. Ability to facilitate business, process, and technical discussions to drive clarity and understanding among a diverse set of senior stakeholders.Ability to create and prioritize feature backlogs and product roadmaps, with a clear understanding of company, group and team goals and objectives.Demonstrated philosophy of continuous improvement, applying product management best practices to your work and sharing those with the Digital Product Management community.A high tolerance for ambiguity and demonstrated ability to achieve business results in a hyper-dynamic environment.Bachelor\'s degree in Business, Computer Science, Marketing, or related field. MBA is preferred.4+ years product management experience in a technology-centric business. Strong B2C digital product management for consumer-facing experiences is a must.', 45, 76, 2, 0, 12, '2022-11-27 00:00:00', 598070),
-(78, 'Software Infrastructure C++ Developer', 'Description:   The Software Infrastructure department develops the foundation on which our client\'s developers build their applications - libraries that interface with a wide range of technologies, programmable real-time data processing pipelines, deployment systems and development tools. They are technologists who live and breathe high performance, well-factored, scalable, testable code that reacts quickly to new business initiatives. Our client\'s developers are valued as technical experts and go-to resources throughout the company. Their users and managers are highly technical people. Within the group, all developers have responsibility for the full software development lifecycle, from requirements gathering and coding to deployment and maintenance. Requirements:   We are looking for dedicated and driven software developers with strong technical and programming skills, excellent problem solving ability and appreciation for the scope and impact of their work. The ideal candidate possesses strong knowledge of operating system fundamentals, as well as experience in the design of libraries and software systems. The candidate can expect to be writing well tested, robust, and performance critical code in a cross platform environment. * 3+ years of production level C++ development experience * 3+ years of experience with object-oriented design, data structures and algorithms Preferred Skills:   * Multithreading experience * Solid understanding of data structures and algorithms * Linux/UNIX programming skills * Experience with distributed systems * Knowledge of JavaScript, Python, or Perl * Knowledge of network-layer protocols (TCP/IP, PGM, etc.) If you have the described qualifications and are interested in this exciting opportunity, please apply! About SWATT:   The Genesis10 Software and Technology Team (SWATT) is a specialized recruiting service focused on helping accomplished software developers, programmers, platform engineers and elite technology professionals find once-in-a-lifetime career opportunities in New York City with the world\'s most advanced technology organizations. Whether local to New York or relocating from across North America, we take an authentic approach to helping people make life-changing technology career decisions. For more information go to http://swatt.genesis10.com/ \"Genesis10 is an Equal Opportunity Employer, M/F/D/V\"  Start Date: 06/27/2016', 48, 15, 24, 1, 20, '2022-10-26 00:00:00', 352259),
+(78, 'Software Infrastructure C++ Developer', 'Description:   The Software Infrastructure department develops the foundation on which our client\'s developers build their applications - libraries that interface with a wide range of technologies, programmable real-time data processing pipelines, deployment systems and development tools. They are technologists who live and breathe high performance, well-factored, scalable, testable code that reacts quickly to new business initiatives. Our client\'s developers are valued as technical experts and go-to resources throughout the company. Their users and managers are highly technical people. Within the group, all developers have responsibility for the full software development lifecycle, from requirements gathering and coding to deployment and maintenance. Requirements:   We are looking for dedicated and driven software developers with strong technical and programming skills, excellent problem solving ability and appreciation for the scope and impact of their work. The ideal candidate possesses strong knowledge of operating system fundamentals, as well as experience in the design of libraries and software systems. The candidate can expect to be writing well tested, robust, and performance critical code in a cross platform environment. * 3+ years of production level C++ development experience * 3+ years of experience with object-oriented design, data structures and algorithms Preferred Skills:   * Multithreading experience * Solid understanding of data structures and algorithms * Linux/UNIX programming skills * Experience with distributed systems * Knowledge of JavaScript, Python, or Perl * Knowledge of network-layer protocols (TCP/IP, PGM, etc.) If you have the described qualifications and are interested in this exciting opportunity, please apply! About SWATT:   The Genesis10 Software and Technology Team (SWATT) is a specialized recruiting service focused on helping accomplished software developers, programmers, platform engineers and elite technology professionals find once-in-a-lifetime career opportunities in New York City with the world\'s most advanced technology organizations. Whether local to New York or relocating from across North America, we take an authentic approach to helping people make life-changing technology career decisions. For more information go to http://swatt.genesis10.com/ \"Genesis10 is an Equal Opportunity Employer, M/F/D/V\"  Start Date: 06/27/2016', 48, 15, 24, 1, 20, '2022-10-26 00:00:00', 352259);
+INSERT INTO `allas` (`id`, `allas_neve`, `allas_leirasa`, `munkakor_id`, `hirdeto_id`, `kapcsolat_id`, `diak_vallalhatja`, `helyszin_id`, `kezdes_idopontja`, `berezes`) VALUES
 (79, 'Account Manager', 'VanderHouwen has more jobs you may like! Find them here: http://bit.ly/1RIQfgESummaryVanderHouwen & Associates, Inc. is rapidly expanding in the Dallas/Fort Worth area!! We are seeking a Business Development/Account Management professional with strong staffing industry experience to join our team. This is a great opportunity to make an impact in a branch supported by a highly successful firm with an established reputation. VHA focuses on long-term employment for our staff so you must be a highly motivated, and dedicated individual. We operate in a fast-paced and competitive market where a goal-oriented, team approach is essential to everyone\'s success. If you are an experienced Account Manager, who has the determination to be part of a dynamic team please submit your resume. We are seeking candidates who have a strong technical background and/or understanding of various technical positions. Qualifications Strong business development and account management background in the staffing industry highly preferred.Experience in creating successful staffing and hiring solutions for a variety of industries and company sizes.2+ years of experience initiating and maintaining long-lasting client relationships, and negotiating service contracts and fees.Ability to proactively promote candidates to support our customer base.Strong analytical and organizational skills to be comfortable with multi-tasking in a fast-paced, competitive environment. Must be a goal-oriented and a team player with excellent written and oral communication skills. What We Offer YouA highly competitive base salaryExcellent commission/bonus plan based on personal goalsExcellent opportunity to build a candidate base in a highly reputable firmState-of-the-art computer systems and recruiting toolsExcellent benefits including medical, dental, vision, life, disability, long term care, matching 401(k), paid time off, and eight paid holidays. Other perks include company-sponsored outings and events throughout the year.***Please apply using a Word-format resume***VanderHouwen & Associates VanderHouwen & Associates, Inc. has been a premier staffing provider of professionals since 1987. While it might seem unusual for a rapid-deploy, results-driven business like ours to take that responsibility personally, we do. Our President*s work ethic not only serves as the foundation of our company, but drives the commitment to individual attention which infuses our culture. Our dedication is to the satisfaction and success of our clients and consultants. We*re committed to providing outstanding service to a uniquely demanding industry in a straightforward, ethical, highly personal, and always-responsive manner.', 54, 65, 10, 1, 6, '2022-11-26 00:00:00', 544037),
 (80, 'Technical Recruiter', 'Genesis10 has a full-time opportunity for a creative and resourceful technical recruiter in New York city. Description:   We are looking for a middle to senior level Technical Recruiter for information technology professionals in a perm-placement environment. Responsibilities:   * Understand the capabilities, experience, skills, and motivations of talented candidates * Connect those characteristics to clients\' business and technology needs * Be familiar with the requirements of diverse business and technical specialties * Build credibility and recommend the right staffing or service solutions Qualifications:   * Previous IT recruiting experience in a perm-hire or agency setting * Knowledge of different sourcing techniques for varied requirements * Experience using social media for professional recruiting * Perception and judgment in reviewing resumes and profiles * Talent for matching candidates and requirements * Skill in using behavioral interviewing techniques * Experience in full life cycle recruiting from source to close * A desire to create ongoing professional connections with candidates * Participation in professional associations and groups * A commitment to building relationships outside business hours * The ability to tell good stories that help make the sale If you are a qualified candidate interested in this opportunity, please apply. About Genesis10:   Genesis10 is a privately held company founded in 1999 to provide talent and solutions that power our clients\' business and technology initiatives. We have proven experience across industries including Financial Services, Communications, Consumer Products, Energy, Healthcare, Insurance, Manufacturing and Technology resulting in an annual growth rate of 19% based on client referrals. Genesis10 has over 2,000 highly talented U.S. consultants working with over 150 clients (85% of which are Fortune 500). Our Recruiting and Delivery Teams are career advocates, who get to know candidates beyond their resume in order to match opportunities with skills, experience and aspirations. To learn more about Genesis10 and to view all our available career opportunities, please visit us at www.genesis10.com. `Genesis10 is an Equal Opportunity Employer, M/F/D/V`  Start Date: 07/05/2016', 2, 22, 1, 0, 9, '2022-08-17 00:00:00', 462763),
 (81, 'Senior Technical Writer', 'SENIOR TECHNICAL WRITER REQUIREMENT #16-00879RECRUITER: KADE HYNESJOB LOCATION: CAMDEN, NJ JUNE 7, 2016 Project Description: A resource is required to manage the capture of process documentation (workflows, work instructions, operating procedures) during facilitated work sessions of the project team. This individual will manage all documentation for training and change mgmt. This individual will also be responsible for arranging working sessions across various support groups to complete the initiative. The work and/or project that will be performed: Documentation & Requirements Facilitation: Standard Operating Procedures, Work Instructions, Issue Solutions, Support Matrix Instructions, Process Flows Required Skills: Ability to capture information from working sessions and individual interviews and to develop into the working documents for the organization Must be skilled in Technical Writing, Process Mapping, Facilitation Must be Proficient in Word, Excel, Visio and familiar with OneDrive & SharePoint This 4+ month position starts ASAP. Please E-MAIL your resume (attachment to email) with rate and availability to Kade: kade@alphaconsulting.com', 28, 24, 5, 0, 25, '2022-09-13 00:00:00', 602764),
@@ -144,10 +140,34 @@ INSERT INTO `allas` (`id`, `allas_neve`, `allas_leirasa`, `munkakor_id`, `hirdet
 (94, 'C++ Software Developer for Multi-Asset Risk System', 'Our client\'s R&D group works on some of the most fascinating and influential technical challenges in business and finance. Their multi-asset risk platform deals with large portfolios consisting of cross asset derivatives - interest rate, credit, FX, equity, and fixed income. The platform supports millions of calculations that drive various analytics such as VAR, CVA, CSA, and margin calculations. They are growing their team and are looking for dedicated and driven software developers with strong technical and programming skills, excellent problem solving ability and appreciation for the scope and impact of their work. A successful candidate will have to solve large scale distributed computation problems to manage millions of calculations bringing together billions of data points every day in an efficient and fault-tolerant fashion. Experience with big databases (Hbase, Cassandra), stream processing (Storm/Kafka), and distributed load balancing/scheduling is desirable. A background in finance and derivatives is a plus, but not a requirement. Strong communication skills and the ability to do well in a collaborative environment are paramount. You will... * Design, code, implement, and test new features of the platforms(mostly C++) * Work with product managers to translate and understand product specifications accurately * Manage projects, including estimation, scheduling, milestone tracking, risk management, and project status reporting The ideal candidate has... * A passion for design, problem solving, and hands-on development * At least 4 years of software engineering experience in object-oriented programming such as C++, Java, C# * Familiarity with SQL, Python, and JavaScript * Experience with high volume, high availability distributed systems * Experience with and/or interest in full software development lifecycle activities: requirements management, technical design, implementation, testing/release * Multi-threading experience * Interest and/or experience in financial domains is desirable If this describes YOU, please apply! About SWATT:   The Genesis10 Software and Technology Team (SWATT) is a specialized recruiting service focused on helping accomplished software developers, programmers, platform engineers and elite technology professionals find once-in-a-lifetime career opportunities in New York City with the world\'s most advanced technology organizations. Whether local to New York or relocating from across North America, we take an authentic approach to helping people make life-changing technology career decisions. For more information go to http://swatt.genesis10.com/ \"Genesis10 is an Equal Opportunity Employer, M/F/D/V\"  Start Date: 06/27/2016', 34, 34, 9, 0, 5, '2022-11-01 00:00:00', 773908),
 (95, 'Senior MySQL DBA', 'Fahrenheit IT is seeking a Database Administrator (DBA) to execute on database strategies and take responsibility for database integrity, architecture, modeling, security, and performance tuning for our MySQL databases. This person will play a key role in managing and improving the health and stability of our MySQL instances. This person will will display proficiencies in MySQL administration as well as basic Linux administration in a 24x7 production environment.Responsibilities Basic Database administration - install, configure, upgrade, and migrate existing databases Serve as an escalation point for any defined database issues regarding performance, security, and ongoing maintenance Automate various DBA tasks Optimization of database performance Devise and implement key constraints to ensure database integrity Work with developers and system engineers to troubleshoot and optimize queries and performance bottlenecks for current and future products and services Assist in formalizing and updating database policies, procedures, and technical standards, including disaster recovery planningMinimum Requirements: MySQL DBA experience in a 24x7 production environment. 3-6 years of database management/administration and performance tuning experience Strong proficiency with Linux with experience performing basic administrative tasks Experience implementing multi-master replication (Galera experience is a plus) Experience with version control; specifically Git and GitHub. Mastery of one or more of: Python, Ruby, Bash, or other scripting language Understanding of virtualization environments Bachelor\'s degree in Computer Science or related field preferred Familiarity with Percona toolkit', 13, 69, 17, 1, 11, '2022-10-07 00:00:00', 281462),
 (96, 'Manager of IS Network Engineers', 'This is a Full Time position for a Manager of IS Network Engineers in Albany, NY Job Description: This position will have the responsibility to manage and oversee Company\'s Network Department. This includes the local and wide area networks, as well as, the day-to-day (24x7x365) network operations. The successful candidate will have expert hands-on technical knowledge of Cisco enterprise networking technologies in a multi-site enterprise including but not limited to; core switching, Nexus fabric, ASA firewalls, edge and core routing, managed wireless, vLANs, DMZs, network load balancing , etc. They will possess expert knowledge of core server technologies including the complete virtualization layer platform (SAN storage, fiber channel networks, virtualization software, DR replication, high availability configurations, etc. This position coordinates and ensures organization-wide technology systems are well managed/administered to provide required services to the organization. The manager will be responsible for establishing policies, standards, practices, and security measures to assure effective and consistent information and operations and maintaining the appropriate level of documentation. They will optimize the performance and availability of the network and end-user infrastructures through the application of best practices such as performance monitoring, capacity planning and trend analysis and recommends improved methodologies. The successful candidate must be possess exemplary management skills as well as the ability to lead and mentor staff in design, build, implementation and troubleshooting of a Cisco based wide and local area network.Mandatory Requirements: Bachelor degree. 5 - 7 years of experience. Excellent verbal and written communication skills. Requires strong interpersonal relationship skills.Preferred Qualifications: Experience in Cisco enterprise networking technologies Demonstrate a solid multi-site Network Architecture and Engineering experience base. Demonstrate strong data networking experience with Cisco infrastructure (OTV, EIGRP, HSRP, STP, vlans, FCoE, port security, NAC, and Client) CCNP/ or equivalent certification Possess strong personnel management skills Experienced budget planning and preparation Possess strong Project Planning skills with the ability to effectively prioritize of tasks, projects, etc.. in a dynamic environment Possess strong analytical skills with detailed knowledge of network and security software and tools General working knowledge with storage technologies (NAS, SAN, and direct attached storage) Ability to present ideas in user-friendly language Keen attention to detail Strong customer service orientationAll qualified applicants will receive consideration for employment without regard to race, creed, color, religion, national origin, sexual orientation, gender identity, disability, sex or age.', 29, 16, 20, 0, 15, '2022-12-01 00:00:00', 634545),
-(97, '(US)-Program Manager Senior', 'Responsible for managing one or more highly complex IT program(s) consisting of multiple projects. The program manager will be managing a transformation initiative to migrate an existing a business onto a new platform to support the Pensions Buyout business. The program manager will be responsible for managing a team of business and IT stakeholders located in multiple locations. The scope of work is comprised of a large functional enhancement effort, along with data conversion, and image migration activities. Drives the program strategy, supporting business case and various enterprise wide high-level project plans. Ensures integration of projects and adjusts project scope, timing, and budgets as needed, based on the needs of the business. Responsible for delivering all projects contained in the IT project portfolio on time, within budget and meeting the strategic and business requirements. Responsible for tracking key project milestones and recommending adjustments to Project Managers. Communicates the program strategy, direction and changes with IT leadership, business leadership and IT business consultants (onshore and offshore). Partners with senior leadership of the business community to identify and prioritize opportunities for utilizing IT to achieve the goals of the program and business objectives. This is a single or multiple incumbent(s) position that typically exists in a small to medium size enterprise with multiple project managers, project leaders and/or project support staff as direct or dotted line reports. The position reports directly to the VP of Application Development. Princeton Information is one of the nation\'s top five privately-held IT consulting firms, in business since 1985. Princeton Information services a clientele of primarily Fortune 500 companies nationwide. With annual revenues over $120 million, Princeton Information operates across the US from multiple regional offices. Our Commitment to Our Consultants As a privately held company, Princeton Information is solely committed to the success of clients and consultants - not to any shareholders. PI\'s success is grounded in the relationships we build with our consultants. We seek the best people; provide career path counseling; as well as the most challenging opportunities in business and in IT. As part of its culture of loyalty and commitment to its consultants, Princeton Information is committed to doing all we can to ensure our consultants have the best possible search, placement and work experience possible. Our Services Working with one Princeton Recruiter will gain you access to over 500 open requirements with the top clients in the US across all industries (finance, insurance, pharmaceutical, commercial, telecom, media, manufacturing) nationwide. Our local recruiters have in-depth knowledge of our clients and opportunities. They will work with you to find you the best possible opportunities for you and your career. Our Relationships Our relationships with our clients, as well as our consultants, are critical to our success! We have a robust sales organization that ensures that Princeton has the inside track on what attributes a person needs in order to be successfully placed and engaged at our clients. We know the technical and non-technical skills that our clients are looking for and we ensure that you are educated about the client prior to your interview with them. Princeton is committed to going above and beyond to ensure that each meeting you have with a client is a successful one!', 49, 48, 19, 0, 1, '2022-06-21 00:00:00', 732633),
+(97, '(US)-Program Manager Senior', 'Responsible for managing one or more highly complex IT program(s) consisting of multiple projects. The program manager will be managing a transformation initiative to migrate an existing a business onto a new platform to support the Pensions Buyout business. The program manager will be responsible for managing a team of business and IT stakeholders located in multiple locations. The scope of work is comprised of a large functional enhancement effort, along with data conversion, and image migration activities. Drives the program strategy, supporting business case and various enterprise wide high-level project plans. Ensures integration of projects and adjusts project scope, timing, and budgets as needed, based on the needs of the business. Responsible for delivering all projects contained in the IT project portfolio on time, within budget and meeting the strategic and business requirements. Responsible for tracking key project milestones and recommending adjustments to Project Managers. Communicates the program strategy, direction and changes with IT leadership, business leadership and IT business consultants (onshore and offshore). Partners with senior leadership of the business community to identify and prioritize opportunities for utilizing IT to achieve the goals of the program and business objectives. This is a single or multiple incumbent(s) position that typically exists in a small to medium size enterprise with multiple project managers, project leaders and/or project support staff as direct or dotted line reports. The position reports directly to the VP of Application Development. Princeton Information is one of the nation\'s top five privately-held IT consulting firms, in business since 1985. Princeton Information services a clientele of primarily Fortune 500 companies nationwide. With annual revenues over $120 million, Princeton Information operates across the US from multiple regional offices. Our Commitment to Our Consultants As a privately held company, Princeton Information is solely committed to the success of clients and consultants - not to any shareholders. PI\'s success is grounded in the relationships we build with our consultants. We seek the best people; provide career path counseling; as well as the most challenging opportunities in business and in IT. As part of its culture of loyalty and commitment to its consultants, Princeton Information is committed to doing all we can to ensure our consultants have the best possible search, placement and work experience possible. Our Services Working with one Princeton Recruiter will gain you access to over 500 open requirements with the top clients in the US across all industries (finance, insurance, pharmaceutical, commercial, telecom, media, manufacturing) nationwide. Our local recruiters have in-depth knowledge of our clients and opportunities. They will work with you to find you the best possible opportunities for you and your career. Our Relationships Our relationships with our clients, as well as our consultants, are critical to our success! We have a robust sales organization that ensures that Princeton has the inside track on what attributes a person needs in order to be successfully placed and engaged at our clients. We know the technical and non-technical skills that our clients are looking for and we ensure that you are educated about the client prior to your interview with them. Princeton is committed to going above and beyond to ensure that each meeting you have with a client is a successful one!', 49, 48, 19, 0, 1, '2022-06-21 00:00:00', 732633);
+INSERT INTO `allas` (`id`, `allas_neve`, `allas_leirasa`, `munkakor_id`, `hirdeto_id`, `kapcsolat_id`, `diak_vallalhatja`, `helyszin_id`, `kezdes_idopontja`, `berezes`) VALUES
 (98, 'Business Analyst - Mortgage/Equiting Lending, Lean Six Sigma Green Belt/Black Belt', 'Job Description: Seeking a Business Process Analyst with industry and functional experience in process re- engineering. Will manage one specific track of the business process re-engineering or improvement efforts as part of a large scale project. Will work with a cross-functional team to re-design business process to align with new technology implementation or business strategy.At the direction of the Business Transformation Leader, assist in establishing clear objectives and deliverables of converting technologies, the look and design of the new platform for the track that supports the business. Schedule and run all phase reviews and track reviews in support of the business process Leader/DirectorTrack progress, report status and make necessary corrections to achieve all track goalsManage risks and issues through effective contingency plans and proper escalation. Organize and lead team meetings and maintain schedule. Analyze and report actual performance vs. business case goals. Work in a self directed environment. Present to track management on program status.Required Skills: Mortgage/Equiting Lending, Lean Six Sigma Green Belt/Black Belt. Don\'t hesitate! Submit your resume today. SMCI is an EEO employer. All qualified applicants will receive consideration without regard to race, color, religion, sex, pregnancy, national origin, disability, age, genetic information, veteran status, sexual orientation and identity, AIDS/HIV, medical condition, political activities or affiliations, or status as a victim of domestic violence, assault, or stalking. (No third parties, please)(H1 sponsorship currently unavailable)(Local candidates only, please)', 18, 20, 6, 0, 7, '2022-07-14 00:00:00', 559345),
 (99, 'DHMSM Operational Medicine Interface Developer', 'TAD PGS, INC. is currently seeking a DHMSM Operational Medicine Interface Developer for one of our clients in Vienna, VA.**Per Government Sector, U.S. Citizenship is required Company Description: Our client designs, develops, and sustains offerings that empower diplomatic missions, support war fighter requirements, and advance exploration from the ocean floor to outer space. They maintain leadership positions in supply chain management, hardware integration, and global network integration. They do all this with the constant and deliberate commitment to ethical performance and integrity that has marked their company since its founding. Job Description: Provide support to MHS GENESIS system external interface design, development, integration, test, troubleshooting, and sustainment. Participate in planning and requirements analysis, design, technical review and implementation for new interfaces. Support creation of Interface Control Documents. Provide support to Rhapsody developers and coders. Perform Unit Testing of completed code modules. Develop Assembly Test plans and scripts, and provide support to Assembly Test as necessary. Provide support to integration engineers to complete integration of new interfaces to MHS GENESIS system. Major Responsibilities:Provide engineering support to External Interface Team.Support the full system engineering life-cycle, including requirements analysis, design, development, integration, test, and implementation.Involves substantial knowledge of this technical field and the ability to complete moderately difficult and moderately complex assignments.Receives assignments in the form of objectives and establishes goals to meet objectives. Complete daily assignments and tasks meeting defined best practices and operational workflow.Work is reviewed and measured based on meeting objectives and schedules.Establishes and recommends changes to policies which affect subordinate organization(s).Required Qualifications:Bachelor\'s degree in a related field and 6 years experience in a broad range of assignments in technical tasks directly related to the proposed area of responsibility.Mid-level systems engineering skills required.Experience with DoD EHR programs (ALTA, TMIP-J) highly valued.TAD PGS, INC. specializes in delivering secure, reliable and rapidly implemented workforce solutions to the U.S. Federal marketplace, including U.S. Government agencies and their prime contractors. With more than 50 years of experience, TAD PGS, INC. has earned a reputation for accountability, a value that government agencies and prime contractors both demand and deserve.TAD PGS, INC. sources professionals for the full spectrum of federal positions, from administrative to management, and those contracts requiring extremely niche-oriented technical skills and the highest levels of security clearance.', 35, 25, 16, 1, 10, '2022-08-31 00:00:00', 585123),
 (100, 'Information Technology Architect', 'Our client, one of the world\'s leading professional services organizations, is seeking an Information Technology Architect.   Location: Alpharetta, GA or Secaucus, NJ Position Type: Contract   - As a senior infrastructure architect - Data Analytics (Management Service) we are looking for someone who has broad knowledge is most of the areas. -We we are using the Tableau, Spotfire , R, MS PowerBI in our environment. - We have applications designed using start of the art technology hosted in an enterprise grade data centers. - Review functional and nonfunctional requirements for new systems and enhancements, to identify gaps and inconsistencies, and translate these into requirements for infrastructure build-out. - Architect Infrastructure solutions with no single points of failure.  - Including architecting failover solutions across multiple data centers. - Lead new technology integration via requirements analysis, design, and implementation. - Make recommendations and support implementations of new tools and technologies. - Engage with firm\'s operations teams and third party vendors on an as needed basis. - Oracle, SQL , .NET, Java, Windows, Linux, IIS, Websphere , Exchange, Lync, VMWare, Citrix, SAN, NAS, Converged network  - Act as the primary technical support resource to projects. - Assist in providing analyses of new and different technologies and in recommending efficient and cost-effective solutions to meet specific technical or business requirements. - Coordinate the activities of specific projects related to department or team initiatives. - Gather and analyze information for developing and modifying IT systems and recommend the use of specific methods and techniques to facilitate development.   Experience/Required Skills:   - Approximately 4-6 years of experience in information systems architecture methodologies - Knowledge of systems architecture   - Good interpersonal, communication, consultative, and organizational skills - Ability to work and team effectively with clients, management and its staff members   Education:   - A bachelor\'s degree in Computer Science or a related discipline, or equivalent work experience', 15, 42, 21, 1, 21, '2022-06-26 00:00:00', 732514);
+
+-- --------------------------------------------------------
+
+--
+-- Tábla szerkezet ehhez a táblához `diakszovetkezet`
+--
+
+DROP TABLE IF EXISTS `diakszovetkezet`;
+CREATE TABLE `diakszovetkezet` (
+  `id` NUMBER(10) NOT NULL,
+  `nev` VARCHAR2(50) NOT NULL
+) DEFAULT CHARSET=utf8mb4;
+
+--
+-- A tábla adatainak kiíratása `diakszovetkezet`
+--
+
+INSERT INTO `diakszovetkezet` (`id`, `nev`) VALUES
+(1, 'Diák-Meló Szövetkezet'),
+(2, 'Diák-Mind Szövetkezet'),
+(3, 'Fürgeláb Szövetkezet'),
+(4, 'Dolgos Diák Szövetkezet'),
+(5, 'DiákJobs Szövetkezet');
 
 -- --------------------------------------------------------
 
@@ -157,45 +177,45 @@ INSERT INTO `allas` (`id`, `allas_neve`, `allas_leirasa`, `munkakor_id`, `hirdet
 
 DROP TABLE IF EXISTS `diakszovetkezetnel_van`;
 CREATE TABLE `diakszovetkezetnel_van` (
-  `diakszovetkezet_id` int(11) NOT NULL,
-  `diak_felhasznalo_id` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `diakszovetkezet_id` NUMBER(10) NOT NULL,
+  `diak_felhasznalo_id` NUMBER(10) NOT NULL
+) DEFAULT CHARSET=utf8mb4;
 
 --
 -- A tábla adatainak kiíratása `diakszovetkezetnel_van`
 --
 
 INSERT INTO `diakszovetkezetnel_van` (`diakszovetkezet_id`, `diak_felhasznalo_id`) VALUES
-(1, 15),
-(1, 17),
-(1, 21),
-(1, 29),
-(1, 30),
-(2, 5),
-(2, 9),
-(2, 11),
-(2, 14),
-(2, 23),
-(2, 25),
-(2, 28),
 (3, 1),
 (3, 2),
+(5, 3),
+(4, 4),
+(2, 5),
+(4, 6),
+(5, 7),
+(4, 8),
+(2, 9),
 (3, 10),
+(2, 11),
+(5, 12),
+(4, 13),
+(2, 14),
+(1, 15),
 (3, 16),
+(1, 17),
+(5, 18),
+(5, 19),
 (3, 20),
+(1, 21),
 (3, 22),
+(2, 23),
+(4, 24),
+(2, 25),
 (3, 26),
 (3, 27),
-(4, 4),
-(4, 6),
-(4, 8),
-(4, 13),
-(4, 24),
-(5, 3),
-(5, 7),
-(5, 12),
-(5, 18),
-(5, 19);
+(2, 28),
+(1, 29),
+(1, 30);
 
 -- --------------------------------------------------------
 
@@ -205,11 +225,11 @@ INSERT INTO `diakszovetkezetnel_van` (`diakszovetkezet_id`, `diak_felhasznalo_id
 
 DROP TABLE IF EXISTS `diak_felhasznalo`;
 CREATE TABLE `diak_felhasznalo` (
-  `id` int(11) NOT NULL,
-  `fiokadat_id` int(11) NOT NULL,
-  `iskola_id` int(11) NOT NULL,
-  `vallalat_id` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `id` NUMBER(10) NOT NULL,
+  `fiokadat_id` NUMBER(10) NOT NULL,
+  `iskola_id` NUMBER(10) DEFAULT NULL,
+  `vallalat_id` NUMBER(10) DEFAULT NULL
+) DEFAULT CHARSET=utf8mb4;
 
 --
 -- A tábla adatainak kiíratása `diak_felhasznalo`
@@ -255,11 +275,11 @@ INSERT INTO `diak_felhasznalo` (`id`, `fiokadat_id`, `iskola_id`, `vallalat_id`)
 
 DROP TABLE IF EXISTS `egyeb_feltetelek`;
 CREATE TABLE `egyeb_feltetelek` (
-  `id` int(11) NOT NULL,
-  `kell_jogsi` tinyint(1) NOT NULL,
-  `munkatapasztalat_ev` int(11) NOT NULL,
-  `egyeb_feltetelek` varchar(50) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `id` NUMBER(10) NOT NULL,
+  `kell_jogsi` NUMBER(1) NOT NULL,
+  `munkatapasztalat_ev` NUMBER(10) NOT NULL,
+  `egyeb_feltetelek` VARCHAR2(50) DEFAULT NULL
+) DEFAULT CHARSET=utf8mb4;
 
 --
 -- A tábla adatainak kiíratása `egyeb_feltetelek`
@@ -323,13 +343,13 @@ INSERT INTO `egyeb_feltetelek` (`id`, `kell_jogsi`, `munkatapasztalat_ev`, `egye
 
 DROP TABLE IF EXISTS `fiokadatok`;
 CREATE TABLE `fiokadatok` (
-  `id` int(11) NOT NULL,
-  `email` varchar(50) NOT NULL,
-  `jelszo` varchar(50) NOT NULL,
-  `fiok_tipusa` int(11) DEFAULT NULL,
-  `szemelyes_adatok_id` int(11) DEFAULT NULL,
-  `admin_e` tinyint(1) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `id` NUMBER(10) NOT NULL,
+  `email` VARCHAR2(50) NOT NULL,
+  `jelszo` VARCHAR2(50) NOT NULL,
+  `fiok_tipusa` NUMBER(10) DEFAULT NULL,
+  `szemelyes_adatok_id` NUMBER(10) DEFAULT NULL,
+  `admin_e` NUMBER(1) NOT NULL
+) DEFAULT CHARSET=utf8mb4;
 
 --
 -- A tábla adatainak kiíratása `fiokadatok`
@@ -526,11 +546,11 @@ INSERT INTO `fiokadatok` (`id`, `email`, `jelszo`, `fiok_tipusa`, `szemelyes_ada
 
 DROP TABLE IF EXISTS `helyszin`;
 CREATE TABLE `helyszin` (
-  `id` int(11) NOT NULL,
-  `orszag` varchar(50) NOT NULL,
-  `varos` varchar(50) NOT NULL,
-  `tavolrol_vegezheto_e` tinyint(1) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `id` NUMBER(10) NOT NULL,
+  `orszag` VARCHAR2(50) NOT NULL,
+  `varos` VARCHAR2(50) NOT NULL,
+  `tavolrol_vegezheto_e` NUMBER(1) NOT NULL
+) DEFAULT CHARSET=utf8mb4;
 
 --
 -- A tábla adatainak kiíratása `helyszin`
@@ -571,10 +591,10 @@ INSERT INTO `helyszin` (`id`, `orszag`, `varos`, `tavolrol_vegezheto_e`) VALUES
 
 DROP TABLE IF EXISTS `hirdeto`;
 CREATE TABLE `hirdeto` (
-  `id` int(11) NOT NULL,
-  `fiokadatok_id` int(11) NOT NULL,
-  `vallalat_id` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `id` NUMBER(10) NOT NULL,
+  `fiokadatok_id` NUMBER(10) NOT NULL,
+  `vallalat_id` NUMBER(10) NOT NULL
+) DEFAULT CHARSET=utf8mb4;
 
 --
 -- A tábla adatainak kiíratása `hirdeto`
@@ -669,10 +689,10 @@ INSERT INTO `hirdeto` (`id`, `fiokadatok_id`, `vallalat_id`) VALUES
 
 DROP TABLE IF EXISTS `iskola`;
 CREATE TABLE `iskola` (
-  `id` int(11) NOT NULL,
-  `nev` varchar(50) NOT NULL,
-  `varhato_befejezes` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `id` NUMBER(10) NOT NULL,
+  `nev` VARCHAR2(50) NOT NULL,
+  `varhato_befejezes` NUMBER(10) NOT NULL
+) DEFAULT CHARSET=utf8mb4;
 
 --
 -- A tábla adatainak kiíratása `iskola`
@@ -703,84 +723,84 @@ INSERT INTO `iskola` (`id`, `nev`, `varhato_befejezes`) VALUES
 
 DROP TABLE IF EXISTS `jelentkezok`;
 CREATE TABLE `jelentkezok` (
-  `allas_id` int(11) NOT NULL,
-  `normal_felhasznalo_id` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `allas_id` NUMBER(10) NOT NULL,
+  `normal_felhasznalo_id` NUMBER(10) NOT NULL
+) DEFAULT CHARSET=utf8mb4;
 
 --
 -- A tábla adatainak kiíratása `jelentkezok`
 --
 
 INSERT INTO `jelentkezok` (`allas_id`, `normal_felhasznalo_id`) VALUES
-(1, 43),
-(3, 18),
-(5, 20),
-(5, 25),
-(5, 31),
-(7, 45),
-(8, 2),
-(9, 25),
-(9, 64),
-(11, 35),
-(12, 4),
-(13, 2),
-(13, 11),
 (14, 4),
-(15, 45),
-(15, 62),
-(18, 18),
-(18, 71),
-(19, 68),
-(21, 22),
-(22, 42),
-(28, 38),
-(29, 67),
-(30, 14),
-(31, 27),
-(34, 55),
-(35, 54),
-(36, 21),
-(37, 29),
-(37, 71),
-(39, 7),
-(39, 68),
-(43, 70),
-(44, 39),
-(47, 52),
-(48, 71),
-(50, 18),
-(52, 17),
-(52, 42),
-(53, 28),
-(56, 56),
-(57, 24),
-(57, 44),
-(59, 35),
-(60, 68),
-(61, 30),
-(63, 19),
-(63, 28),
-(64, 38),
-(65, 11),
-(65, 56),
-(69, 55),
-(71, 60),
-(72, 49),
-(72, 71),
-(73, 19),
-(73, 34),
-(75, 67),
-(78, 6),
-(82, 37),
-(83, 29),
-(86, 46),
-(88, 52),
-(88, 56),
 (93, 49),
-(93, 67),
-(96, 42),
+(13, 11),
+(37, 29),
+(64, 38),
+(71, 60),
+(65, 11),
+(15, 62),
+(7, 45),
+(9, 25),
+(56, 56),
+(63, 28),
+(39, 68),
+(73, 34),
+(18, 18),
+(36, 21),
+(73, 19),
 (97, 51),
-(97, 68);
+(5, 31),
+(57, 24),
+(75, 67),
+(72, 49),
+(15, 45),
+(48, 71),
+(22, 42),
+(29, 67),
+(31, 27),
+(19, 68),
+(11, 35),
+(72, 71),
+(35, 54),
+(53, 28),
+(65, 56),
+(34, 55),
+(12, 4),
+(9, 64),
+(3, 18),
+(63, 19),
+(82, 37),
+(69, 55),
+(97, 68),
+(96, 42),
+(57, 44),
+(1, 43),
+(52, 17),
+(28, 38),
+(8, 2),
+(78, 6),
+(86, 46),
+(21, 22),
+(61, 30),
+(18, 71),
+(37, 71),
+(5, 25),
+(52, 42),
+(50, 18),
+(39, 7),
+(88, 52),
+(30, 14),
+(60, 68),
+(59, 35),
+(13, 2),
+(83, 29),
+(47, 52),
+(44, 39),
+(93, 67),
+(43, 70),
+(5, 20),
+(88, 56);
 
 -- --------------------------------------------------------
 
@@ -790,17 +810,17 @@ INSERT INTO `jelentkezok` (`allas_id`, `normal_felhasznalo_id`) VALUES
 
 DROP TABLE IF EXISTS `kapcsolat`;
 CREATE TABLE `kapcsolat` (
-  `ID` int(11) NOT NULL,
-  `Név` varchar(15) NOT NULL,
-  `Emailcím` varchar(24) NOT NULL,
-  `Telefonszám` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `id` NUMBER(10) NOT NULL,
+  `nev` VARCHAR2(50) NOT NULL,
+  `email` VARCHAR2(50) NOT NULL,
+  `telefon` NUMBER(10) NOT NULL
+) DEFAULT CHARSET=utf8mb4;
 
 --
 -- A tábla adatainak kiíratása `kapcsolat`
 --
 
-INSERT INTO `kapcsolat` (`ID`, `Név`, `Emailcím`, `Telefonszám`) VALUES
+INSERT INTO `kapcsolat` (`id`, `nev`, `email`, `telefon`) VALUES
 (1, 'Gáspár Mihály', 'gasparmihaly@gmail.com', 620516675),
 (2, 'Veres Kálmán', 'vereskalman@gmail.com', 2147483647),
 (3, 'Kelemen Ferenc', 'kelemenferenc@gmail.com', 2147483647),
@@ -835,40 +855,40 @@ INSERT INTO `kapcsolat` (`ID`, `Név`, `Emailcím`, `Telefonszám`) VALUES
 
 DROP TABLE IF EXISTS `munkakor`;
 CREATE TABLE `munkakor` (
-  `id` int(11) NOT NULL,
-  `allas_tipusa` varchar(50) NOT NULL,
-  `szuksegse_vegzettseg` varchar(50) NOT NULL,
-  `egyeb_feltetelek_id` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `id` NUMBER(10) NOT NULL,
+  `allas_tipusa` VARCHAR2(50) NOT NULL,
+  `szuksegse_vegzettseg` VARCHAR2(50) DEFAULT NULL,
+  `egyeb_feltetelek_id` NUMBER(10) DEFAULT NULL
+) DEFAULT CHARSET=utf8mb4;
 
 --
 -- A tábla adatainak kiíratása `munkakor`
 --
 
 INSERT INTO `munkakor` (`id`, `allas_tipusa`, `szuksegse_vegzettseg`, `egyeb_feltetelek_id`) VALUES
-(1, 'Fizikai', 'rettsgi', NULL),
-(2, 'Fizikai', 'rettsgi', 27),
-(3, 'Fizikai', 'rettsgi', 21),
-(4, 'Fizikai', 'rettsgi', 46),
-(5, 'Fizikai', 'rettsgi', 47),
-(6, 'Fizikai', '8 ltalnos', NULL),
-(7, 'Fizikai', '8 ltalnos', 1),
-(8, 'Fizikai', '8 ltalnos', 22),
-(9, 'Fizikai', '8 ltalnos', 31),
-(10, 'Fizikai', '8 ltalnos', 15),
-(11, 'Fizikai', '8 ltalnos', 38),
-(12, 'Fizikai', '8 ltalnos', 10),
-(13, 'Fizikai', '8 ltalnos', 37),
-(14, 'Irodai', '8 ltalnos', 35),
-(15, 'Irodai', '8 ltalnos', NULL),
-(16, 'Irodai', '8 ltalnos', 7),
-(17, 'Irodai', 'rettsgi', NULL),
-(18, 'Irodai', 'rettsgi', 4),
-(19, 'Irodai', 'rettsgi', 2),
-(20, 'Irodai', 'rettsgi', 26),
-(21, 'Irodai', 'rettsgi', 8),
-(22, 'Irodai', 'rettsgi', 43),
-(23, 'Irodai', 'rettsgi', 16),
+(1, 'Fizikai', 'Érettségi', NULL),
+(2, 'Fizikai', 'Érettségi', 27),
+(3, 'Fizikai', 'Érettségi', 21),
+(4, 'Fizikai', 'Érettségi', 46),
+(5, 'Fizikai', 'Érettségi', 47),
+(6, 'Fizikai', '8 Általános', NULL),
+(7, 'Fizikai', '8 Általános', 1),
+(8, 'Fizikai', '8 Általános', 22),
+(9, 'Fizikai', '8 Általános', 31),
+(10, 'Fizikai', '8 Általános', 15),
+(11, 'Fizikai', '8 Általános', 38),
+(12, 'Fizikai', '8 Általános', 10),
+(13, 'Fizikai', '8 Általános', 37),
+(14, 'Irodai', '8 Általános', 35),
+(15, 'Irodai', '8 Általános', NULL),
+(16, 'Irodai', '8 Általános', 7),
+(17, 'Irodai', 'Érettségi', NULL),
+(18, 'Irodai', 'Érettségi', 4),
+(19, 'Irodai', 'Érettségi', 2),
+(20, 'Irodai', 'Érettségi', 26),
+(21, 'Irodai', 'Érettségi', 8),
+(22, 'Irodai', 'Érettségi', 43),
+(23, 'Irodai', 'Érettségi', 16),
 (24, 'Irodai', 'Diploma', 44),
 (25, 'Irodai', 'Diploma', NULL),
 (26, 'Irodai', 'Diploma', 41),
@@ -887,14 +907,14 @@ INSERT INTO `munkakor` (`id`, `allas_tipusa`, `szuksegse_vegzettseg`, `egyeb_fel
 (39, 'Fizikai', 'Diploma', 32),
 (40, 'Fizikai', 'Diploma', 17),
 (41, 'Fizikai', 'Diploma', 14),
-(42, 'Fizikai', '8 ltalnos', 24),
-(43, 'Fizikai', '8 ltalnos', 36),
-(44, 'Fizikai', '8 ltalnos', 40),
-(45, 'Fizikai', '8 ltalnos', 5),
-(46, 'Fizikai', '8 ltalnos', 29),
-(47, 'Irodai', 'rettsgi', 20),
-(48, 'Irodai', 'rettsgi', 42),
-(49, 'Irodai', 'rettsgi', 30),
+(42, 'Fizikai', '8 Általános', 24),
+(43, 'Fizikai', '8 Általános', 36),
+(44, 'Fizikai', '8 Általános', 40),
+(45, 'Fizikai', '8 Általános', 5),
+(46, 'Fizikai', '8 Általános', 29),
+(47, 'Irodai', 'Érettségi', 20),
+(48, 'Irodai', 'Érettségi', 42),
+(49, 'Irodai', 'Érettségi', 30),
 (50, 'Irodai', 'Diploma', 13),
 (51, 'Irodai', 'Diploma', 19),
 (52, 'Irodai', 'Diploma', 3),
@@ -909,11 +929,11 @@ INSERT INTO `munkakor` (`id`, `allas_tipusa`, `szuksegse_vegzettseg`, `egyeb_fel
 
 DROP TABLE IF EXISTS `normal_felhasznalo`;
 CREATE TABLE `normal_felhasznalo` (
-  `id` int(11) NOT NULL,
-  `fiokadatok_id` int(11) NOT NULL,
-  `vegzettseg_id` int(11) NOT NULL,
-  `vallalat_id` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `id` NUMBER(10) NOT NULL,
+  `fiokadatok_id` NUMBER(10) NOT NULL,
+  `vegzettseg_id` NUMBER(10) NOT NULL,
+  `vallalat_id` NUMBER(10) DEFAULT NULL
+) DEFAULT CHARSET=utf8mb4;
 
 --
 -- A tábla adatainak kiíratása `normal_felhasznalo`
@@ -1000,9 +1020,9 @@ INSERT INTO `normal_felhasznalo` (`id`, `fiokadatok_id`, `vegzettseg_id`, `valla
 
 DROP TABLE IF EXISTS `regisztralt_allasok`;
 CREATE TABLE `regisztralt_allasok` (
-  `allas_id` int(11) NOT NULL,
-  `diakszovetkezet_id` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `allas_id` NUMBER(10) NOT NULL,
+  `diakszovetkezet_id` NUMBER(10) NOT NULL
+) DEFAULT CHARSET=utf8mb4;
 
 --
 -- A tábla adatainak kiíratása `regisztralt_allasok`
@@ -1038,139 +1058,116 @@ INSERT INTO `regisztralt_allasok` (`allas_id`, `diakszovetkezet_id`) VALUES
 
 DROP TABLE IF EXISTS `szemelyes_adatok`;
 CREATE TABLE `szemelyes_adatok` (
-  `ID` int(11) NOT NULL,
-  `Név` varchar(50) NOT NULL,
-  `Születési_dátum` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `id` NUMBER(10) NOT NULL,
+  `nev` VARCHAR2(50) NOT NULL,
+  `szuletesi_datum` datetime NOT NULL
+) DEFAULT CHARSET=utf8mb4;
 
 --
 -- A tábla adatainak kiíratása `szemelyes_adatok`
 --
 
-INSERT INTO `szemelyes_adatok` (`ID`, `Név`, `Születési_dátum`) VALUES
-(1, 'Váradi Alexander', '0000-00-00 00:00:00'),
-(2, 'Kocsis Márk', '0000-00-00 00:00:00'),
-(3, 'Király Péter', '0000-00-00 00:00:00'),
-(4, 'Takács Gergely', '0000-00-00 00:00:00'),
-(5, 'Fekete Dénes', '0000-00-00 00:00:00'),
-(6, 'Bogdán Benjamin', '0000-00-00 00:00:00'),
-(7, 'Szőke Máté', '0000-00-00 00:00:00'),
-(8, 'Szűts Szilveszter', '0000-00-00 00:00:00'),
-(9, 'Nemes Benjámin', '0000-00-00 00:00:00'),
-(10, 'Balogh Géza', '0000-00-00 00:00:00'),
-(11, 'Miksa Barnabás', '0000-00-00 00:00:00'),
-(12, 'Papp Adrián', '0000-00-00 00:00:00'),
-(13, 'Fekete András', '0000-00-00 00:00:00'),
-(14, 'László Bence', '0000-00-00 00:00:00'),
-(15, 'Apród Ádám', '0000-00-00 00:00:00'),
-(16, 'Faragó Kornél', '0000-00-00 00:00:00'),
-(17, 'Szekeres Károly', '0000-00-00 00:00:00'),
-(18, 'Sándor Patrik', '0000-00-00 00:00:00'),
-(19, 'Szücs Dénes', '0000-00-00 00:00:00'),
-(20, 'Váradi Barna', '0000-00-00 00:00:00'),
-(21, 'Kende Albert', '0000-00-00 00:00:00'),
-(22, 'Mezei Alex', '0000-00-00 00:00:00'),
-(23, 'Balogh Adrián', '0000-00-00 00:00:00'),
-(24, 'Barna Ádám', '0000-00-00 00:00:00'),
-(25, 'Tamás Vilmos', '0000-00-00 00:00:00'),
-(26, 'Zobor Benedek', '0000-00-00 00:00:00'),
-(27, 'Bálint Máté', '0000-00-00 00:00:00'),
-(28, 'Apród Dominik', '0000-00-00 00:00:00'),
-(29, 'Fehér Noel', '0000-00-00 00:00:00'),
-(30, 'Illés Olivér', '0000-00-00 00:00:00'),
-(31, 'Balog Gergely', '0000-00-00 00:00:00'),
-(32, 'Fazekas Tibor', '0000-00-00 00:00:00'),
-(33, 'Balogh Donát', '0000-00-00 00:00:00'),
-(34, 'Veres Milán', '0000-00-00 00:00:00'),
-(35, 'Csonka Renátó', '0000-00-00 00:00:00'),
-(36, 'Lukács Levente', '0000-00-00 00:00:00'),
-(37, 'Bogdán Szilveszter', '0000-00-00 00:00:00'),
-(38, 'Dudás Kálmán', '0000-00-00 00:00:00'),
-(39, 'Virág Vince', '0000-00-00 00:00:00'),
-(40, 'Simon Benjámin', '0000-00-00 00:00:00'),
-(41, 'Tamás Szilveszter', '0000-00-00 00:00:00'),
-(42, 'Soós István', '0000-00-00 00:00:00'),
-(43, 'Papp Benjámin', '0000-00-00 00:00:00'),
-(44, 'Szekeres Károly', '0000-00-00 00:00:00'),
-(45, 'Orsós Gábor', '0000-00-00 00:00:00'),
-(46, 'Halász Ferenc', '0000-00-00 00:00:00'),
-(47, 'Szabó Róbert', '0000-00-00 00:00:00'),
-(48, 'Vörös Lajos', '0000-00-00 00:00:00'),
-(49, 'László Viktor', '0000-00-00 00:00:00'),
-(50, 'Sípos Balázs', '0000-00-00 00:00:00'),
-(51, 'Csatár Patrícia', '0000-00-00 00:00:00'),
-(52, 'Egyed Borbála', '0000-00-00 00:00:00'),
-(53, 'Török Erzsébet', '0000-00-00 00:00:00'),
-(54, 'László Kitti', '0000-00-00 00:00:00'),
-(55, 'Major Laura', '0000-00-00 00:00:00'),
-(56, 'Németh Vanda', '0000-00-00 00:00:00'),
-(57, 'Bálint Viktória', '0000-00-00 00:00:00'),
-(58, 'Király Cintia', '0000-00-00 00:00:00'),
-(59, 'Pap Éva', '0000-00-00 00:00:00'),
-(60, 'Biró Petra', '0000-00-00 00:00:00'),
-(61, 'Szalai Fanni', '0000-00-00 00:00:00'),
-(62, 'Balázs Adrienn', '0000-00-00 00:00:00'),
-(63, 'Apród Nóra', '0000-00-00 00:00:00'),
-(64, 'Kapolcs Anita', '0000-00-00 00:00:00'),
-(65, 'Hegedüs Éva', '0000-00-00 00:00:00'),
-(66, 'Máté Adél', '0000-00-00 00:00:00'),
-(67, 'Magyar Gréta', '0000-00-00 00:00:00'),
-(68, 'Székely Ivett', '0000-00-00 00:00:00'),
-(69, 'Egyed Judit', '0000-00-00 00:00:00'),
-(70, 'Németh Virág', '0000-00-00 00:00:00'),
-(71, 'Pap Zita', '0000-00-00 00:00:00'),
-(72, 'Fodor Dorottya', '0000-00-00 00:00:00'),
-(73, 'Juhász Anna', '0000-00-00 00:00:00'),
-(74, 'Székely Bettina', '0000-00-00 00:00:00'),
-(75, 'Fekete Petra', '0000-00-00 00:00:00'),
-(76, 'Király Zsófia', '0000-00-00 00:00:00'),
-(77, 'Jónás Rebeka', '0000-00-00 00:00:00'),
-(78, 'Kovács Noémi', '0000-00-00 00:00:00'),
-(79, 'Antal Flóra', '0000-00-00 00:00:00'),
-(80, 'Barta Veronika', '0000-00-00 00:00:00'),
-(81, 'Faragó Petra', '0000-00-00 00:00:00'),
-(82, 'Balla Mercédesz', '0000-00-00 00:00:00'),
-(83, 'Fülöp Dóra', '0000-00-00 00:00:00'),
-(84, 'Török Anna', '0000-00-00 00:00:00'),
-(85, 'Pataki Vivien', '0000-00-00 00:00:00'),
-(86, 'Szekeres Klaudia', '0000-00-00 00:00:00'),
-(87, 'Balázs Lili', '0000-00-00 00:00:00'),
-(88, 'Gál Barbara', '0000-00-00 00:00:00'),
-(89, 'Fazekas Regina', '0000-00-00 00:00:00'),
-(90, 'Orsós Dalma', '0000-00-00 00:00:00'),
-(91, 'Antal Zita', '0000-00-00 00:00:00'),
-(92, 'Pál Nikolett', '0000-00-00 00:00:00'),
-(93, 'Simon Vivien', '0000-00-00 00:00:00'),
-(94, 'Szalai Natália', '0000-00-00 00:00:00'),
-(95, 'Váradi Evelin', '0000-00-00 00:00:00'),
-(96, 'Kerekes Virág', '0000-00-00 00:00:00'),
-(97, 'Oláh Réka', '0000-00-00 00:00:00'),
-(98, 'Barta Bernadett', '0000-00-00 00:00:00'),
-(99, 'Jónás Dorina', '0000-00-00 00:00:00'),
-(100, 'Orosz Mária', '0000-00-00 00:00:00');
-
--- --------------------------------------------------------
-
---
--- Tábla szerkezet ehhez a táblához `szovetkezet`
---
-
-DROP TABLE IF EXISTS `szovetkezet`;
-CREATE TABLE `szovetkezet` (
-  `ID` int(11) NOT NULL,
-  `Név` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- A tábla adatainak kiíratása `szovetkezet`
---
-
-INSERT INTO `szovetkezet` (`ID`, `Név`) VALUES
-(1, 'Diák-Meló Szövetkezet'),
-(2, 'Diák-Mind Szövetkezet'),
-(3, 'Fürgeláb Szövetkezet'),
-(4, 'Dolgos Diák Szövetkezet'),
-(5, 'DiákJobs Szövetkezet');
+INSERT INTO `szemelyes_adatok` (`id`, `nev`, `szuletesi_datum`) VALUES
+(1, 'Váradi Alexander', '1970-04-26 00:00:00'),
+(2, 'Kocsis Márk', '1974-12-11 00:00:00'),
+(3, 'Király Péter', '1976-08-13 00:00:00'),
+(4, 'Takács Gergely', '1977-06-06 00:00:00'),
+(5, 'Fekete Dénes', '1979-03-18 00:00:00'),
+(6, 'Bogdán Benjamin', '1980-01-16 00:00:00'),
+(7, 'Szőke Máté', '1981-07-03 00:00:00'),
+(8, 'Szűts Szilveszter', '1982-11-10 00:00:00'),
+(9, 'Nemes Benjámin', '1983-01-28 00:00:00'),
+(10, 'Balogh Géza', '1984-11-13 00:00:00'),
+(11, 'Miksa Barnabás', '1986-01-13 00:00:00'),
+(12, 'Papp Adrián', '1987-07-27 00:00:00'),
+(13, 'Fekete András', '1993-01-27 00:00:00'),
+(14, 'László Bence', '1993-07-29 00:00:00'),
+(15, 'Apród Ádám', '1993-08-12 00:00:00'),
+(16, 'Faragó Kornél', '1993-11-29 00:00:00'),
+(17, 'Szekeres Károly', '1994-07-01 00:00:00'),
+(18, 'Sándor Patrik', '1994-11-07 00:00:00'),
+(19, 'Szücs Dénes', '1995-02-06 00:00:00'),
+(20, 'Váradi Barna', '1996-03-21 00:00:00'),
+(21, 'Kende Albert', '1996-09-15 00:00:00'),
+(22, 'Mezei Alex', '1997-06-23 00:00:00'),
+(23, 'Balogh Adrián', '2000-08-03 00:00:00'),
+(24, 'Barna Ádám', '2001-02-08 00:00:00'),
+(25, 'Tamás Vilmos', '2001-03-28 00:00:00'),
+(26, 'Zobor Benedek', '1972-10-16 00:00:00'),
+(27, 'Bálint Máté', '1973-09-29 00:00:00'),
+(28, 'Apród Dominik', '1974-09-19 00:00:00'),
+(29, 'Fehér Noel', '1975-08-21 00:00:00'),
+(30, 'Illés Olivér', '1978-07-10 00:00:00'),
+(31, 'Balog Gergely', '1978-08-27 00:00:00'),
+(32, 'Fazekas Tibor', '1979-01-19 00:00:00'),
+(33, 'Balogh Donát', '1979-11-22 00:00:00'),
+(34, 'Veres Milán', '1979-12-14 00:00:00'),
+(35, 'Csonka Renátó', '1980-12-28 00:00:00'),
+(36, 'Lukács Levente', '1984-07-12 00:00:00'),
+(37, 'Bogdán Szilveszter', '1985-02-18 00:00:00'),
+(38, 'Dudás Kálmán', '1989-09-22 00:00:00'),
+(39, 'Virág Vince', '1991-08-17 00:00:00'),
+(40, 'Simon Benjámin', '1992-03-18 00:00:00'),
+(41, 'Tamás Szilveszter', '1992-06-28 00:00:00'),
+(42, 'Soós István', '1995-02-05 00:00:00'),
+(43, 'Papp Benjámin', '1995-08-20 00:00:00'),
+(44, 'Szekeres Károly', '1995-11-25 00:00:00'),
+(45, 'Orsós Gábor', '1996-04-22 00:00:00'),
+(46, 'Halász Ferenc', '1997-09-14 00:00:00'),
+(47, 'Szabó Róbert', '1999-03-22 00:00:00'),
+(48, 'Vörös Lajos', '1999-12-25 00:00:00'),
+(49, 'László Viktor', '2000-05-27 00:00:00'),
+(50, 'Sípos Balázs', '2000-06-05 00:00:00'),
+(51, 'Csatár Patrícia', '1972-04-16 00:00:00'),
+(52, 'Egyed Borbála', '1976-10-29 00:00:00'),
+(53, 'Török Erzsébet', '1977-01-07 00:00:00'),
+(54, 'László Kitti', '1977-04-13 00:00:00'),
+(55, 'Major Laura', '1978-07-31 00:00:00'),
+(56, 'Németh Vanda', '1979-10-09 00:00:00'),
+(57, 'Bálint Viktória', '1979-11-08 00:00:00'),
+(58, 'Király Cintia', '1983-08-26 00:00:00'),
+(59, 'Pap Éva', '1983-09-24 00:00:00'),
+(60, 'Biró Petra', '1983-10-07 00:00:00'),
+(61, 'Szalai Fanni', '1983-12-23 00:00:00'),
+(62, 'Balázs Adrienn', '1985-06-09 00:00:00'),
+(63, 'Apród Nóra', '1985-08-03 00:00:00'),
+(64, 'Kapolcs Anita', '1986-09-18 00:00:00'),
+(65, 'Hegedüs Éva', '1988-03-28 00:00:00'),
+(66, 'Máté Adél', '1992-05-06 00:00:00'),
+(67, 'Magyar Gréta', '1992-08-11 00:00:00'),
+(68, 'Székely Ivett', '1994-05-24 00:00:00'),
+(69, 'Egyed Judit', '1995-01-15 00:00:00'),
+(70, 'Németh Virág', '1995-06-13 00:00:00'),
+(71, 'Pap Zita', '1995-09-26 00:00:00'),
+(72, 'Fodor Dorottya', '1996-11-07 00:00:00'),
+(73, 'Juhász Anna', '1998-11-13 00:00:00'),
+(74, 'Székely Bettina', '2000-05-10 00:00:00'),
+(75, 'Fekete Petra', '2000-06-10 00:00:00'),
+(76, 'Király Zsófia', '1970-08-23 00:00:00'),
+(77, 'Jónás Rebeka', '1973-01-07 00:00:00'),
+(78, 'Kovács Noémi', '1973-12-30 00:00:00'),
+(79, 'Antal Flóra', '1974-12-07 00:00:00'),
+(80, 'Barta Veronika', '1975-10-23 00:00:00'),
+(81, 'Faragó Petra', '1975-11-09 00:00:00'),
+(82, 'Balla Mercédesz', '1976-04-05 00:00:00'),
+(83, 'Fülöp Dóra', '1978-04-14 00:00:00'),
+(84, 'Török Anna', '1981-10-10 00:00:00'),
+(85, 'Pataki Vivien', '1982-06-17 00:00:00'),
+(86, 'Szekeres Klaudia', '1983-08-26 00:00:00'),
+(87, 'Balázs Lili', '1984-04-15 00:00:00'),
+(88, 'Gál Barbara', '1984-08-17 00:00:00'),
+(89, 'Fazekas Regina', '1985-04-16 00:00:00'),
+(90, 'Orsós Dalma', '1985-04-18 00:00:00'),
+(91, 'Antal Zita', '1985-11-24 00:00:00'),
+(92, 'Pál Nikolett', '1986-08-23 00:00:00'),
+(93, 'Simon Vivien', '1987-05-07 00:00:00'),
+(94, 'Szalai Natália', '1989-09-29 00:00:00'),
+(95, 'Váradi Evelin', '1992-08-20 00:00:00'),
+(96, 'Kerekes Virág', '1994-04-09 00:00:00'),
+(97, 'Oláh Réka', '1995-08-31 00:00:00'),
+(98, 'Barta Bernadett', '1995-11-04 00:00:00'),
+(99, 'Jónás Dorina', '1997-04-14 00:00:00'),
+(100, 'Orosz Mária', '1998-04-19 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -1180,12 +1177,12 @@ INSERT INTO `szovetkezet` (`ID`, `Név`) VALUES
 
 DROP TABLE IF EXISTS `vallalat`;
 CREATE TABLE `vallalat` (
-  `id` int(11) NOT NULL,
-  `neve` varchar(50) NOT NULL,
-  `tulajdonos` varchar(50) NOT NULL,
-  `jegyzett_toke` int(11) NOT NULL,
-  `ertekeles` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `id` NUMBER(10) NOT NULL,
+  `neve` VARCHAR2(50) NOT NULL,
+  `tulajdonos` VARCHAR2(50) DEFAULT NULL,
+  `jegyzett_toke` NUMBER(10) DEFAULT NULL,
+  `ertekeles` NUMBER(10) DEFAULT NULL
+) DEFAULT CHARSET=utf8mb4;
 
 --
 -- A tábla adatainak kiíratása `vallalat`
@@ -1231,10 +1228,10 @@ INSERT INTO `vallalat` (`id`, `neve`, `tulajdonos`, `jegyzett_toke`, `ertekeles`
 
 DROP TABLE IF EXISTS `vegzettseg`;
 CREATE TABLE `vegzettseg` (
-  `id` int(11) NOT NULL,
-  `nev` varchar(50) NOT NULL,
-  `intezmeny` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `id` NUMBER(10) NOT NULL,
+  `nev` VARCHAR2(50) NOT NULL,
+  `intezmeny` VARCHAR2(50) NOT NULL
+) DEFAULT CHARSET=utf8mb4;
 
 --
 -- A tábla adatainak kiíratása `vegzettseg`
@@ -1346,17 +1343,23 @@ INSERT INTO `vegzettseg` (`id`, `nev`, `intezmeny`) VALUES
 --
 ALTER TABLE `allas`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `hirdeto` (`hirdeto_id`),
-  ADD KEY `helyszin` (`helyszin_id`),
-  ADD KEY `kapcsolat` (`kapcsolat_id`),
-  ADD KEY `munkakor` (`munkakor_id`);
+  ADD KEY `helyszin_id` (`helyszin_id`),
+  ADD KEY `hirdeto_id` (`hirdeto_id`),
+  ADD KEY `kapcsolat_id` (`kapcsolat_id`),
+  ADD KEY `munkakor_id` (`munkakor_id`);
+
+--
+-- A tábla indexei `diakszovetkezet`
+--
+ALTER TABLE `diakszovetkezet`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- A tábla indexei `diakszovetkezetnel_van`
 --
 ALTER TABLE `diakszovetkezetnel_van`
-  ADD PRIMARY KEY (`diakszovetkezet_id`,`diak_felhasznalo_id`),
-  ADD KEY `diak` (`diak_felhasznalo_id`);
+  ADD KEY `diakszovetkezet_id` (`diakszovetkezet_id`),
+  ADD KEY `diak_felhasznalo_id` (`diak_felhasznalo_id`);
 
 --
 -- A tábla indexei `diak_felhasznalo`
@@ -1404,14 +1407,14 @@ ALTER TABLE `iskola`
 -- A tábla indexei `jelentkezok`
 --
 ALTER TABLE `jelentkezok`
-  ADD PRIMARY KEY (`allas_id`,`normal_felhasznalo_id`),
+  ADD KEY `allas_id` (`allas_id`),
   ADD KEY `normal_felhasznalo_id` (`normal_felhasznalo_id`);
 
 --
 -- A tábla indexei `kapcsolat`
 --
 ALTER TABLE `kapcsolat`
-  ADD PRIMARY KEY (`ID`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- A tábla indexei `munkakor`
@@ -1433,20 +1436,14 @@ ALTER TABLE `normal_felhasznalo`
 -- A tábla indexei `regisztralt_allasok`
 --
 ALTER TABLE `regisztralt_allasok`
-  ADD PRIMARY KEY (`allas_id`,`diakszovetkezet_id`),
+  ADD KEY `allas_id` (`allas_id`),
   ADD KEY `diakszovetkezet_id` (`diakszovetkezet_id`);
 
 --
 -- A tábla indexei `szemelyes_adatok`
 --
 ALTER TABLE `szemelyes_adatok`
-  ADD PRIMARY KEY (`ID`);
-
---
--- A tábla indexei `szovetkezet`
---
-ALTER TABLE `szovetkezet`
-  ADD PRIMARY KEY (`ID`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- A tábla indexei `vallalat`
@@ -1468,66 +1465,67 @@ ALTER TABLE `vegzettseg`
 -- Megkötések a táblához `allas`
 --
 ALTER TABLE `allas`
-  ADD CONSTRAINT `helyszin` FOREIGN KEY (`helyszin_id`) REFERENCES `helyszin` (`id`),
-  ADD CONSTRAINT `hirdeto` FOREIGN KEY (`hirdeto_id`) REFERENCES `hirdeto` (`id`),
-  ADD CONSTRAINT `kapcsolat` FOREIGN KEY (`kapcsolat_id`) REFERENCES `kapcsolat` (`ID`),
-  ADD CONSTRAINT `munkakor` FOREIGN KEY (`munkakor_id`) REFERENCES `munkakor` (`id`);
+  ADD CONSTRAINT `allas_ibfk_1` FOREIGN KEY (`helyszin_id`) REFERENCES `helyszin` (`id`) ON DELETE SET NULL ON UPDATE SET NULL,
+  ADD CONSTRAINT `allas_ibfk_2` FOREIGN KEY (`hirdeto_id`) REFERENCES `hirdeto` (`id`),
+  ADD CONSTRAINT `allas_ibfk_3` FOREIGN KEY (`kapcsolat_id`) REFERENCES `kapcsolat` (`ID`),
+  ADD CONSTRAINT `allas_ibfk_4` FOREIGN KEY (`munkakor_id`) REFERENCES `munkakor` (`id`) ON DELETE SET NULL ON UPDATE SET NULL;
 
 --
 -- Megkötések a táblához `diakszovetkezetnel_van`
 --
 ALTER TABLE `diakszovetkezetnel_van`
-  ADD CONSTRAINT `diak` FOREIGN KEY (`diak_felhasznalo_id`) REFERENCES `diak_felhasznalo` (`id`),
-  ADD CONSTRAINT `szovetkezet` FOREIGN KEY (`diakszovetkezet_id`) REFERENCES `szovetkezet` (`ID`);
+  ADD CONSTRAINT `diakszovetkezetnel_van_ibfk_1` FOREIGN KEY (`diakszovetkezet_id`) REFERENCES `diakszovetkezet` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `diakszovetkezetnel_van_ibfk_2` FOREIGN KEY (`diak_felhasznalo_id`) REFERENCES `diak_felhasznalo` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Megkötések a táblához `diak_felhasznalo`
 --
 ALTER TABLE `diak_felhasznalo`
-  ADD CONSTRAINT `diak_felhasznalo_ibfk_1` FOREIGN KEY (`fiokadat_id`) REFERENCES `fiokadatok` (`id`),
-  ADD CONSTRAINT `diak_felhasznalo_ibfk_2` FOREIGN KEY (`iskola_id`) REFERENCES `iskola` (`id`),
-  ADD CONSTRAINT `diak_felhasznalo_ibfk_3` FOREIGN KEY (`vallalat_id`) REFERENCES `vallalat` (`id`);
+  ADD CONSTRAINT `diak_felhasznalo_ibfk_1` FOREIGN KEY (`fiokadat_id`) REFERENCES `fiokadatok` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `diak_felhasznalo_ibfk_2` FOREIGN KEY (`iskola_id`) REFERENCES `iskola` (`id`) ON DELETE SET NULL ON UPDATE SET NULL,
+  ADD CONSTRAINT `diak_felhasznalo_ibfk_3` FOREIGN KEY (`vallalat_id`) REFERENCES `vallalat` (`id`) ON DELETE SET NULL ON UPDATE SET NULL;
 
 --
 -- Megkötések a táblához `fiokadatok`
 --
 ALTER TABLE `fiokadatok`
-  ADD CONSTRAINT `fiokadatok_ibfk_1` FOREIGN KEY (`szemelyes_adatok_id`) REFERENCES `szemelyes_adatok` (`ID`);
+  ADD CONSTRAINT `fiokadatok_ibfk_1` FOREIGN KEY (`szemelyes_adatok_id`) REFERENCES `szemelyes_adatok` (`id`);
 
 --
 -- Megkötések a táblához `hirdeto`
 --
 ALTER TABLE `hirdeto`
-  ADD CONSTRAINT `hirdeto_ibfk_1` FOREIGN KEY (`fiokadatok_id`) REFERENCES `fiokadatok` (`id`),
-  ADD CONSTRAINT `hirdeto_ibfk_2` FOREIGN KEY (`vallalat_id`) REFERENCES `vallalat` (`id`);
+  ADD CONSTRAINT `hirdeto_ibfk_1` FOREIGN KEY (`fiokadatok_id`) REFERENCES `fiokadatok` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `hirdeto_ibfk_2` FOREIGN KEY (`vallalat_id`) REFERENCES `vallalat` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Megkötések a táblához `jelentkezok`
 --
 ALTER TABLE `jelentkezok`
-  ADD CONSTRAINT `jelentkezok_ibfk_1` FOREIGN KEY (`allas_id`) REFERENCES `allas` (`id`),
-  ADD CONSTRAINT `jelentkezok_ibfk_2` FOREIGN KEY (`normal_felhasznalo_id`) REFERENCES `normal_felhasznalo` (`id`);
+  ADD CONSTRAINT `jelentkezok_ibfk_1` FOREIGN KEY (`allas_id`) REFERENCES `allas` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `jelentkezok_ibfk_2` FOREIGN KEY (`normal_felhasznalo_id`) REFERENCES `normal_felhasznalo` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Megkötések a táblához `munkakor`
 --
 ALTER TABLE `munkakor`
-  ADD CONSTRAINT `munkakor_ibfk_1` FOREIGN KEY (`egyeb_feltetelek_id`) REFERENCES `egyeb_feltetelek` (`id`);
+  ADD CONSTRAINT `munkakor_ibfk_1` FOREIGN KEY (`egyeb_feltetelek_id`) REFERENCES `egyeb_feltetelek` (`id`) ON DELETE SET NULL ON UPDATE SET NULL;
 
 --
 -- Megkötések a táblához `normal_felhasznalo`
 --
 ALTER TABLE `normal_felhasznalo`
-  ADD CONSTRAINT `normal_felhasznalo_ibfk_1` FOREIGN KEY (`fiokadatok_id`) REFERENCES `fiokadatok` (`id`),
-  ADD CONSTRAINT `normal_felhasznalo_ibfk_2` FOREIGN KEY (`vallalat_id`) REFERENCES `vallalat` (`id`),
+  ADD CONSTRAINT `normal_felhasznalo_ibfk_1` FOREIGN KEY (`fiokadatok_id`) REFERENCES `fiokadatok` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `normal_felhasznalo_ibfk_2` FOREIGN KEY (`vallalat_id`) REFERENCES `vallalat` (`id`) ON DELETE SET NULL ON UPDATE SET NULL,
   ADD CONSTRAINT `normal_felhasznalo_ibfk_3` FOREIGN KEY (`vegzettseg_id`) REFERENCES `vegzettseg` (`id`);
 
 --
 -- Megkötések a táblához `regisztralt_allasok`
 --
 ALTER TABLE `regisztralt_allasok`
-  ADD CONSTRAINT `regisztralt_allasok_ibfk_1` FOREIGN KEY (`allas_id`) REFERENCES `allas` (`id`),
-  ADD CONSTRAINT `regisztralt_allasok_ibfk_2` FOREIGN KEY (`diakszovetkezet_id`) REFERENCES `szovetkezet` (`ID`);
+  ADD CONSTRAINT `regisztralt_allasok_ibfk_1` FOREIGN KEY (`allas_id`) REFERENCES `allas` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `regisztralt_allasok_ibfk_2` FOREIGN KEY (`diakszovetkezet_id`) REFERENCES `diakszovetkezet` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+SET FOREIGN_KEY_CHECKS=1;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
