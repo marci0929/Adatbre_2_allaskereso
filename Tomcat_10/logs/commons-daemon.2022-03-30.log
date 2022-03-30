@@ -1,0 +1,4 @@
+[2022-03-30 12:05:51] [info]  [27772] Apache Commons Daemon procrun (1.2.4.0 64-bit) started.
+[2022-03-30 12:05:51] [info]  [27772] Installing service 'Tomcat10' name 'Apache Tomcat 10.0 Tomcat10'.
+[2022-03-30 12:05:51] [info]  [27772] Service 'Tomcat10' installed.
+[2022-03-30 12:05:51] [info]  [27772] Apache Commons Daemon procrun finished.

@@ -1,0 +1,4 @@
+[2022-03-29 18:43:55] [info]  [13040] Apache Commons Daemon procrun (1.2.4.0 64-bit) started.
+[2022-03-29 18:43:55] [info]  [13040] Installing service 'Tomcat' name 'Apache Tomcat 10.0 Tomcat'.
+[2022-03-29 18:43:55] [info]  [13040] Service 'Tomcat' installed.
+[2022-03-29 18:43:55] [info]  [13040] Apache Commons Daemon procrun finished.
