@@ -1,0 +1,6031 @@
+<?xml version="1.0" encoding="windows-1250" standalone="no"?>
+<log>
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Catalog MySQL, Schema allaskereso_db coalesced to single schema allaskereso_db</message>
+  <key>Convert.COALESCED</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>MySQL</param>
+  <param>allaskereso_db</param>
+  <param>allaskereso_db</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@6c265f62</param>
+
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value NULL has been replaced with 'NULL'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@7a08ff85</param>
+
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.helyszin_id</message>
+  <param>allas, MD_TABLES, 33801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.munkakor_id</message>
+  <param>allas, MD_TABLES, 33801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.iskola_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 37001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.vallalat_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 37001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.egyeb_feltetelek.egyeb_feltetelek</message>
+  <param>egyeb_feltetelek, MD_TABLES, 38251Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.fiok_tipusa</message>
+  <param>fiokadatok, MD_TABLES, 38751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.szemelyes_adatok_id</message>
+  <param>fiokadatok, MD_TABLES, 38751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.egyeb_feltetelek_id</message>
+  <param>munkakor, MD_TABLES, 42801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.szuksegse_vegzettseg</message>
+  <param>munkakor, MD_TABLES, 42801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.normal_felhasznalo.vallalat_id</message>
+  <param>normal_felhasznalo, MD_TABLES, 43551Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.ertekeles</message>
+  <param>vallalat, MD_TABLES, 46001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.jegyzett_toke</message>
+  <param>vallalat, MD_TABLES, 46001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.tulajdonos</message>
+  <param>vallalat, MD_TABLES, 46001Convert</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value NULL has been replaced with 'NULL'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@71ab8366</param>
+
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.helyszin_id</message>
+  <param>allas, MD_TABLES, 121001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.munkakor_id</message>
+  <param>allas, MD_TABLES, 121001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.iskola_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 124201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.vallalat_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 124201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.egyeb_feltetelek.egyeb_feltetelek</message>
+  <param>egyeb_feltetelek, MD_TABLES, 125451Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.fiok_tipusa</message>
+  <param>fiokadatok, MD_TABLES, 125951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.szemelyes_adatok_id</message>
+  <param>fiokadatok, MD_TABLES, 125951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.egyeb_feltetelek_id</message>
+  <param>munkakor, MD_TABLES, 130001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.szuksegse_vegzettseg</message>
+  <param>munkakor, MD_TABLES, 130001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.normal_felhasznalo.vallalat_id</message>
+  <param>normal_felhasznalo, MD_TABLES, 130751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.ertekeles</message>
+  <param>vallalat, MD_TABLES, 133201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.jegyzett_toke</message>
+  <param>vallalat, MD_TABLES, 133201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.tulajdonos</message>
+  <param>vallalat, MD_TABLES, 133201Convert</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value NULL has been replaced with 'NULL'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@4f498997</param>
+
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.helyszin_id</message>
+  <param>allas, MD_TABLES, 210301Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.munkakor_id</message>
+  <param>allas, MD_TABLES, 210301Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.iskola_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 213501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.vallalat_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 213501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.egyeb_feltetelek.egyeb_feltetelek</message>
+  <param>egyeb_feltetelek, MD_TABLES, 214751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.fiok_tipusa</message>
+  <param>fiokadatok, MD_TABLES, 215251Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.szemelyes_adatok_id</message>
+  <param>fiokadatok, MD_TABLES, 215251Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.egyeb_feltetelek_id</message>
+  <param>munkakor, MD_TABLES, 219301Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.szuksegse_vegzettseg</message>
+  <param>munkakor, MD_TABLES, 219301Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.normal_felhasznalo.vallalat_id</message>
+  <param>normal_felhasznalo, MD_TABLES, 220051Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.ertekeles</message>
+  <param>vallalat, MD_TABLES, 222501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.jegyzett_toke</message>
+  <param>vallalat, MD_TABLES, 222501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.tulajdonos</message>
+  <param>vallalat, MD_TABLES, 222501Convert</param>
+
+</record>
+</record>
+</record>
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Following objects have had name changes applied</message>
+  <key>Convert.IDENTIFIER_TRANSFORMED_HEADING</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@55964220</param>
+
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Constraint 'PRIMARY' Changed to 'PRIMARY_5' (Invalid characters, reserved word or clash)</message>
+  <param>PRIMARY_5, MD_CONSTRAINTS, 48401Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Constraint 'PRIMARY' Changed to 'PRIMARY_2' (Invalid characters, reserved word or clash)</message>
+  <param>PRIMARY_2, MD_CONSTRAINTS, 48601Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Constraint 'PRIMARY' Changed to 'PRIMARY_9' (Invalid characters, reserved word or clash)</message>
+  <param>PRIMARY_9, MD_CONSTRAINTS, 48801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Constraint 'PRIMARY' Changed to 'PRIMARY_3' (Invalid characters, reserved word or clash)</message>
+  <param>PRIMARY_3, MD_CONSTRAINTS, 49001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Constraint 'PRIMARY' Changed to 'PRIMARY_4' (Invalid characters, reserved word or clash)</message>
+  <param>PRIMARY_4, MD_CONSTRAINTS, 49201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Constraint 'PRIMARY' Changed to 'PRIMARY_10' (Invalid characters, reserved word or clash)</message>
+  <param>PRIMARY_10, MD_CONSTRAINTS, 49401Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Constraint 'PRIMARY' Changed to 'PRIMARY_11' (Invalid characters, reserved word or clash)</message>
+  <param>PRIMARY_11, MD_CONSTRAINTS, 49601Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'diakszovetkezet_id' Changed to 'diakszovetkezet_id_1' (Invalid characters, reserved word or clash)</message>
+  <param>diakszovetkezet_id_1, MD_INDEXES, 36501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'fiokadatok_id' Changed to 'fiokadatok_id_1' (Invalid characters, reserved word or clash)</message>
+  <param>fiokadatok_id_1, MD_INDEXES, 40601Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'vallalat_id' Changed to 'vallalat_id_2' (Invalid characters, reserved word or clash)</message>
+  <param>vallalat_id_2, MD_INDEXES, 40851Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'vallalat_id' Changed to 'vallalat_id_1' (Invalid characters, reserved word or clash)</message>
+  <param>vallalat_id_1, MD_INDEXES, 44301Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'allas_id' Changed to 'allas_id_1' (Invalid characters, reserved word or clash)</message>
+  <param>allas_id_1, MD_INDEXES, 45101Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Constraint 'PRIMARY' Changed to 'PRIMARY_12' (Invalid characters, reserved word or clash)</message>
+  <param>PRIMARY_12, MD_CONSTRAINTS, 47001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Constraint 'PRIMARY' Changed to 'PRIMARY_7' (Invalid characters, reserved word or clash)</message>
+  <param>PRIMARY_7, MD_CONSTRAINTS, 47201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Constraint 'PRIMARY' Changed to 'PRIMARY_13' (Invalid characters, reserved word or clash)</message>
+  <param>PRIMARY_13, MD_CONSTRAINTS, 47401Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Constraint 'PRIMARY' Changed to 'PRIMARY_6' (Invalid characters, reserved word or clash)</message>
+  <param>PRIMARY_6, MD_CONSTRAINTS, 47601Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Constraint 'PRIMARY' Changed to 'PRIMARY_1' (Invalid characters, reserved word or clash)</message>
+  <param>PRIMARY_1, MD_CONSTRAINTS, 47801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:32</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Constraint 'PRIMARY' Changed to 'PRIMARY_8' (Invalid characters, reserved word or clash)</message>
+  <param>PRIMARY_8, MD_CONSTRAINTS, 48001Convert</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default Values Transformed: The following column default values have been transformed during conversion</message>
+  <key>Convert.DEFAULT_LOG_HEADER</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@6c265f62</param>
+
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value NULL has been replaced with 'NULL'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@7a08ff85</param>
+
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.helyszin_id</message>
+  <param>allas, MD_TABLES, 33801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.munkakor_id</message>
+  <param>allas, MD_TABLES, 33801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.iskola_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 37001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.vallalat_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 37001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.egyeb_feltetelek.egyeb_feltetelek</message>
+  <param>egyeb_feltetelek, MD_TABLES, 38251Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.fiok_tipusa</message>
+  <param>fiokadatok, MD_TABLES, 38751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.szemelyes_adatok_id</message>
+  <param>fiokadatok, MD_TABLES, 38751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.egyeb_feltetelek_id</message>
+  <param>munkakor, MD_TABLES, 42801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.szuksegse_vegzettseg</message>
+  <param>munkakor, MD_TABLES, 42801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.normal_felhasznalo.vallalat_id</message>
+  <param>normal_felhasznalo, MD_TABLES, 43551Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.ertekeles</message>
+  <param>vallalat, MD_TABLES, 46001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.jegyzett_toke</message>
+  <param>vallalat, MD_TABLES, 46001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.tulajdonos</message>
+  <param>vallalat, MD_TABLES, 46001Convert</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value NULL has been replaced with 'NULL'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@71ab8366</param>
+
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.helyszin_id</message>
+  <param>allas, MD_TABLES, 121001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.munkakor_id</message>
+  <param>allas, MD_TABLES, 121001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.iskola_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 124201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.vallalat_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 124201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.egyeb_feltetelek.egyeb_feltetelek</message>
+  <param>egyeb_feltetelek, MD_TABLES, 125451Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.fiok_tipusa</message>
+  <param>fiokadatok, MD_TABLES, 125951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.szemelyes_adatok_id</message>
+  <param>fiokadatok, MD_TABLES, 125951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.egyeb_feltetelek_id</message>
+  <param>munkakor, MD_TABLES, 130001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.szuksegse_vegzettseg</message>
+  <param>munkakor, MD_TABLES, 130001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.normal_felhasznalo.vallalat_id</message>
+  <param>normal_felhasznalo, MD_TABLES, 130751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.ertekeles</message>
+  <param>vallalat, MD_TABLES, 133201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.jegyzett_toke</message>
+  <param>vallalat, MD_TABLES, 133201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.tulajdonos</message>
+  <param>vallalat, MD_TABLES, 133201Convert</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value NULL has been replaced with 'NULL'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@4f498997</param>
+
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.helyszin_id</message>
+  <param>allas, MD_TABLES, 210301Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.munkakor_id</message>
+  <param>allas, MD_TABLES, 210301Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.iskola_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 213501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.vallalat_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 213501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.egyeb_feltetelek.egyeb_feltetelek</message>
+  <param>egyeb_feltetelek, MD_TABLES, 214751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.fiok_tipusa</message>
+  <param>fiokadatok, MD_TABLES, 215251Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.szemelyes_adatok_id</message>
+  <param>fiokadatok, MD_TABLES, 215251Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.egyeb_feltetelek_id</message>
+  <param>munkakor, MD_TABLES, 219301Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.szuksegse_vegzettseg</message>
+  <param>munkakor, MD_TABLES, 219301Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.normal_felhasznalo.vallalat_id</message>
+  <param>normal_felhasznalo, MD_TABLES, 220051Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.ertekeles</message>
+  <param>vallalat, MD_TABLES, 222501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.jegyzett_toke</message>
+  <param>vallalat, MD_TABLES, 222501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.tulajdonos</message>
+  <param>vallalat, MD_TABLES, 222501Convert</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value NULL has been replaced with 'NULL'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@536c5365</param>
+
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.helyszin_id</message>
+  <param>allas, MD_TABLES, 33801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.munkakor_id</message>
+  <param>allas, MD_TABLES, 33801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.iskola_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 37001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.vallalat_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 37001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.egyeb_feltetelek.egyeb_feltetelek</message>
+  <param>egyeb_feltetelek, MD_TABLES, 38251Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.fiok_tipusa</message>
+  <param>fiokadatok, MD_TABLES, 38751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.szemelyes_adatok_id</message>
+  <param>fiokadatok, MD_TABLES, 38751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.egyeb_feltetelek_id</message>
+  <param>munkakor, MD_TABLES, 42801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.szuksegse_vegzettseg</message>
+  <param>munkakor, MD_TABLES, 42801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.normal_felhasznalo.vallalat_id</message>
+  <param>normal_felhasznalo, MD_TABLES, 43551Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.ertekeles</message>
+  <param>vallalat, MD_TABLES, 46001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.jegyzett_toke</message>
+  <param>vallalat, MD_TABLES, 46001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.tulajdonos</message>
+  <param>vallalat, MD_TABLES, 46001Convert</param>
+
+</record>
+</record>
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+  <message>Convert completed in 0 seconds</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@6c265f62</param>
+
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value NULL has been replaced with 'NULL'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@7a08ff85</param>
+
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.helyszin_id</message>
+  <param>allas, MD_TABLES, 33801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.munkakor_id</message>
+  <param>allas, MD_TABLES, 33801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.iskola_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 37001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.vallalat_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 37001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.egyeb_feltetelek.egyeb_feltetelek</message>
+  <param>egyeb_feltetelek, MD_TABLES, 38251Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.fiok_tipusa</message>
+  <param>fiokadatok, MD_TABLES, 38751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.szemelyes_adatok_id</message>
+  <param>fiokadatok, MD_TABLES, 38751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.egyeb_feltetelek_id</message>
+  <param>munkakor, MD_TABLES, 42801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.szuksegse_vegzettseg</message>
+  <param>munkakor, MD_TABLES, 42801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.normal_felhasznalo.vallalat_id</message>
+  <param>normal_felhasznalo, MD_TABLES, 43551Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.ertekeles</message>
+  <param>vallalat, MD_TABLES, 46001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.jegyzett_toke</message>
+  <param>vallalat, MD_TABLES, 46001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:54:49</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.tulajdonos</message>
+  <param>vallalat, MD_TABLES, 46001Convert</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value NULL has been replaced with 'NULL'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@71ab8366</param>
+
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.helyszin_id</message>
+  <param>allas, MD_TABLES, 121001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.munkakor_id</message>
+  <param>allas, MD_TABLES, 121001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.iskola_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 124201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.vallalat_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 124201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.egyeb_feltetelek.egyeb_feltetelek</message>
+  <param>egyeb_feltetelek, MD_TABLES, 125451Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.fiok_tipusa</message>
+  <param>fiokadatok, MD_TABLES, 125951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.szemelyes_adatok_id</message>
+  <param>fiokadatok, MD_TABLES, 125951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.egyeb_feltetelek_id</message>
+  <param>munkakor, MD_TABLES, 130001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.szuksegse_vegzettseg</message>
+  <param>munkakor, MD_TABLES, 130001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.normal_felhasznalo.vallalat_id</message>
+  <param>normal_felhasznalo, MD_TABLES, 130751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.ertekeles</message>
+  <param>vallalat, MD_TABLES, 133201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.jegyzett_toke</message>
+  <param>vallalat, MD_TABLES, 133201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:56:10</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.tulajdonos</message>
+  <param>vallalat, MD_TABLES, 133201Convert</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value NULL has been replaced with 'NULL'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@4f498997</param>
+
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.helyszin_id</message>
+  <param>allas, MD_TABLES, 210301Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.munkakor_id</message>
+  <param>allas, MD_TABLES, 210301Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.iskola_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 213501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.vallalat_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 213501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.egyeb_feltetelek.egyeb_feltetelek</message>
+  <param>egyeb_feltetelek, MD_TABLES, 214751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.fiok_tipusa</message>
+  <param>fiokadatok, MD_TABLES, 215251Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.szemelyes_adatok_id</message>
+  <param>fiokadatok, MD_TABLES, 215251Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.egyeb_feltetelek_id</message>
+  <param>munkakor, MD_TABLES, 219301Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.szuksegse_vegzettseg</message>
+  <param>munkakor, MD_TABLES, 219301Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.normal_felhasznalo.vallalat_id</message>
+  <param>normal_felhasznalo, MD_TABLES, 220051Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.ertekeles</message>
+  <param>vallalat, MD_TABLES, 222501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.jegyzett_toke</message>
+  <param>vallalat, MD_TABLES, 222501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T21:59:27</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.tulajdonos</message>
+  <param>vallalat, MD_TABLES, 222501Convert</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value NULL has been replaced with 'NULL'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@536c5365</param>
+
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.helyszin_id</message>
+  <param>allas, MD_TABLES, 33801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.allas.munkakor_id</message>
+  <param>allas, MD_TABLES, 33801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.iskola_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 37001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.diak_felhasznalo.vallalat_id</message>
+  <param>diak_felhasznalo, MD_TABLES, 37001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.egyeb_feltetelek.egyeb_feltetelek</message>
+  <param>egyeb_feltetelek, MD_TABLES, 38251Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.fiok_tipusa</message>
+  <param>fiokadatok, MD_TABLES, 38751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.fiokadatok.szemelyes_adatok_id</message>
+  <param>fiokadatok, MD_TABLES, 38751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.egyeb_feltetelek_id</message>
+  <param>munkakor, MD_TABLES, 42801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.munkakor.szuksegse_vegzettseg</message>
+  <param>munkakor, MD_TABLES, 42801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.normal_felhasznalo.vallalat_id</message>
+  <param>normal_felhasznalo, MD_TABLES, 43551Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.ertekeles</message>
+  <param>vallalat, MD_TABLES, 46001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.jegyzett_toke</message>
+  <param>vallalat, MD_TABLES, 46001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:33</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>allaskereso_db.vallalat.tulajdonos</message>
+  <param>vallalat, MD_TABLES, 46001Convert</param>
+
+</record>
+</record>
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@686fbf0b</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@6951f5d2</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@21a7c71e</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@c6dca9c</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@243bd95</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@7f0604e</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@341a18ac</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@74e9b698</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@2e3d9462</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@199a5b7e</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@4523cd43</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@5ebf157f</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@563c42ef</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@6d64a804</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@2c8a9a8b</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@359ecfc3</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@21b62250</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@6918e5db</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@6705b4ef</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@69414b0f</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@567dea13</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@4fdb10bd</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@26efa274</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@4fc2053b</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@38f24395</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@576a78fb</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@7b811f1c</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@152e1206</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@6dfbd94c</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@367da912</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@70435e26</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@4f041615</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@6f479100</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-30T22:14:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@729294b6</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: a tábla vagy a nézet nem létezik
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>

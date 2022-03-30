@@ -14,12 +14,7 @@ public class Controller {
 
     public ArrayList<String> selectfrom(){
         ArrayList<String> mystr = dao.SELECT("");
-        /*
-        for (String a:mystr){
-            System.out.println(a);
-        }
 
-         */
         return mystr;
     }
 
