@@ -2,6 +2,7 @@ package Control;
 
 import DAO.DAOImplement;
 
+import java.sql.ResultSet;
 import java.util.ArrayList;
 
 public class Controller {
@@ -12,10 +13,13 @@ public class Controller {
 
     }
 
-    public ArrayList<String> selectfrom(){
-        ArrayList<String> mystr = dao.SELECT("");
+    public ArrayList<String[]> customSQL(String statement){
+        return dao.SELECT(statement);
+    }
 
-        return mystr;
+    public ArrayList<String[]> selectfrom(){
+
+        return dao.SELECT("SELECT * FROM ALLAS");
     }
 
 }
