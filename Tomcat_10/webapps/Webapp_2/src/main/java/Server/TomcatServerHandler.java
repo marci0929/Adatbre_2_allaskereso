@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
-@WebServlet("/TomcatServer")
+@WebServlet("/TomcatServerHandler")
 public class TomcatServerHandler extends HttpServlet {
 
     Controller ctrl = new Controller();
@@ -21,22 +21,8 @@ public class TomcatServerHandler extends HttpServlet {
         resp.setContentType("text/html");
         PrintWriter out = resp.getWriter();
         ArrayList<String[]> results = ctrl.customSQL(req.getParameter("parancs"));
-        out.println("<table style=\"border: 1px solid black; border-collapse: collapse;\">");
-        try {
-                for (String[] a : results) {
-                    out.println("<tr style=\"border: 1px solid black;\">");
-                    for (int i = 0; i < col_count; i++) {
-                        out.println("<td style=\"border: 1px solid black;\">");
-                        out.print(a[i]);
-                        out.println("</td>");
-                    }
-                    out.println("</tr>");
-                }
-            out.println("</table>");
+        out.println("");
 
-        }catch (Exception e){
-            out.println("Hiba az SQL lekérdezésben!");
-        }
 
     }
 

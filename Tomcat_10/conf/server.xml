@@ -51,6 +51,8 @@
        Documentation at /docs/config/service.html
    -->
   <Service name="Catalina">
+  
+  
 
     <!--The connectors can use a shared executor, you can define one or more named thread pools-->
     <!--
@@ -131,8 +133,15 @@
                resourceName="UserDatabase"/>
       </Realm>
 
-      <Host name="localhost"  appBase="webapps/Webapp_2/target"
+      <Host name="localhost"  appBase="webapps"
             unpackWARs="true" autoDeploy="true">
+			
+			<Context path="" docBase="Webapp_2/target/allaskereso">
+ 
+			<!-- Default set of monitored resources -->
+			<WatchedResource>Webapp_2/target/allaskereso/WEB-INF/web.xml</WatchedResource>
+
+			</Context>
 
         <!-- SingleSignOn valve, share authentication between web applications
              Documentation at: /docs/config/valve.html -->

@@ -8,11 +8,11 @@ h1{
 
 }
 
-#fejlec{
+.fejlec{
 	background-color: gray;
 }
 
-#menusor{
+.menusor{
 	display: inline-block;
   	background-color: orange;
   	overflow: auto;
@@ -22,7 +22,7 @@ h1{
 	width: 150px;
 }
 
-#tartalom{
+.tartalom{
 	display: inline-block;
 	background-color: lightgreen;
 

@@ -1,3 +1,4 @@
 Control\Controller.class
 Server\TomcatServerHandler.class
+Server\LoginHandler.class
 DAO\DAOImplement.class
