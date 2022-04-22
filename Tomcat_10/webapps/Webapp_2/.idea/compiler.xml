@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="webapp" />
-        <module name="Webapp_2" />
+        <module name="Allaskereso_webapp" />
       </profile>
     </annotationProcessing>
   </component>

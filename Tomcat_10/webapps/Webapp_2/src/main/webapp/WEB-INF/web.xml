@@ -20,19 +20,6 @@
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
                       https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0">
-
-    <!-- ======================== Introduction ============================== -->
-    <!-- This document defines default values for *all* web applications      -->
-    <!-- loaded into this instance of Tomcat.  As each application is         -->
-    <!-- deployed, this file is processed, followed by the                    -->
-    <!-- "/WEB-INF/web.xml" deployment descriptor from your own               -->
-    <!-- applications.                                                        -->
-    <!--                                                                      -->
-    <!-- WARNING:  Do not configure application-specific resources here!      -->
-    <!-- They should go in the "/WEB-INF/web.xml" file in your application.   -->
-
-
-    <!-- Set the default request and response character encodings to UTF-8.   -->
     <request-character-encoding>UTF-8</request-character-encoding>
     <response-character-encoding>UTF-8</response-character-encoding>
 
@@ -4726,19 +4713,6 @@
         <mime-type>application/vnd.handheld-entertainment+xml</mime-type>
     </mime-mapping>
 
-    <!-- ==================== Default Welcome File List ===================== -->
-    <!-- When a request URI refers to a directory, the default servlet looks  -->
-    <!-- for a "welcome file" within that directory and, if present, to the   -->
-    <!-- corresponding resource URI for display.                              -->
-    <!-- If no welcome files are present, the default servlet either serves a -->
-    <!-- directory listing (see default servlet configuration on how to       -->
-    <!-- customize) or returns a 404 status, depending on the value of the    -->
-    <!-- listings setting.                                                    -->
-    <!--                                                                      -->
-    <!-- If you define welcome files in your own application's web.xml        -->
-    <!-- deployment descriptor, that list *replaces* the list configured      -->
-    <!-- here, so be sure to include any of the default values that you wish  -->
-    <!-- to use within your application.                                       -->
 
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>

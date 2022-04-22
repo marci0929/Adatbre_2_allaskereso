@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:12:28:53 +0200] "GET /allaskereso HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:12:28:53 +0200] "GET / HTTP/1.1" 404 683
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:12:28:54 +0200] "GET /allaskereso/ HTTP/1.1" 200 397
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:12:29:10 +0200] "GET /allaskereso/TomcatServer?parancs=SELECT+*+FROM+HELYSZIN HTTP/1.1" 200 6523
+0:0:0:0:0:0:0:1 - - [01/Apr/2022:12:31:10 +0200] "GET /allaskereso/TomcatServer?parancs=SELECT+*+FROM+HELYSZIN HTTP/1.1" 200 6523

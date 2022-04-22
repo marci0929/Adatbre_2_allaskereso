@@ -1,6 +1,6 @@
 package DAO;
 
-import Server.TomcatServer;
+import Server.TomcatServerHandler;
 import oracle.jdbc.pool.OracleDataSource;
 
 import java.sql.*;
@@ -25,7 +25,7 @@ public class DAOImplement {
             //innen
             ResultSet resultSet = rs;
             int columnCount = resultSet.getMetaData().getColumnCount();
-            TomcatServer.col_count = columnCount;
+            TomcatServerHandler.col_count = columnCount;
 
             while (resultSet.next()) {
                 String[] values = new String[columnCount];
