@@ -18,8 +18,16 @@
     <div class="menusor">
         <ul class="menu">
             <li><a href="index.jsp">Főoldal</a></li>
-            <li><a href="pages/login.jsp">Belépés</a></li>
+            <%
+                if(session.getAttribute("login_id") == null){
+                    out.print("<li><a href=\"pages/login.jsp\">Belépés</a></li>");
+                }
+                else{
+                    out.print("<li><a href=\"/Logout\">Kijelentkezés</a></li>");
+                }
+            %>
         </ul>
+
     </div>
 
     <div class="tartalom">

@@ -25,13 +25,12 @@ public class LoginHandler extends HttpServlet {
         HttpSession sess = req.getSession();
 
         if(username.equals("valaki") && pass.equals("password")){
-            sess.setAttribute("log", "teazavalaki");
+            sess.setAttribute("login_id", "bejelentkezett_felhasznalo");
             requestDispatcher = req.getRequestDispatcher("index.jsp");
             requestDispatcher.forward(req, resp);
         }
         else{
-            out.print("Buzi vagy ");
-            out.println(sess.getAttribute("log") == null ?"":sess.getAttribute("log"));
+            out.print("Nem jó adatok");
         }
     }
 }

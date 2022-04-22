@@ -46,3 +46,1360 @@
 22-Apr-2022 19:05:21.290 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
 22-Apr-2022 19:05:24.807 INFO [http-nio-8686-exec-2] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/pages/style/stylesheet.css' headers and data
 22-Apr-2022 19:05:38.603 INFO [http-nio-8686-exec-6] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/pages/style/stylesheet.css' headers and data
+22-Apr-2022 20:25:27.103 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+22-Apr-2022 20:25:31.231 INFO [http-nio-8686-exec-2] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/pages/style/stylesheet.css' headers and data
+22-Apr-2022 20:25:37.148 SEVERE [http-nio-8686-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+$ cannot be resolved to a variable
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error on tokens, ( expected instead
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+The left-hand side of an assignment must be a variable
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete Expression
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete BlockStatements
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error on tokens, delete these tokens
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on tokens, delete these tokens
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on token "<", @ expected
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on token "=", <= expected
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on token "/", delete this token
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on token "<", invalid Expression
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Invalid character constant
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "<", @ expected
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "=", <= expected
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "/", delete this token
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "<", invalid Expression
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "}", delete this token
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+28:         </ul>
+29:     </div>
+30: 
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+28:         </ul>
+29:     </div>
+30: 
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+28:         </ul>
+29:     </div>
+30: 
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+28:         </ul>
+29:     </div>
+30: 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+$ cannot be resolved to a variable
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error on tokens, ( expected instead
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+The left-hand side of an assignment must be a variable
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete Expression
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete BlockStatements
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error on tokens, delete these tokens
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on tokens, delete these tokens
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on token "<", @ expected
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on token "=", <= expected
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on token "/", delete this token
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on token "<", invalid Expression
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Invalid character constant
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "<", @ expected
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "=", <= expected
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "/", delete this token
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "<", invalid Expression
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "}", delete this token
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+28:         </ul>
+29:     </div>
+30: 
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+28:         </ul>
+29:     </div>
+30: 
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+28:         </ul>
+29:     </div>
+30: 
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+28:         </ul>
+29:     </div>
+30: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:866)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1716)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Apr-2022 20:27:37.968 SEVERE [http-nio-8686-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+$ cannot be resolved to a variable
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error on tokens, ( expected instead
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+The left-hand side of an assignment must be a variable
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete Expression
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete BlockStatements
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error on tokens, delete these tokens
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on tokens, delete these tokens
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on token "<", @ expected
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on token "=", <= expected
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on token "/", delete this token
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on token "<", invalid Expression
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Invalid character constant
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "<", @ expected
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "=", <= expected
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "/", delete this token
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "<", invalid Expression
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "}", delete this token
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+28:         </ul>
+29:     </div>
+30: 
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+28:         </ul>
+29:     </div>
+30: 
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+28:         </ul>
+29:     </div>
+30: 
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+28:         </ul>
+29:     </div>
+30: 
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+$ cannot be resolved to a variable
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error on tokens, ( expected instead
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+The left-hand side of an assignment must be a variable
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert ")" to complete Expression
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete BlockStatements
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [21] in the jsp file: [/index.jsp]
+Syntax error on tokens, delete these tokens
+18:     <div class="menusor">
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on tokens, delete these tokens
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on token "<", @ expected
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on token "=", <= expected
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on token "/", delete this token
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Syntax error on token "<", invalid Expression
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Invalid character constant
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "<", @ expected
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "=", <= expected
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "/", delete this token
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "<", invalid Expression
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [24] in the jsp file: [/index.jsp]
+Syntax error on token "}", delete this token
+21:             <% if( ${log} == null || ${log} == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+28:         </ul>
+29:     </div>
+30: 
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+28:         </ul>
+29:     </div>
+30: 
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+28:         </ul>
+29:     </div>
+30: 
+
+
+An error occurred at line: [27] in the jsp file: [/index.jsp]
+Syntax error, insert "}" to complete Block
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+26:                 }
+27:             %>
+28:         </ul>
+29:     </div>
+30: 
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:866)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1716)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Apr-2022 20:27:38.491 INFO [http-nio-8686-exec-6] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/favicon.ico' headers and data
+22-Apr-2022 20:30:29.678 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+22-Apr-2022 20:30:36.863 SEVERE [http-nio-8686-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Invalid character constant
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( sess.getAttribute("log") == null || sess.getAttribute("log") == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [22] in the jsp file: [/index.jsp]
+Invalid character constant
+19:         <ul class="menu">
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <% if( sess.getAttribute("log") == null || sess.getAttribute("log") == "" ){
+22:                     return '<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>'
+23:                 }
+24:                 else{
+25:                     return '<li><a href="/Logout">KijelentkezĂ©s</a></li>'
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:866)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1716)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Apr-2022 20:41:36.259 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+22-Apr-2022 20:41:45.586 SEVERE [http-nio-8686-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\work\Catalina\localhost\ROOT\org\apache\jsp\index_jsp.java]
+The import Logout cannot be resolved
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [14] in the generated java file: [C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\work\Catalina\localhost\ROOT\org\apache\jsp\index_jsp.java]
+The import Logout cannot be resolved
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:866)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1716)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Apr-2022 20:42:38.087 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+22-Apr-2022 20:42:41.207 INFO [http-nio-8686-exec-2] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style/stylesheet.css' headers and data
+22-Apr-2022 20:42:45.034 INFO [http-nio-8686-exec-4] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/pages/style/stylesheet.css' headers and data
+22-Apr-2022 20:46:15.495 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+22-Apr-2022 20:46:21.389 SEVERE [http-nio-8686-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/index.jsp]
+Invalid character constant
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <%
+22:                 if(session.getAttribute("login_id") == null){
+23:                     out.print('<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>')
+24:                 }
+25:                 else{
+26:                     out.print('<li><a href="/Logout">KijelentkezĂ©s</a></li>')
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/index.jsp]
+Invalid character constant
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <%
+22:                 if(session.getAttribute("login_id") == null){
+23:                     out.print('<li><a href="pages/login.jsp">BelĂ©pĂ©s</a></li>')
+24:                 }
+25:                 else{
+26:                     out.print('<li><a href="/Logout">KijelentkezĂ©s</a></li>')
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:866)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1716)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Apr-2022 20:48:17.438 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+22-Apr-2022 20:48:21.258 SEVERE [http-nio-8686-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete BlockStatements
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <%
+22:                 if(session.getAttribute("login_id") == null){
+23:                     out.print("<li><a href=\"pages/login.jsp\">BelĂ©pĂ©s</a></li>")
+24:                 }
+25:                 else{
+26:                     out.print("<li><a href=\"/Logout\">KijelentkezĂ©s</a></li>")
+
+
+An error occurred at line: [26] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete BlockStatements
+23:                     out.print("<li><a href=\"pages/login.jsp\">BelĂ©pĂ©s</a></li>")
+24:                 }
+25:                 else{
+26:                     out.print("<li><a href=\"/Logout\">KijelentkezĂ©s</a></li>")
+27:                 }
+28:             %>
+29:         </ul>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete BlockStatements
+20:             <li><a href="index.jsp">FĹ‘oldal</a></li>
+21:             <%
+22:                 if(session.getAttribute("login_id") == null){
+23:                     out.print("<li><a href=\"pages/login.jsp\">BelĂ©pĂ©s</a></li>")
+24:                 }
+25:                 else{
+26:                     out.print("<li><a href=\"/Logout\">KijelentkezĂ©s</a></li>")
+
+
+An error occurred at line: [26] in the jsp file: [/index.jsp]
+Syntax error, insert ";" to complete BlockStatements
+23:                     out.print("<li><a href=\"pages/login.jsp\">BelĂ©pĂ©s</a></li>")
+24:                 }
+25:                 else{
+26:                     out.print("<li><a href=\"/Logout\">KijelentkezĂ©s</a></li>")
+27:                 }
+28:             %>
+29:         </ul>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:498)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:397)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:380)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:328)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:866)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1716)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+22-Apr-2022 20:48:54.067 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+22-Apr-2022 20:49:00.774 INFO [http-nio-8686-exec-3] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/pages/style/stylesheet.css' headers and data
+22-Apr-2022 20:51:29.764 INFO [http-nio-8686-exec-2] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/pages/style/stylesheet.css' headers and data
+22-Apr-2022 20:51:39.760 INFO [http-nio-8686-exec-5] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style/stylesheet.css' headers and data
+22-Apr-2022 20:51:39.766 INFO [http-nio-8686-exec-5] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/css'
+22-Apr-2022 20:51:39.766 INFO [http-nio-8686-exec-5] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=509
+22-Apr-2022 20:51:42.474 INFO [http-nio-8686-exec-7] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/pages/style/stylesheet.css' headers and data
