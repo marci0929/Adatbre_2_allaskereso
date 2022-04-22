@@ -16,7 +16,7 @@
             <label for="username">Felhasználónév:</label><br>
             <input type="text" id="username" name="username"><br>
             <label for="pass">Jelszó:</label><br>
-            <input type="text" id="pass" name="pass"><br>
+            <input type="password" id="pass" name="pass"><br>
             <input type="submit" value="Bejelentkezés">
     </form>
 </div>

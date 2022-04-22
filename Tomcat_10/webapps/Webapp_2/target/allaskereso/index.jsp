@@ -2,6 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+
 <link rel="stylesheet" href="style/stylesheet.css">
 <meta charset="UTF-8">
 <title>Steve's Jobs</title>
