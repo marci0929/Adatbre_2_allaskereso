@@ -7,7 +7,6 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-import org.springframework.cglib.proxy.Dispatcher;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -25,7 +24,7 @@ public class LoginHandler extends HttpServlet {
         HttpSession sess = req.getSession();
 
         if(username.equals("valaki") && pass.equals("password")){
-            sess.setAttribute("login_id", "bejelentkezett_felhasznalo");
+            sess.setAttribute("login_id", "valaki");
             requestDispatcher = req.getRequestDispatcher("index.jsp");
             requestDispatcher.forward(req, resp);
         }

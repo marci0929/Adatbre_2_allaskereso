@@ -31,7 +31,7 @@
 
     </div>
 
-    <div class="tartalom">
+    <div class="tartalom" style="width: 70%;">
         <%!
             Controller control = new Controller();
         %>

@@ -646,3 +646,54 @@ Stacktrace:
 		at java.base/java.lang.Thread.run(Thread.java:833)
 26-Apr-2022 11:04:52.967 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
 26-Apr-2022 11:05:01.907 INFO [http-nio-8686-exec-2] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style/stylesheet.css' headers and data
+26-Apr-2022 14:25:03.943 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+26-Apr-2022 14:25:11.539 INFO [http-nio-8686-exec-3] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/pages/style/stylesheet.css' headers and data
+26-Apr-2022 14:29:07.602 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+26-Apr-2022 14:29:17.001 INFO [http-nio-8686-exec-1] org.apache.catalina.core.ApplicationContext.log Marking servlet [Server.Logout] as unavailable
+26-Apr-2022 14:29:17.001 SEVERE [http-nio-8686-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Allocate exception for servlet [Server.Logout]
+	java.lang.ClassCastException: class Server.Logout cannot be cast to class jakarta.servlet.Servlet (Server.Logout is in unnamed module of loader org.apache.catalina.loader.ParallelWebappClassLoader @471a9022; jakarta.servlet.Servlet is in unnamed module of loader java.net.URLClassLoader @2328c243)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1071)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:789)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:128)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:866)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1716)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+26-Apr-2022 14:29:42.999 INFO [http-nio-8686-exec-4] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/pages/style/stylesheet.css' headers and data
+26-Apr-2022 14:29:48.921 INFO [http-nio-8686-exec-6] org.apache.catalina.core.ApplicationContext.log Marking servlet [Server.LoginHandler] as unavailable
+26-Apr-2022 14:29:48.921 SEVERE [http-nio-8686-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Allocate exception for servlet [Server.LoginHandler]
+	java.lang.ClassCastException: class Server.LoginHandler cannot be cast to class jakarta.servlet.Servlet (Server.LoginHandler is in unnamed module of loader org.apache.catalina.loader.ParallelWebappClassLoader @471a9022; jakarta.servlet.Servlet is in unnamed module of loader java.net.URLClassLoader @2328c243)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1071)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:789)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:128)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:866)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1716)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+26-Apr-2022 14:31:27.781 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+26-Apr-2022 14:31:36.443 INFO [http-nio-8686-exec-3] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/pages/style/stylesheet.css' headers and data
+26-Apr-2022 14:32:54.979 INFO [http-nio-8686-exec-9] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/pages/style/stylesheet.css' headers and data
