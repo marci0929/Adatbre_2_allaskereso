@@ -23,6 +23,17 @@
         <ul class="menu">
             <li><a href="/index.jsp">Főoldal</a></li>
 			<li><a href="/pages/admin_control.jsp">Másik tábla választása</a></li>
+			            <%
+                if(session.getAttribute("login_id") == null){
+                    out.print("<li><a href=\"/pages/login.jsp\">Belépés</a></li>");
+                }
+                else{
+                	if( session.getAttribute("admin_e").equals("1") ){
+                		out.print("<li><a href=\"/pages/admin_control.jsp\">Admin felület</a></li>");
+                	}
+                    out.print("<li><a href=\"/Logout\">Kijelentkezés</a></li>");
+                }
+            %>
 
         </ul>
 
@@ -32,7 +43,10 @@
         <%
 	        int column_n = 0;
 	        List<String> headings = new ArrayList<>();
-	        out.println(request.getParameter("table_select"));
+	        out.println("Jelenlegi tábla: "+request.getParameter("table_select")+"<br>");
+	        out.println("<form method='POST' action='/pages/add_record.jsp?table_select="+request.getParameter("table_select")+"'>");
+	        out.println("<input type='submit' value='Új rekord hozzáadása'>");
+	        out.println("</form><br>");
 	        ResultSet rs=control.getResultSet("SELECT * FROM "+request.getParameter("table_select"));
 	        try {
 	        	
@@ -49,12 +63,24 @@
 		        out.println("</tr>");
 		        out.println("</thead>");
 		        out.println("<tbody>");
+		        int row_id=0;
 		        if (rs != null) {
 		            while (rs.next()) {
 		            	out.println("<tr>");
+		            	row_id=rs.getInt(1);
 		            	for(int j = 1; j<=column_n;j++) out.println("<td style='border: 1px solid black;padding:4px;'>"+rs.getString(j)+"</td>");
-		            	out.println("<td style='border: 1px solid black;padding:4px;'>Delete</td>");
-		            	out.println("<td style='border: 1px solid black;padding:4px;'>Update</td>");
+		            	out.println("<td style='border: 1px solid black;padding:4px;'>");
+		            	out.println("<form method='POST' action='/TableManager?table_select="+request.getParameter("table_select")+"&todo=delete'>");
+		            	out.println("<input type='image' src='/style/pictures/delete_icon.png' alt='Delete icon' width='50' height='50'>");
+		                out.println("<input type='hidden' id=value"+row_id+" name='delete_btn' value="+row_id+">");
+		                out.println("</form>");
+		            	out.println("</td>");
+		            	out.println("<td style='border: 1px solid black;padding:4px;'>");
+		            	out.println("<form method='POST' action='/TableManager?table_select="+request.getParameter("table_select")+"&todo=update'>");
+		            	out.println("<input type='image' src='/style/pictures/update_icon.png' alt='Update icon' width='50' height='50'>");
+		                out.println("<input type='hidden' id=value"+row_id+" name='update_btn' value="+row_id+">");
+		                out.println("</form>");
+		            	out.println("</td>");
 		                out.println("</tr>");
 		            }
 		        }

@@ -43,6 +43,15 @@ public class DAOImplement {
         return list;
     }
 
+    public void SQL_INSERT(String insertStatement){
+        try {
+            Statement st = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
+            st.executeQuery(insertStatement);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     public ResultSet getResultSet(String sqlStatement){
         ResultSet rs = null;
         try {

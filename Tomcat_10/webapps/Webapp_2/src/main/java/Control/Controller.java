@@ -32,6 +32,10 @@ public class Controller {
         return dao.getResultSet(statement);
     }
 
+    public void SQLInsertStatement(String statement){
+        dao.SQL_INSERT(statement);
+    }
+
     public ArrayList<String> getTableNames(){
         return dao.getTableNames();
     }

@@ -1,0 +1,150 @@
+27-Apr-2022 00:37:40.935 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+27-Apr-2022 00:37:47.458 INFO [http-nio-8686-exec-2] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style/stylesheet.css' headers and data
+27-Apr-2022 00:37:55.109 INFO [http-nio-8686-exec-4] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style/stylesheet.css' headers and data
+27-Apr-2022 00:38:58.133 SEVERE [http-nio-8686-exec-7] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [Server.TableManager] in context with path [] threw exception
+	java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "<local5>" is null
+		at Server.TableManager.doPost(TableManager.java:27)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:694)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:866)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1716)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+27-Apr-2022 00:41:30.493 INFO [http-nio-8686-exec-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/pages/add_record' headers and data
+27-Apr-2022 00:51:19.221 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+27-Apr-2022 00:51:25.177 INFO [http-nio-8686-exec-2] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style/stylesheet.css' headers and data
+27-Apr-2022 01:00:28.863 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+27-Apr-2022 01:02:40.736 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+27-Apr-2022 01:02:58.415 INFO [http-nio-8686-exec-5] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style/stylesheet.css' headers and data
+27-Apr-2022 01:04:32.805 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+27-Apr-2022 01:07:32.334 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+27-Apr-2022 01:09:12.022 INFO [http-nio-8686-exec-1] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/pages/style/stylesheet.css' headers and data
+27-Apr-2022 01:09:22.273 INFO [http-nio-8686-exec-6] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style/stylesheet.css' headers and data
+27-Apr-2022 01:15:16.456 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+27-Apr-2022 01:15:34.260 SEVERE [http-nio-8686-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [Server.TableManager] in context with path [] threw exception
+	java.lang.RuntimeException: java.sql.SQLSyntaxErrorException: ORA-00933: az SQL parancs nem megfelelően ér véget
+
+		at DAO.DAOImplement.SQL_INSERT(DAOImplement.java:51)
+		at Control.Controller.SQLInsertStatement(Controller.java:36)
+		at Server.TableManager.newRecord(TableManager.java:99)
+		at Server.TableManager.doPost(TableManager.java:38)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:694)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:866)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1716)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.sql.SQLSyntaxErrorException: ORA-00933: az SQL parancs nem megfelelően ér véget
+
+		at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
+		at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+		at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+		at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+		at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+		at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+		at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+		at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
+		at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
+		at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
+		at oracle.jdbc.driver.OracleStatement.doScrollExecuteCommon(OracleStatement.java:5565)
+		at oracle.jdbc.driver.OracleStatement.doScrollStmtExecuteQuery(OracleStatement.java:5699)
+		at oracle.jdbc.driver.OracleStatement.executeQuery(OracleStatement.java:2084)
+		at oracle.jdbc.driver.OracleStatementWrapper.executeQuery(OracleStatementWrapper.java:394)
+		at DAO.DAOImplement.SQL_INSERT(DAOImplement.java:49)
+		... 27 more
+	Caused by: Error : 933, Position : 92, Sql = INSERT INTO HELYSZIN (ID, ORSZAG, VAROS, TAVOLROL_VEGEZHETO_E) VALUES (26, 'fasd', 'wdw', 1);, OriginalSql = INSERT INTO HELYSZIN (ID, ORSZAG, VAROS, TAVOLROL_VEGEZHETO_E) VALUES (26, 'fasd', 'wdw', 1);, Error Msg = ORA-00933: az SQL parancs nem megfelelően ér véget
+
+		at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+		... 41 more
+27-Apr-2022 01:17:04.136 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+27-Apr-2022 01:17:15.604 INFO [http-nio-8686-exec-3] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style/stylesheet.css' headers and data
+27-Apr-2022 01:17:25.412 SEVERE [http-nio-8686-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [Server.TableManager] in context with path [] threw exception
+	java.lang.RuntimeException: java.sql.SQLSyntaxErrorException: ORA-00933: az SQL parancs nem megfelelően ér véget
+
+		at DAO.DAOImplement.SQL_INSERT(DAOImplement.java:51)
+		at Control.Controller.SQLInsertStatement(Controller.java:36)
+		at Server.TableManager.newRecord(TableManager.java:99)
+		at Server.TableManager.doPost(TableManager.java:38)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:694)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:777)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:356)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:866)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1716)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: java.sql.SQLSyntaxErrorException: ORA-00933: az SQL parancs nem megfelelően ér véget
+
+		at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630)
+		at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:564)
+		at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1231)
+		at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:772)
+		at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299)
+		at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:512)
+		at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:123)
+		at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1200)
+		at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:1820)
+		at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1472)
+		at oracle.jdbc.driver.OracleStatement.doScrollExecuteCommon(OracleStatement.java:5565)
+		at oracle.jdbc.driver.OracleStatement.doScrollStmtExecuteQuery(OracleStatement.java:5699)
+		at oracle.jdbc.driver.OracleStatement.executeQuery(OracleStatement.java:2084)
+		at oracle.jdbc.driver.OracleStatementWrapper.executeQuery(OracleStatementWrapper.java:394)
+		at DAO.DAOImplement.SQL_INSERT(DAOImplement.java:49)
+		... 27 more
+	Caused by: Error : 933, Position : 91, Sql = INSERT INTO HELYSZIN (ID, ORSZAG, VAROS, TAVOLROL_VEGEZHETO_E) VALUES (26, 'dwd', 'ada', 1);, OriginalSql = INSERT INTO HELYSZIN (ID, ORSZAG, VAROS, TAVOLROL_VEGEZHETO_E) VALUES (26, 'dwd', 'ada', 1);, Error Msg = ORA-00933: az SQL parancs nem megfelelően ér véget
+
+		at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637)
+		... 41 more
+27-Apr-2022 01:19:02.660 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
