@@ -25,6 +25,7 @@ h1{
 .tartalom{
 	display: inline-block;
 	background-color: lightgreen;
+	width: 80%;
 
 }
 

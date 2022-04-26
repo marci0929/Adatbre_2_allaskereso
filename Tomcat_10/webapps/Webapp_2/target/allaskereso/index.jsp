@@ -8,6 +8,9 @@
 <link rel="stylesheet" href="style/stylesheet.css">
 <meta charset="UTF-8">
 <title>Steve's Jobs</title>
+<%!
+            Controller control = new Controller();
+%>
 </head>
 <body>
 
@@ -24,6 +27,9 @@
                     out.print("<li><a href=\"pages/login.jsp\">Belépés</a></li>");
                 }
                 else{
+                	if( session.getAttribute("admin_e").equals("1") ){
+                		out.print("<li><a href=\"/Admin_page\">Admin felület</a></li>");
+                	}
                     out.print("<li><a href=\"/Logout\">Kijelentkezés</a></li>");
                 }
             %>
@@ -31,15 +37,13 @@
 
     </div>
 
-    <div class="tartalom" style="width: 70%;">
-        <%!
-            Controller control = new Controller();
-        %>
+    <div class="tartalom">
+        
 
         <%
             ArrayList<String[]> database_results = control.customSQL("SELECT * FROM ALLAS");
             for (String[] i : database_results) {
-                out.println(i[1]);
+                out.println(i[1]+"<br>");
             }
         %>
     </div>
