@@ -13,7 +13,7 @@
 
 <div class="main">
     <form id="login" method="post" action="/LoginHandler">
-            <label for="username">Felhasználónév:</label><br>
+            <label for="username">Email cím:</label><br>
             <input type="text" id="username" name="username"><br>
             <label for="pass">Jelszó:</label><br>
             <input type="password" id="pass" name="pass"><br>

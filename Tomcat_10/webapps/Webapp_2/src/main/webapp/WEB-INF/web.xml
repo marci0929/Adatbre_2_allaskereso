@@ -60,6 +60,10 @@
         <extension>html</extension>
         <mime-type>text/html</mime-type>
     </mime-mapping>
+    <mime-mapping>
+        <extension>css</extension>
+        <mime-type>text/css</mime-type>
+    </mime-mapping>
 
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>

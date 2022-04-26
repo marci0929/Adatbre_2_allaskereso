@@ -13,19 +13,21 @@ h1{
 }
 
 .menusor{
-	display: inline-block;
+	float:left;
   	background-color: orange;
-  	overflow: auto;
-	text-align: left;
 	padding: 2px;
 	font-size: 20px;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
 	width: 150px;
 }
 
 .tartalom{
-	display: inline-block;
+	float:left;
 	background-color: lightgreen;
-	width: 80%;
+  	padding: 10px;
 
 }
 

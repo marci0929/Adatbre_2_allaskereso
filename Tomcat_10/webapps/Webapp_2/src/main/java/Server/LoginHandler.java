@@ -23,8 +23,6 @@ public class LoginHandler extends HttpServlet {
         String pass = req.getParameter("pass").trim();
         PrintWriter out = resp.getWriter();
 
-        RequestDispatcher requestDispatcher;
-
         HttpSession sess = req.getSession();
         if(!username.equals("") && !pass.equals("")) {
             ArrayList<String[]> results = ctrl.customSQL("SELECT * FROM FIOKADATOK");
@@ -40,16 +38,14 @@ public class LoginHandler extends HttpServlet {
             if (correct_creditentals) {
                 sess.setAttribute("login_id", username);
                 sess.setAttribute("admin_e", admin_e);
-                requestDispatcher = req.getRequestDispatcher("index.jsp");
-                requestDispatcher.forward(req, resp);
+                resp.sendRedirect("index.jsp");
             } else {
                 out.print("Nem jó adatok");
             }
         }
         else {
             req.setAttribute("hiba", "nincs_kitoltve");
-            requestDispatcher = req.getRequestDispatcher("login.jsp");
-            requestDispatcher.forward(req, resp);
+            resp.sendRedirect("login.jsp");
         }
     }
 }

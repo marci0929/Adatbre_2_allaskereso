@@ -5,7 +5,7 @@
 <head>
 
 
-<link rel="stylesheet" href="style/stylesheet.css">
+<link rel="stylesheet" href="/style/stylesheet.css?ts=<?=time()?>">
 <meta charset="UTF-8">
 <title>Steve's Jobs</title>
 <%!
@@ -28,7 +28,7 @@
                 }
                 else{
                 	if( session.getAttribute("admin_e").equals("1") ){
-                		out.print("<li><a href=\"/Admin_page\">Admin felület</a></li>");
+                		out.print("<li><a href=\"pages/admin_control.jsp\">Admin felület</a></li>");
                 	}
                     out.print("<li><a href=\"/Logout\">Kijelentkezés</a></li>");
                 }
