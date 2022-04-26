@@ -24,6 +24,7 @@
     <div class="tartalom">
 
         <p>Válassz táblát, amelyiket szerkeszteni szeretnéd</p>
+        <form method="get" action="/pages/edit_table.jsp">
         <select name="table_select">
         <%
 	    	ArrayList<String> database_results = control.getTableNames();
@@ -32,7 +33,10 @@
         	}
 	    	
 	    %>
-		</select>  
+		</select>
+		<br>
+		<input type="submit" value="Szerkesztés">
+		</form>
     </div>
 
 </div>

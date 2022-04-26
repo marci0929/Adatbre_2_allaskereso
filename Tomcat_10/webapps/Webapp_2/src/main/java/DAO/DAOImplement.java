@@ -22,7 +22,7 @@ public class DAOImplement {
 
     public ArrayList<String[]> SQL_EXEC(String sqlStatement) {
 
-        ArrayList<String[]> list = new ArrayList<String[]>();
+        ArrayList<String[]> list = new ArrayList<>();
         try {
             Statement st = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
             ResultSet rs = st.executeQuery(sqlStatement);
@@ -42,6 +42,18 @@ public class DAOImplement {
         }
         return list;
     }
+
+    public ResultSet getResultSet(String sqlStatement){
+        ResultSet rs = null;
+        try {
+            Statement st = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
+            rs = st.executeQuery(sqlStatement);
+        }catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return rs;
+    }
+
 
     public ArrayList<String> getTableNames(){
         ArrayList<String> tableNames = new ArrayList<>();

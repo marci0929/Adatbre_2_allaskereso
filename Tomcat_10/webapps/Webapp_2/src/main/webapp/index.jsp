@@ -1,5 +1,5 @@
 <%@page language="java" pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
-<%@ page import="Control.Controller, java.util.ArrayList" %>
+<%@ page import="java.sql.*, Control.Controller, java.util.ArrayList, java.util.List" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -38,13 +38,38 @@
     </div>
 
     <div class="tartalom">
-        
-
         <%
-            ArrayList<String[]> database_results = control.customSQL("SELECT * FROM ALLAS");
-            for (String[] i : database_results) {
-                out.println(i[1]+"<br>");
-            }
+	        int column_n = 0;
+	        List<String> headings = new ArrayList<>();
+	        ResultSet rs=control.getResultSet("SELECT * FROM ALLAS");
+	        try {
+	        	
+	            column_n = rs.getMetaData().getColumnCount();
+	            for (int i = 1; i <= column_n; i++) {
+	                headings.add(rs.getMetaData().getColumnName(i));
+	            }
+		        out.println("<table style='border:1px solid #ccc; border-collapse:collapse;background-color: lightcyan;'>");
+		        out.println("<thead>");
+		        out.println("<tr style='border: 1px solid black;'>");
+		        for (String columnheading : headings) {
+		        	out.println("<th style='border: 1px solid black;padding:4px;'>" + columnheading + "</th>");
+		        }
+		        out.println("</tr>");
+		        out.println("</thead>");
+		        out.println("<tbody>");
+		        if (rs != null) {
+		            while (rs.next()) {
+		            	out.println("<tr>");
+		            	for(int j = 1; j<=column_n;j++) out.println("<td style='border: 1px solid black;padding:4px;'>"+rs.getString(j)+"</td>");
+		                out.println("</tr>");
+		               
+		            }
+		        }
+		        out.println("</tbody>");
+		        out.println("</table>");
+	        } catch (Exception e) {
+	            e.printStackTrace();
+	        }
         %>
     </div>
 
