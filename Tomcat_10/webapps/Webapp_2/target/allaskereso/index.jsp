@@ -1,4 +1,5 @@
 <%@page language="java" pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
+<%@ page import="Control.Controller, java.util.ArrayList" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -31,7 +32,16 @@
     </div>
 
     <div class="tartalom">
-        tartalom
+        <%!
+            Controller control = new Controller();
+        %>
+
+        <%
+            ArrayList<String[]> database_results = control.customSQL("SELECT * FROM ALLAS");
+            for (String[] i : database_results) {
+                out.println(i[1]);
+            }
+        %>
     </div>
 
 </div>

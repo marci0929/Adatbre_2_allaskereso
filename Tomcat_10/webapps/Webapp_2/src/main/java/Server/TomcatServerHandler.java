@@ -16,6 +16,8 @@ public class TomcatServerHandler extends HttpServlet {
     Controller ctrl = new Controller();
     public static int col_count=0;
 
+
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         resp.setContentType("text/html");
