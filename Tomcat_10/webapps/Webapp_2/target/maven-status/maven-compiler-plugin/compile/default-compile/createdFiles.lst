@@ -2,6 +2,5 @@ Control\Controller.class
 Server\TomcatServerHandler.class
 Server\LoginHandler.class
 Server\Logout.class
-Server\TableManager.class
-Server\Menubar.class
 DAO\DAOImplement.class
+Server\TableManager.class

@@ -76,7 +76,7 @@
 		                out.println("</form>");
 		            	out.println("</td>");
 		            	out.println("<td style='border: 1px solid black;padding:4px;'>");
-		            	out.println("<form method='POST' action='/TableManager?table_select="+request.getParameter("table_select")+"&todo=update'>");
+		            	out.println("<form method='POST' action='/pages/update_record.jsp?table_select="+request.getParameter("table_select")+"'>");
 		            	out.println("<input type='image' src='/style/pictures/update_icon.png' alt='Update icon' width='50' height='50'>");
 		                out.println("<input type='hidden' id=value"+row_id+" name='update_btn' value="+row_id+">");
 		                out.println("</form>");

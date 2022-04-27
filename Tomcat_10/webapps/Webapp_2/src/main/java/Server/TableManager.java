@@ -31,7 +31,7 @@ public class TableManager extends HttpServlet {
                 success = 1;
                 break;
             case "update":
-                //update
+                updateRecord(req.getParameter("table_select"), req);
                 success = 2;
                 break;
             case "new_record":
@@ -97,9 +97,41 @@ public class TableManager extends HttpServlet {
             e.printStackTrace();
         }
         control.SQLInsertStatement(insert.toString());
+    }
 
-        /*
-            INSERT INTO table_name (column1, column2, column3, ...) VALUES (value1, value2, value3, ...);
-         */
+    public void updateRecord(String table, HttpServletRequest req){
+        int column_n = 0;
+        List<String> headings = new ArrayList<>();
+        ResultSet rs = null;
+        StringBuilder insert = new StringBuilder("UPDATE " + table + " SET ");
+        try {
+            rs = control.getResultSet("SELECT * FROM " + table);
+            column_n = rs.getMetaData().getColumnCount();
+            for (int i = 1; i <= column_n; i++) {
+                headings.add(rs.getMetaData().getColumnName(i));
+            }
+            int curr_col = 1;
+            for (String heading : headings){
+                if(req.getParameter(heading) != null){
+                    if(curr_col != column_n){
+                        if(rs.getMetaData().getColumnType(curr_col) == Types.NUMERIC) {
+                            insert.append(heading).append("=").append(req.getParameter(heading)).append(", ");
+                        }else{
+                            insert.append(heading).append("=").append("'").append(req.getParameter(heading)).append("'").append(", ");
+                        }
+                    }else{
+                        if(rs.getMetaData().getColumnType(curr_col) == Types.NUMERIC) {
+                            insert.append(heading).append("=").append(req.getParameter(heading)).append(" WHERE ID=").append(req.getParameter("update_id"));
+                        }else{
+                            insert.append(heading).append("=").append("'").append(req.getParameter(heading)).append("'").append(" WHERE ID=").append(req.getParameter("update_id"));
+                        }
+                    }
+                }
+                curr_col++;
+            }
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        control.SQLInsertStatement(insert.toString());
     }
 }

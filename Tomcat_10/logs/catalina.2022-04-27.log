@@ -400,3 +400,179 @@
 27-Apr-2022 01:19:49.322 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
 27-Apr-2022 01:19:49.335 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8686"]
 27-Apr-2022 01:19:49.341 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 10:16:08.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.18
+27-Apr-2022 10:16:08.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 9 2022 14:30:15 UTC
+27-Apr-2022 10:16:08.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.18.0
+27-Apr-2022 10:16:08.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Apr-2022 10:16:08.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Apr-2022 10:16:08.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Apr-2022 10:16:08.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17.0.2
+27-Apr-2022 10:16:08.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.2+8-LTS-86
+27-Apr-2022 10:16:08.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Apr-2022 10:16:08.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10
+27-Apr-2022 10:16:08.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10
+27-Apr-2022 10:16:08.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Apr-2022 10:16:08.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Apr-2022 10:16:08.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Apr-2022 10:16:08.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Apr-2022 10:16:08.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Apr-2022 10:16:08.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\conf\logging.properties
+27-Apr-2022 10:16:08.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Apr-2022 10:16:08.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Apr-2022 10:16:08.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Apr-2022 10:16:08.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Apr-2022 10:16:08.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10
+27-Apr-2022 10:16:08.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10
+27-Apr-2022 10:16:08.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\temp
+27-Apr-2022 10:16:08.261 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+27-Apr-2022 10:16:08.261 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+27-Apr-2022 10:16:08.289 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+27-Apr-2022 10:16:08.526 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 10:16:08.549 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [579] milliseconds
+27-Apr-2022 10:16:08.611 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Apr-2022 10:16:08.611 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.18]
+27-Apr-2022 10:16:10.767 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2022 10:16:10.896 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\webapps\tomcat_control]
+27-Apr-2022 10:16:10.943 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\webapps\tomcat_control] has finished in [46] ms
+27-Apr-2022 10:16:10.943 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\webapps\Webapp_2]
+27-Apr-2022 10:16:10.992 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\webapps\Webapp_2] has finished in [49] ms
+27-Apr-2022 10:16:10.995 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 10:16:11.097 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2546] milliseconds
+27-Apr-2022 10:35:05.727 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Apr-2022 10:35:05.728 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 10:35:05.754 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Apr-2022 10:35:05.793 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Apr-2022 10:35:05.805 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 10:35:05.815 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 10:43:10.352 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.18
+27-Apr-2022 10:43:10.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 9 2022 14:30:15 UTC
+27-Apr-2022 10:43:10.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.18.0
+27-Apr-2022 10:43:10.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Apr-2022 10:43:10.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Apr-2022 10:43:10.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Apr-2022 10:43:10.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17.0.2
+27-Apr-2022 10:43:10.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.2+8-LTS-86
+27-Apr-2022 10:43:10.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Apr-2022 10:43:10.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10
+27-Apr-2022 10:43:10.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10
+27-Apr-2022 10:43:10.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Apr-2022 10:43:10.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Apr-2022 10:43:10.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Apr-2022 10:43:10.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Apr-2022 10:43:10.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Apr-2022 10:43:10.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\conf\logging.properties
+27-Apr-2022 10:43:10.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Apr-2022 10:43:10.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Apr-2022 10:43:10.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Apr-2022 10:43:10.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Apr-2022 10:43:10.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10
+27-Apr-2022 10:43:10.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10
+27-Apr-2022 10:43:10.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\temp
+27-Apr-2022 10:43:10.371 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+27-Apr-2022 10:43:10.371 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+27-Apr-2022 10:43:10.379 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+27-Apr-2022 10:43:10.601 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 10:43:10.624 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [498] milliseconds
+27-Apr-2022 10:43:10.667 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Apr-2022 10:43:10.667 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.18]
+27-Apr-2022 10:43:12.386 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2022 10:43:12.523 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\webapps\tomcat_control]
+27-Apr-2022 10:43:12.578 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\webapps\tomcat_control] has finished in [54] ms
+27-Apr-2022 10:43:12.578 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\webapps\Webapp_2]
+27-Apr-2022 10:43:12.640 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\webapps\Webapp_2] has finished in [62] ms
+27-Apr-2022 10:43:12.644 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 10:43:12.745 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2119] milliseconds
+27-Apr-2022 10:44:13.463 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Apr-2022 10:44:13.463 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 10:44:13.487 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Apr-2022 10:44:13.513 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Apr-2022 10:44:13.523 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 10:44:13.539 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 10:47:17.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.18
+27-Apr-2022 10:47:17.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 9 2022 14:30:15 UTC
+27-Apr-2022 10:47:17.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.18.0
+27-Apr-2022 10:47:17.491 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Apr-2022 10:47:17.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Apr-2022 10:47:17.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Apr-2022 10:47:17.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17.0.2
+27-Apr-2022 10:47:17.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.2+8-LTS-86
+27-Apr-2022 10:47:17.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Apr-2022 10:47:17.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10
+27-Apr-2022 10:47:17.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10
+27-Apr-2022 10:47:17.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Apr-2022 10:47:17.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Apr-2022 10:47:17.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Apr-2022 10:47:17.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Apr-2022 10:47:17.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Apr-2022 10:47:17.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\conf\logging.properties
+27-Apr-2022 10:47:17.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Apr-2022 10:47:17.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Apr-2022 10:47:17.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Apr-2022 10:47:17.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Apr-2022 10:47:17.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10
+27-Apr-2022 10:47:17.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10
+27-Apr-2022 10:47:17.506 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\temp
+27-Apr-2022 10:47:17.510 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+27-Apr-2022 10:47:17.510 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+27-Apr-2022 10:47:17.518 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+27-Apr-2022 10:47:17.803 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 10:47:17.829 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [606] milliseconds
+27-Apr-2022 10:47:17.875 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Apr-2022 10:47:17.876 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.18]
+27-Apr-2022 10:47:20.255 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2022 10:47:20.416 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\webapps\tomcat_control]
+27-Apr-2022 10:47:20.485 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\webapps\tomcat_control] has finished in [68] ms
+27-Apr-2022 10:47:20.486 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\webapps\Webapp_2]
+27-Apr-2022 10:47:20.547 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\webapps\Webapp_2] has finished in [62] ms
+27-Apr-2022 10:47:20.550 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 10:47:20.639 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2809] milliseconds
+27-Apr-2022 10:51:37.447 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Apr-2022 10:51:37.447 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 10:51:37.474 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Apr-2022 10:51:37.504 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Apr-2022 10:51:37.514 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 10:51:37.520 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 10:59:53.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.18
+27-Apr-2022 10:59:53.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 9 2022 14:30:15 UTC
+27-Apr-2022 10:59:53.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.18.0
+27-Apr-2022 10:59:53.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+27-Apr-2022 10:59:53.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+27-Apr-2022 10:59:53.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Apr-2022 10:59:53.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17.0.2
+27-Apr-2022 10:59:53.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.2+8-LTS-86
+27-Apr-2022 10:59:53.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Apr-2022 10:59:53.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10
+27-Apr-2022 10:59:53.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10
+27-Apr-2022 10:59:53.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+27-Apr-2022 10:59:53.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+27-Apr-2022 10:59:53.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+27-Apr-2022 10:59:53.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+27-Apr-2022 10:59:53.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Apr-2022 10:59:53.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\conf\logging.properties
+27-Apr-2022 10:59:53.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Apr-2022 10:59:53.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Apr-2022 10:59:53.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Apr-2022 10:59:53.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Apr-2022 10:59:53.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10
+27-Apr-2022 10:59:53.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10
+27-Apr-2022 10:59:53.271 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\temp
+27-Apr-2022 10:59:53.276 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+27-Apr-2022 10:59:53.276 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+27-Apr-2022 10:59:53.283 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+27-Apr-2022 10:59:53.480 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 10:59:53.501 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [457] milliseconds
+27-Apr-2022 10:59:53.538 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Apr-2022 10:59:53.538 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.18]
+27-Apr-2022 10:59:55.287 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Apr-2022 10:59:55.394 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\webapps\tomcat_control]
+27-Apr-2022 10:59:55.443 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\webapps\tomcat_control] has finished in [48] ms
+27-Apr-2022 10:59:55.443 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\webapps\Webapp_2]
+27-Apr-2022 10:59:55.493 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\webapps\Webapp_2] has finished in [50] ms
+27-Apr-2022 10:59:55.496 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 10:59:55.577 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2075] milliseconds
+27-Apr-2022 11:01:16.918 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Apr-2022 11:01:16.919 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 11:01:16.951 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Apr-2022 11:01:16.987 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+27-Apr-2022 11:01:17.000 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8686"]
+27-Apr-2022 11:01:17.007 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8686"]
