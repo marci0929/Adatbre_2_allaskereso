@@ -1,6 +1,7 @@
 Control\Controller.class
+Server\SignupHandler.class
 Server\TomcatServerHandler.class
 Server\LoginHandler.class
 Server\Logout.class
-DAO\DAOImplement.class
 Server\TableManager.class
+DAO\DAOImplement.class

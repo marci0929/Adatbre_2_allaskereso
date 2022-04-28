@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="webapp" />
         <module name="Allaskereso_webapp" />
+        <module name="Webapp_2" />
       </profile>
     </annotationProcessing>
   </component>
