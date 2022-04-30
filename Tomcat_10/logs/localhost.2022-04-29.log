@@ -1,0 +1,14 @@
+29-Apr-2022 02:19:43.638 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+29-Apr-2022 02:19:54.944 INFO [http-nio-8686-exec-2] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style/stylesheet.css' headers and data
+29-Apr-2022 02:19:56.450 INFO [http-nio-8686-exec-3] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/favicon.ico' headers and data
+29-Apr-2022 02:19:58.189 INFO [http-nio-8686-exec-4] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/pages/style/stylesheet.css' headers and data
+29-Apr-2022 02:20:42.037 INFO [http-nio-8686-exec-3] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style/stylesheet.css' headers and data
+29-Apr-2022 02:24:03.516 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+29-Apr-2022 02:24:16.436 INFO [http-nio-8686-exec-3] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/favicon.ico' headers and data
+29-Apr-2022 02:24:18.630 INFO [http-nio-8686-exec-5] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/pages/style/stylesheet.css' headers and data
+29-Apr-2022 12:51:36.852 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+29-Apr-2022 12:51:56.345 INFO [http-nio-8686-exec-4] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style/stylesheet.css' headers and data
+29-Apr-2022 12:51:57.279 INFO [http-nio-8686-exec-2] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/favicon.ico' headers and data
+29-Apr-2022 12:52:38.201 INFO [http-nio-8686-exec-7] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/pages/style/stylesheet.css' headers and data
+29-Apr-2022 13:00:52.150 INFO [http-nio-8686-exec-4] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/pages/style/stylesheet.css' headers and data
+29-Apr-2022 13:01:02.233 INFO [http-nio-8686-exec-3] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style/stylesheet.css' headers and data

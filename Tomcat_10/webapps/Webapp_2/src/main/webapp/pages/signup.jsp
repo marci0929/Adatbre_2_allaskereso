@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style/stylesheet.css">
+    <link rel="stylesheet" href="/style/stylesheet.css">
     <meta charset="UTF-8">
     <title>Steve's Jobs</title>
 </head>
@@ -12,19 +12,38 @@
 </div>
 
 <div class="main">
-    <form id="signup" method="post" action="/SignupHandler">
-        <label for="name">Név:</label><br>
-        <input type="text" id="name" name="name"><br>
-        <label for="username">Email cím:</label><br>
-        <input type="text" id="username" name="username"><br>
-        <label for="date">Születési dátum:</label><br>
-        <input type="date" id="date" name="date" value="2000-01-01" min="1950-01-01" max="2005-12-31"><br>
-        <label for="pass">Jelszó:</label><br>
-        <input type="password" id="pass" name="pass"><br>
-        <label for="pass">Jelszó megerősítese:</label><br>
-        <input type="repassword" id="repass" name="repass"><br>
-        <input type="submit" value="Regisztráció">
-    </form>
+	<div class="tartalom" style="margin: auto;">
+	    <form id="signup" method="post" action="/SignupHandler">
+	        <label for="username">Email cím:</label><br>
+	        <input type="text" id="username" name="username">
+	       	<%
+	        	if(request.getAttribute("wrongmail") != null)
+	        	if((int)request.getAttribute("wrongmail") == 1){
+	        		out.print("<br><strong>Az email címhez már létezik fiók!</strong>");
+	        	}
+	        %>
+	        <br>
+	        <label for="pass">Jelszó:</label><br>
+	        <input type="password" id="pass" name="pass"><br>
+	        <label for="pass">Jelszó megerősítese:</label><br>
+	        <input type="password" id="repass" name="repass">
+	        <%
+	        	if(request.getAttribute("wrongpass") != null)
+	        	if((int)request.getAttribute("wrongpass") == 1){
+	        		out.print("<br><strong>A jelszavak nem egyeznek!</strong>");
+	        	}
+	        %>
+	        <br>
+	        <input type="radio" id="kereso" name="user_type" value="kereso">
+			<label for="kereso">Álláskereső vagyok</label><br>
+			<input type="radio" id="hirdeto" name="user_type" value="hirdeto">
+			<label for="hirdeto">Álláshirdető vagyok</label><br>
+			<input type="radio" id="diak" name="user_type" value="diak">
+			<label for="hirdeto">Diák felhasználó vagyok</label><br>
+	        <br>
+	        <input type="submit" value="Regisztráció">
+	    </form>
+    </div>
 </div>
 
 </body>
