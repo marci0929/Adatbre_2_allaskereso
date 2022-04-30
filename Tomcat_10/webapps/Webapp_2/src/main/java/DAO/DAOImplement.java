@@ -14,7 +14,7 @@ public class DAOImplement {
         try {
             odc = new OracleDataSource();
             odc.setURL("jdbc:oracle:thin:@localhost:1521:xe");
-            con = odc.getConnection("C##teszt", "pass");
+            con = odc.getConnection("C##ADATB", "pass");
         }catch (SQLException e) {
             e.printStackTrace();
         }
