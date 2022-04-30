@@ -231,3 +231,33 @@ Stacktrace:] with root cause
 30-Apr-2022 19:51:42.864 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
 30-Apr-2022 19:57:28.064 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
 30-Apr-2022 20:06:29.501 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+30-Apr-2022 21:28:40.277 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+30-Apr-2022 21:36:26.651 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+30-Apr-2022 21:44:44.466 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+30-Apr-2022 21:48:17.407 INFO [http-nio-8686-exec-3] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style/stylesheet.css' headers and data
+30-Apr-2022 21:48:17.413 INFO [http-nio-8686-exec-3] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/css'
+30-Apr-2022 21:48:17.413 INFO [http-nio-8686-exec-3] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=547
+30-Apr-2022 21:48:23.388 INFO [http-nio-8686-exec-5] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style/stylesheet.css' headers and data
+30-Apr-2022 21:48:23.392 INFO [http-nio-8686-exec-5] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/css'
+30-Apr-2022 21:48:23.392 INFO [http-nio-8686-exec-5] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=547
+30-Apr-2022 21:49:21.600 INFO [http-nio-8686-exec-4] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style/pictures/delete_icon.png' headers and data
+30-Apr-2022 21:49:21.606 INFO [http-nio-8686-exec-4] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='image/png'
+30-Apr-2022 21:49:21.606 INFO [http-nio-8686-exec-4] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=2951
+30-Apr-2022 21:49:21.682 INFO [http-nio-8686-exec-5] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style/pictures/update_icon.png' headers and data
+30-Apr-2022 21:49:21.686 INFO [http-nio-8686-exec-5] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='image/png'
+30-Apr-2022 21:49:21.687 INFO [http-nio-8686-exec-5] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=9286
+30-Apr-2022 21:52:14.298 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+30-Apr-2022 21:53:47.805 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+30-Apr-2022 21:57:29.291 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+30-Apr-2022 21:59:49.825 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+30-Apr-2022 22:00:31.606 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+30-Apr-2022 22:01:36.551 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+30-Apr-2022 22:06:36.429 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048
+30-Apr-2022 22:09:15.053 INFO [http-nio-8686-exec-5] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style/stylesheet.css' headers and data
+30-Apr-2022 22:09:15.063 INFO [http-nio-8686-exec-5] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/css'
+30-Apr-2022 22:09:15.063 INFO [http-nio-8686-exec-5] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=547
+30-Apr-2022 22:09:15.753 INFO [http-nio-8686-exec-6] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/favicon.ico' headers and data
+30-Apr-2022 22:09:19.351 INFO [http-nio-8686-exec-8] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveResource:  Serving resource '/style/stylesheet.css' headers and data
+30-Apr-2022 22:09:19.353 INFO [http-nio-8686-exec-8] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentType='text/css'
+30-Apr-2022 22:09:19.353 INFO [http-nio-8686-exec-8] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.serveFile:  contentLength=547
+30-Apr-2022 22:29:58.982 INFO [main] org.apache.catalina.core.ApplicationContext.log default: DefaultServlet.init:  input buffer size=2048, output buffer size=2048

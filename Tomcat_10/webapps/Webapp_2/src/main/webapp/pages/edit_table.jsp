@@ -28,9 +28,6 @@
                     out.print("<li><a href=\"/pages/login.jsp\">Belépés</a></li>");
                 }
                 else{
-                	if( session.getAttribute("admin_e").equals("1") ){
-                		out.print("<li><a href=\"/pages/admin_control.jsp\">Admin felület</a></li>");
-                	}
                     out.print("<li><a href=\"/Logout\">Kijelentkezés</a></li>");
                 }
             %>

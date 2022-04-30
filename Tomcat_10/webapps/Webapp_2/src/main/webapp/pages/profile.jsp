@@ -37,7 +37,7 @@
         <%
             int column_n = 0;
             List<String> headings = new ArrayList<>();
-            ResultSet rs=control.getResultSet("SELECT NEV, SZULETESI_DATUM, EMAIL, JELSZO FROM FIOKADATOK, SZEMELYES_ADATOK WHERE FIOKADATOK.SZEMELYES_ADATOK_ID = SZEMELYES_ADATOK.ID");
+            ResultSet rs=control.getResultSet("SELECT FIOKADATOK.NEV, FIOKADATOK.SZULETESI_DATUM, FIOKADATOK.EMAIL, FIOKADATOK.JELSZO FROM FIOKADATOK, SZEMELYES_ADATOK WHERE FIOKADATOK.SZEMELYES_ADATOK_ID = SZEMELYES_ADATOK.ID AND FIOKADATOK.EMAIL='"+session.getAttribute("login_id")+"'");
             try {
 
                 column_n = rs.getMetaData().getColumnCount();

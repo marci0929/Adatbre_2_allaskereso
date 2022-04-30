@@ -68,7 +68,7 @@ public class DAOImplement {
         ArrayList<String> tableNames = new ArrayList<>();
         try {
             DatabaseMetaData md = con.getMetaData();
-            ResultSet rs = md.getTables(null, null, "%", null);
+            ResultSet rs = md.getTables("ADATB_DB", "C##ADATB", "%", new String[]{"TABLE"});
             while (rs.next()) {
                 tableNames.add(rs.getString(3));
             }
