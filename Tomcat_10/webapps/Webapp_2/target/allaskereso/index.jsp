@@ -21,7 +21,7 @@
 <div class="main">
     <div class="menusor">
         <ul class="menu">
-            <li><a href="index.jsp">Főoldal</a></li>
+            <li><a href="/index.jsp">Főoldal</a></li>
             <%
                 if(session.getAttribute("login_id") == null){
                     out.print("<li><a href=\"/pages/login.jsp\">Belépés</a></li>");
@@ -30,20 +30,20 @@
                 else{
                 	if( session.getAttribute("admin_e").equals("1") ){
                 		out.print("<li><a href=\"/pages/admin_control.jsp\">Admin felület</a></li>");
+                		out.print("<li><a href=\"/pages/stats.jsp\">Statisztikák</a></li>");
                 	}
 					out.print("<li><a href=\"/pages/profile.jsp\">Profil</a></li>");
                     out.print("<li><a href=\"/Logout\">Kijelentkezés</a></li>");
                 }
             %>
         </ul>
-
     </div>
 
     <div class="tartalom">
         <%
 	        int column_n = 0;
 	        List<String> headings = new ArrayList<>();
-	        ResultSet rs=control.getResultSet("SELECT * FROM ALLAS");
+	        ResultSet rs=control.getResultSet("SELECT ALLAS_NEVE as \"Állás neve\", BEREZES as \"Bérezés\", NEV as \"Kapcsolati ember neve\", EMAIL as \"Kapcsolati ember email címe\" FROM ALLAS, KAPCSOLAT WHERE ALLAS.KAPCSOLAT_ID=KAPCSOLAT.ID");
 	        try {
 	        	
 	            column_n = rs.getMetaData().getColumnCount();
