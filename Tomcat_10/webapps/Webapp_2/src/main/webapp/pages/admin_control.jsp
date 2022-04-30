@@ -29,7 +29,7 @@
         <%
 	    	ArrayList<String> database_results = control.getTableNames();
         	for(String name : database_results){
-        		if (control.getValid_tables().contains(name.toLowerCase())) out.println("<option>"+name+"</option>");
+        		out.println("<option>"+name+"</option>");
         	}
 	    	
 	    %>
