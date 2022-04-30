@@ -828,3 +828,9 @@
 30-Apr-2022 22:29:59.098 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\User\Everything\Suli\Adatb_2\Push\Adatbre_2_allaskereso\Tomcat_10\webapps\Webapp_2] has finished in [51] ms
 30-Apr-2022 22:29:59.102 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8686"]
 30-Apr-2022 22:29:59.180 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1908] milliseconds
+30-Apr-2022 22:31:38.029 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+30-Apr-2022 22:31:38.030 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8686"]
+30-Apr-2022 22:31:38.054 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+30-Apr-2022 22:31:38.082 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+30-Apr-2022 22:31:38.089 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8686"]
+30-Apr-2022 22:31:38.096 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8686"]
