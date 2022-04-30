@@ -32,6 +32,7 @@ public class LoginHandler extends HttpServlet {
                 if(i[1].equals(username) && i[2].equals(pass)){
                     correct_creditentals = true;
                     if(i[5].equals("1")) admin_e = "1";
+                    sess.setAttribute("fioktipus", i[4]);
                     break;
                 }
             }

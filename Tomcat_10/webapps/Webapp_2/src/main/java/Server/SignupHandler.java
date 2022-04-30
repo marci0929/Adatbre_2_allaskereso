@@ -60,7 +60,7 @@ public class SignupHandler extends HttpServlet {
             }
             maxid++;
             szemelyes_adat_id = maxid;
-            ctrl.customSQL("INSERT INTO SZEMELYES_ADATOK VALUES ("+maxid+", 'Nev', TO_DATE('2022.01.01.', 'YYYY.MM.DD.')");
+            ctrl.customSQL("INSERT INTO SZEMELYES_ADATOK VALUES ("+maxid+", 'Nev', TO_DATE('2022.01.01.', 'YYYY.MM.DD.'))");
         }
         maxid=0;
         ArrayList<String[]> id_oszlop= ctrl.customSQL("SELECT ID FROM FIOKADATOK");

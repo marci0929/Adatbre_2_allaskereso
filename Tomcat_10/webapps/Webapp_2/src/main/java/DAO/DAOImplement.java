@@ -26,7 +26,6 @@ public class DAOImplement {
         try {
             Statement st = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
             ResultSet rs = st.executeQuery(sqlStatement);
-            //innen
             int columnCount = rs.getMetaData().getColumnCount();
             TomcatServerHandler.col_count = columnCount;
 
@@ -38,7 +37,7 @@ public class DAOImplement {
                 list.add(values);
             }
         }catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println("Result set processed.");
         }
         return list;
     }

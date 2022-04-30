@@ -12,13 +12,15 @@
 </div>
 
 <div class="main">
-    <form id="login" method="post" action="/LoginHandler">
-            <label for="username">Email cím:</label><br>
-            <input type="text" id="username" name="username"><br>
-            <label for="pass">Jelszó:</label><br>
-            <input type="password" id="pass" name="pass"><br>
-            <input type="submit" value="Bejelentkezés">
-    </form>
+	<div class="tartalom" style="margin: auto;">
+	    <form id="login" method="post" action="/LoginHandler">
+	            <label for="username">Email cím:</label><br>
+	            <input type="text" id="username" name="username"><br>
+	            <label for="pass">Jelszó:</label><br>
+	            <input type="password" id="pass" name="pass"><br>
+	            <input type="submit" value="Bejelentkezés">
+	    </form>
+    </div>
 </div>
 
 </body>

@@ -37,39 +37,36 @@
         <%
             int column_n = 0;
             List<String> headings = new ArrayList<>();
-            ResultSet rs=control.getResultSet("SELECT FIOKADATOK.NEV, FIOKADATOK.SZULETESI_DATUM, FIOKADATOK.EMAIL, FIOKADATOK.JELSZO FROM FIOKADATOK, SZEMELYES_ADATOK WHERE FIOKADATOK.SZEMELYES_ADATOK_ID = SZEMELYES_ADATOK.ID AND FIOKADATOK.EMAIL='"+session.getAttribute("login_id")+"'");
+            int size = control.customSQL("SELECT NEV, SZULETESI_DATUM, EMAIL, JELSZO FROM FIOKADATOK, SZEMELYES_ADATOK WHERE FIOKADATOK.SZEMELYES_ADATOK_ID = SZEMELYES_ADATOK.ID AND FIOKADATOK.EMAIL='"+session.getAttribute("login_id")+"'").size();
+            ResultSet rs = null;
+            if(size == 0){
+            	rs=control.getResultSet("SELECT EMAIL, JELSZO FROM FIOKADATOK WHERE EMAIL='"+session.getAttribute("login_id")+"'");
+            }else{
+            	rs=control.getResultSet("SELECT NEV, SZULETESI_DATUM, EMAIL, JELSZO FROM FIOKADATOK, SZEMELYES_ADATOK WHERE FIOKADATOK.SZEMELYES_ADATOK_ID = SZEMELYES_ADATOK.ID AND FIOKADATOK.EMAIL='"+session.getAttribute("login_id")+"'");
+            }
             try {
 
                 column_n = rs.getMetaData().getColumnCount();
                 for (int i = 1; i <= column_n; i++) {
                     headings.add(rs.getMetaData().getColumnName(i));
                 }
-                out.println("<table style='border:1px solid #ccc; border-collapse:collapse;background-color: lightcyan;'>");
-                out.println("<thead>");
-                out.println("<tr style='border: 1px solid black;'>");
-                for (String columnheading : headings) {
-                    out.println("<th style='border: 1px solid black;padding:4px;'>" + columnheading + "</th>");
-                }
-                out.println("</tr>");
-                out.println("</thead>");
-                out.println("<tbody>");
                 if (rs != null) {
                     while (rs.next()) {
-                        out.println("<tr>");
-                        for(int j = 1; j<=column_n;j++) out.println("<td style='border: 1px solid black;padding:4px;'>"+rs.getString(j)+"</td>");
-                        out.println("</tr>");
+                        
+                        for(int j = 1; j<=column_n;j++){
+                        	out.println(headings.get(j-1)+": "+ rs.getString(j));
+                        	if(headings.get(j-1).toLowerCase().equals("jelszo")){
+                        		out.print("<a href='/pages/edit_pass.jsp'>  | Módosítás</a>");
+                        	}
+                        	out.println("<br>");
+                        }
 
                     }
                 }
-                out.println("</tbody>");
-                out.println("</table>");
             } catch (Exception e) {
                 e.printStackTrace();
             }
         %>
-    </div>
-
-    <div class="tartalom">
     </div>
 
 </div>
